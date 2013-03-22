@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channelml xmlns="http://morphml.org/channelml/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:meta="http://morphml.org/metadata/schema" xsi:schemaLocation="http://morphml.org/channelml/schema     ../../Schemata/v1.5/Level2/ChannelML_v1.5.xsd" units="Physiological Units">
+    
+    <meta:notes>A cell mechanism for creating a simple integrate and fire cell</meta:notes>
+    
+ 
+    <channel_type name="SimpleIntFire">
+
+        <meta:notes>A simple integrate and fire mechanism, which is based on the implementation in NEURON of the COBA IandF cell 
+        as described in Brette et al (2007)</meta:notes>
+        
+         <meta:authorList>
+                         <!-- Who was original author of mod file? Michael Hines? -->
+
+
+
+            <meta:modelTranslator>
+                <meta:name>Padraig Gleeson</meta:name>
+                <meta:institution>UCL</meta:institution>    
+                <meta:email>p.gleeson - at - ucl.ac.uk</meta:email>
+            </meta:modelTranslator>
+        </meta:authorList>
+            
+        <meta:modelDBref>
+            <meta:modelName>Networks of spiking neurons: a review of tools and strategies (Brette et al. submitted)</meta:modelName>
+            <meta:uri>http://senselab.med.yale.edu/SenseLab/ModelDB/ShowModel.asp?model=83319</meta:uri>
+        </meta:modelDBref>
+        
+        <current_voltage_relation>
+            
+                        <!-- See HTML view of ChannelML.xsd for explanation of these terms-->
+
+
+
+            <integrate_and_fire threshold="-50" t_refrac="10" v_reset="-60" g_refrac="0.1"/>
+            
+        </current_voltage_relation>
+
+    </channel_type>
+ 
+</channelml>

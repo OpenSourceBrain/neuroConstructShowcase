@@ -1,0 +1,8861 @@
+create    soma, dendrite_1[31], dendrite_2[3], dendrite_3[11], dendrite_4[13], dendrite_5[1], dendrite_6[9], dendrite_7[9], dendrite_8[1]
+nspine=0
+ local i, j
+soma {
+nseg = 1
+pt3dclear()
+if(2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,0.75,0,abs(2.5))
+if(4.875 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,-0.0625,0,abs(4.875))
+if(7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,0,0,abs(7))
+if(9.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,0.75,0,abs(9.5))
+if(12.25 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,1.875,0,abs(12.25))
+if(13.25 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,2.125,0,abs(13.25))
+if(14.667 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,2.1667,0,abs(14.667))
+if(18.333 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,3.3333,0,abs(18.333))
+if(20.333 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,4.3333,0,abs(20.333))
+if(24.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,5.75,0,abs(24.5))
+if(26.125 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,5.4375,0,abs(26.125))
+if(31.125 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,7.9375,0,abs(31.125))
+if(34.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,9.25,0,abs(34.5))
+if(35.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,9.1,0,abs(35.8))
+if(36 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0,9,0,abs(36))
+if(37.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,8.25,0,abs(37.5))
+if(38 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1.5,8,0,abs(38))
+if(35 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,6.5,0,abs(35))
+if(33 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,5.5,0,abs(33))
+if(31 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,4.5,0,abs(31))
+if(24 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,1,0,abs(24))
+if(22 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,0,0,abs(22))
+if(18 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,-2,0,abs(18))
+if(15.333 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6.5,-3.1667,0,abs(15.333))
+if(13.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,-3.75,0,abs(13.5))
+if(9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,-4.5,0,abs(9))
+if(5.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,-3.75,0,abs(5.5))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,-3,0,abs(2))
+}
+dendrite_1[0] {
+nseg = 1
+pt3dclear()
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,27,0,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0,29,2,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,31,3.5,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,34.5,5,abs(3.5))
+}
+dendrite_1[1] {
+nseg = 1
+pt3dclear()
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,34.5,5,abs(3.5))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1,35.5,6,abs(1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,35,5,abs(1.7))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,35.5,3,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,37,1.5,abs(1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,37,1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,37.5,1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13,36.5,1,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15.5,37.5,0,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,38.5,-1,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21.5,38.5,-1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25.5,38.5,-2,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26.5,38.5,-2,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27.5,38.5,-1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(29.5,39,-1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(30.5,39,-3,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(33.5,38.5,-4,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(37,40,-5.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,39.5,-6,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39,39,-6.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,39.5,-7.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44.5,39.5,-8,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47.5,38,-9,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48.5,38.5,-9,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(51,39,-9,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53,38.5,-9,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,39,-9.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55.5,37.5,-10,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,38.5,-10.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60,38,-11,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62.5,38.5,-11,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(63.5,38,-11.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65,39,-12,abs(-1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(66.5,39.5,-11.5,abs(1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(68,39,-11.5,abs(-1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(71.5,40,-11.5,abs(1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(74,41,-12,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(76.5,41.5,-12,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(77.5,42,-12.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(80,42,-13,abs(-1.3))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(82,43,-13,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(84,43,-13.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(86.5,44,-14.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(91,44,-15.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(93,45.5,-15,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(96,46,-15,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(98.5,46.5,-14.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(100.5,47,-15,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(103.5,46.5,-16,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(105.5,47,-17,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(108,48,-18,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(109,47.5,-19,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(111.5,48,-20,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(113.5,48.5,-21.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(116.5,49.5,-22.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(118,50,-23,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(121,49.5,-23.5,abs(-1.5))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(123,51,-24,abs(-1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(126.5,50.5,-23.5,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(128,49.5,-22.5,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(130,49,-21.5,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(134.5,50.5,-21,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(135.5,51.5,-21,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(137,52,-21.5,abs(1))
+}
+dendrite_1[2] {
+nseg = 1
+pt3dclear()
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,34.5,5,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1.5,38.5,5,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,41,5.5,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,44,5.5,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,46.5,5.5,abs(3.5))
+}
+dendrite_1[3] {
+nseg = 1
+pt3dclear()
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,46.5,5.5,abs(3.5))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,47,6.5,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,47.5,7.5,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,48,7.5,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,48.5,7.5,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13,49,7.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-14.5,49.5,9,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-17.5,51.5,10.5,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-19,50.5,12.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-20,52.5,13,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-22,52,13.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-25.5,52.5,15.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-26.5,53.5,17,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-28.5,54,18.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-30,55.5,20.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-32,56.5,22.5,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-34.5,58,24,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-35.5,60,25.5,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39,60.5,27.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-42,62,29,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-44.5,63,30,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-48.5,64,30.5,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-50,65,31.5,abs(1.2))
+}
+dendrite_1[4] {
+nseg = 1
+pt3dclear()
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,46.5,5.5,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,48.5,5.5,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,51,7,abs(3.5))
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,54,10,abs(3.5))
+}
+dendrite_1[5] {
+nseg = 1
+pt3dclear()
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,54,10,abs(3.5))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,56,11.5,abs(1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,56,15.5,abs(1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,55.5,19.5,abs(1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-14.5,56.5,22.5,abs(1.4))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16.5,57.5,22,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18,58.5,22,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-19.5,60,21.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-21.5,62,21.5,abs(1.1))
+}
+dendrite_1[6] {
+nseg = 1
+pt3dclear()
+if(3.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,54,10,abs(3.5))
+if(2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,57,8,abs(2.9))
+if(2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,59,6.5,abs(2.9))
+if(3.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,63,6.5,abs(3.4))
+}
+dendrite_1[7] {
+nseg = 1
+pt3dclear()
+if(3.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,63,6.5,abs(3.4))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,64,7,abs(1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,64,7.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,64.5,7.5,abs(-1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12.5,65.5,7.5,abs(1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13.5,66,7.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-14,67,7.5,abs(-1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-15.5,70.5,7.5,abs(1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16,72,8,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16,73,9,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18.5,74.5,10,abs(1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-20.5,73.5,11,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-21.5,73.5,11,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-24.5,71.5,10,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-27,71.5,9,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-29,72.5,9,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-31,73.5,9,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-33.5,74.5,9,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-36,76,9,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-38.5,76,9.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39.5,77.5,10,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-41.5,78.5,9.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-43.5,80.5,8.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-45.5,81.5,7.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-47.5,83,6.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-50.5,83.5,6.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-53.5,84.5,6.5,abs(1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-55,84.5,6.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-56.5,85,5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-58.5,86.5,4,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-60.5,86.5,3,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-63,87,3,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-67,85.5,3,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-69.5,87,3,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-73,87,3,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-75.5,89,2.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-77.5,90.5,1.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-79.5,90.5,1,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-83.5,91,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-86,91,0,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-88,91.5,0,abs(1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-89.5,91.5,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-92,91,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-95.5,92,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-97.5,92.5,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-101,93.5,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-106,95.5,-0.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-109,96.5,-2,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-111.5,98,-3,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-115,99.5,-3.5,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-118.5,101,-4,abs(1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-120,101.5,-4.5,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-123.5,102,-5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-125,103,-5,abs(1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-127,103.5,-4.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-130.5,106,-4.5,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-132.5,106.5,-4.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-135,110,-5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-137,111,-5.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-139,111.5,-5.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-141.5,113,-5.5,abs(1.1))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-142,114.5,-5.5,abs(0.9))
+}
+dendrite_1[8] {
+nseg = 1
+pt3dclear()
+if(3.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,63,6.5,abs(3.4))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,66.5,6.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,69,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,70,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,72.5,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,74.5,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,77.5,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,79.5,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,81,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,83,7.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,84.5,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,87.5,6.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,90,6,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,94.5,6,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,98.5,6.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,102,6.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,105,6.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,107,6.5,abs(-2.7))
+if(2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,110,5.5,abs(2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,113,5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,116,5.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,118.5,7,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,120,9.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,121,10,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,123,12.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,123,13.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,126,14.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,128.5,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,129,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,132.5,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,133.5,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,135.5,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,137,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,138,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,140,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,144,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,146.5,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,150,14,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,152.5,14.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,156.5,15,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,160,15.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,163,15.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,164.5,15.5,abs(-2.7))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,169,15.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,171,15.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,172,15.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,174,15.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,177,16.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,179,17,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,181,17.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,183.5,17.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,186,17,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,189,16.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,192.5,16,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,196.5,17.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,198.5,19,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,199.5,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,200.5,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,202,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,204,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,206,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,208,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,210,20,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,212.5,19.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,215.5,19.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,217,19.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,220,19.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,221,20,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,224,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,227.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,230,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,232,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,234.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,236.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,239.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,241.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,245.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,248.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,248.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,250.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,254.5,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,257,21.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,260,21.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,262.5,21.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,264.5,21.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,267,21.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,270,21.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,272,21.5,abs(-2.9))
+if(2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,275,21,abs(2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,278,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,281,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,284,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,285.5,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,290,21,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,292,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,295.5,20.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,297.5,20.5,abs(-2.9))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,299,20,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,301.5,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,304.5,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,308,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,309,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,312,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,313.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,315,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,318,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,320.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,322,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,324,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,325,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,326.5,20,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,331,20,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,336.5,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,339,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,340.5,19,abs(-2.7))
+if(2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,342,19,abs(2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,346.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,348,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,349.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,351.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,353.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,356.5,19,abs(-2.7))
+if(2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,356.5,19,abs(2.7))
+}
+dendrite_1[9] {
+nseg = 1
+pt3dclear()
+if(2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,356.5,19,abs(2.7))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,359.5,23,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,362,27,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,363.5,30,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1.5,368,32,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,371,33.5,abs(-2.2))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,374,34.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,377.5,35.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,378.5,35.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,382.5,35.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,383.5,35.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,386,36,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,389.5,37,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,392.5,37.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,395,39,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,396.5,39.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,399,40,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,400.5,40,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5,404.5,40,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,408.5,40,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,409.5,40.5,abs(-2.1))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,410.5,40.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,411.5,40.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,413,40.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,414,40.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,415,40.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,415.5,40.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,416.5,40,abs(-1.9))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,418,40,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,420,40,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,421,40,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,421.5,39.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,422.5,39,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,424,39,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,426.5,39.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,427,40,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,429,39.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,430,39,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,432.5,38.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,436,38,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,437.5,38,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,439,38,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,442,38,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,444,38,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,446,38.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,446.5,38.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9.5,448,39.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9.5,449,39.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,451.5,40.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,454.5,41,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,456,42,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,459,42,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,462.5,42,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,465,42,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,466.5,42,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,469.5,42,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11,474.5,42.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,476.5,42.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11.5,478,42.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,482,42,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12.5,485,42,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,487,41.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14.5,490.5,42,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14.5,493,42.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15,495,43.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15.5,497.5,43,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15,498.5,42.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16.5,501,42.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17.5,503,43,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18.5,506.5,43.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,507.5,43.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19.5,510,43.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20,512.5,44,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20.5,514.5,44,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21,515.5,44,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20.5,516.5,44,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22.5,519,44.5,abs(-1.6))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23.5,522,45,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24,522.5,45,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23.5,525.5,45.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25,528,46,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26,530.5,46.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26.5,532.5,47,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27.5,536,47,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(28,538,47.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(28.5,539.5,47.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(29.5,542,47.5,abs(-1.7))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31,545.5,47,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(30.5,547,46.5,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31.5,549,46,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(33,550,46,abs(1.3))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(34,550.5,46,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(35,551.5,46,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(34.5,553.5,46,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(35,555.5,46.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(35.5,557,47,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(36.5,558,47.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(36.5,560.5,48,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38.5,562.5,48.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38.5,565.5,48.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39,567,48.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39.5,570.5,48,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40,573,47.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40.5,576.5,47,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,578.5,47,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,580.5,47,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42.5,583.5,47.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44,587,48,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45,588,48.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46,590,48.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,593.5,48.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47.5,597,49,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,602,50.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,603,52,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(51,604.5,53,abs(-1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,606,53,abs(1.4))
+}
+dendrite_1[10] {
+nseg = 1
+pt3dclear()
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,606,53,abs(1.4))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,607.5,51.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53,610.5,50.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55,614.5,50.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,616,51,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,621,53.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58,625.5,55.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,626,57.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60,628,58,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59,630,58.5,abs(-1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,630.5,59,abs(1.5))
+}
+dendrite_1[11] {
+nseg = 1
+pt3dclear()
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,630.5,59,abs(1.5))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61,632.5,59,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62,634.5,59,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(63.5,636.5,59,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65,639.5,59,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(64.5,641.5,59,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65.5,643,59.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(67,644.5,59.5,abs(-1))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(67.5,648,60,abs(0.8))
+}
+dendrite_1[12] {
+nseg = 1
+pt3dclear()
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,630.5,59,abs(1.5))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60,633.5,59.5,abs(-1.2))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59,636.5,60.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58.5,637.5,61.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60.5,641,62,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60,642,62.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61,644.5,63,abs(-1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62,647.5,63.5,abs(1))
+}
+dendrite_1[13] {
+nseg = 1
+pt3dclear()
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,606,53,abs(1.4))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,609.5,52.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,611.5,52.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,614.5,52.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48,617,53,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48.5,618.5,53.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,621.5,54.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,622,54,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48.5,624,54.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48.5,627,55,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,629,56.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,632,56.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,633,57.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,635.5,58,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,637.5,59,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,639,58.5,abs(-1.2))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,641.5,58.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48.5,645.5,58,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48,647,58.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48,648,58.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48,651.5,59,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,653.5,59,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,655.5,59,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46,657,59.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46.5,661,60.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46.5,663,62,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45.5,667,62.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45,669,62.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45,671,62.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46,673,63,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45.5,675.5,64,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45,677.5,64,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44.5,680,64.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45.5,684.5,64.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44.5,686,65.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45,691,66,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44,693,67.5,abs(-1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44,696,68,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,699,69,abs(1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,700.5,70,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42.5,701,71,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,704,71.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42,707.5,71.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,709,72,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42,712,72.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42,714,72.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,716,72,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,720.5,72,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44.5,722.5,72,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46.5,725,72.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46,726.5,72.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45.5,729,72,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46.5,731.5,71.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,735,71,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,738,70.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48,741,70,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48.5,745.5,70,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,747,70.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,748.5,70,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,751,70,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50.5,753,70,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50.5,757.5,69,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(51,758.5,68,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(51.5,760,67,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,764,66,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,768,65,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53,771.5,64.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52,773.5,64,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,776,64,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,779,64,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(51.5,783.5,64.5,abs(-1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53.5,786.5,64.5,abs(1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53.5,791.5,65,abs(-1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,795.5,65.5,abs(1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55,798.5,66,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,800.5,66,abs(-1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55,801.5,66,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,804,66.5,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,808,67,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,809.5,67,abs(1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58,812.5,66.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59,815.5,65.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58.5,817.5,64.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58.5,820.5,63.5,abs(-1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58,823.5,62.5,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58,825.5,62.5,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57,828.5,62.5,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,831.5,62.5,abs(1.3))
+}
+dendrite_1[14] {
+nseg = 1
+pt3dclear()
+if(2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,356.5,19,abs(2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,358.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,361,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,362.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,364,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,366,20,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,367.5,20.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,369.5,20.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,372,20,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,375,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,376,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,379.5,19,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,381.5,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,385,20,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,387,20.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,388.5,20.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,390,20,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,392,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,394,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,395,19.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,399,20,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,400,20.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,401.5,20.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,403.5,20.5,abs(-2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,405.5,21,abs(-2.7))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,408.5,21,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,410.5,20.5,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,411.5,20.5,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,414.5,19.5,abs(-2.2))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,416,18.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,417,17.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,418,17.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1.5,421,17.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,423,17.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,424.5,17.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,428.5,17.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,429.5,17,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,434.5,17,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,436,17,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,437,17,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,440,17,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,441.5,17.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,444.5,17.5,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,446.5,17,abs(-2.4))
+if(2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,449,17,abs(2.4))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1.5,451,17,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,453,17,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,454,17,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1.5,455.5,17,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,457.5,17.5,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,460,17.5,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,463.5,17.5,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,466.5,17.5,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,468.5,18,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,470,18.5,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,472,18.5,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,475.5,19,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,477.5,19.5,abs(-2.5))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,480,20.5,abs(-2.5))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,482.5,22,abs(-2.9))
+if(2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,484,22.5,abs(2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,487,23.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,489,23.5,abs(-2.9))
+if(-2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,491,24.5,abs(-2.9))
+if(2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,497,25,abs(2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,501,26,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,503,26,abs(-2.4))
+if(-2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,504.5,25.5,abs(-2.4))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,507,25.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,509,26,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,511,26.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,512.5,26.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,514.5,26.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,518.5,26.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,521.5,26.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,525,26.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,527,27,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,530,28,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,531.5,29.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,534,30,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,539.5,30.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,542,31.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,544.5,32.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,546.5,33,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,550.5,32.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,554,31.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,555,31.5,abs(-2))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,559.5,31.5,abs(2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,563,31.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,565.5,31.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,567.5,31.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,568,31.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,571,31.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,572.5,31.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,577,31,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,579,30.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,583,30,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,585,29.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,586.5,29,abs(-2))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,590,28,abs(2))
+}
+dendrite_1[15] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,590,28,abs(2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,594.5,26,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,597,25,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,599.5,24.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,603,24,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,606,23.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,608,23.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4,610.5,22.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,613.5,21.5,abs(-2))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,615.5,20.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,622,19,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,625.5,18,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,628.5,17.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1.5,630,17,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,631.5,16.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1,635,16,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,638,15.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,642,15,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,645,14,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1,649,13.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1,650.5,13,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,656,12,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1,659.5,11,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1,660.5,11,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1.5,661.5,11,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,664.5,11.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2,666,11.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,668,11,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,669,10,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5,673.5,9.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5,674,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,676,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,678.5,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,679,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,681.5,10,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11.5,687,10.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,689,11,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13,693.5,11.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13.5,695,12,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13.5,697.5,12,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,699.5,12,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14.5,701,12,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16,703.5,11.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16.5,705,10.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16,707.5,9.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18,711.5,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19.5,717,8.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,719.5,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19.5,722,8.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20.5,723.5,8,abs(-1.8))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20.5,725.5,7.5,abs(1.9))
+}
+dendrite_1[16] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20.5,725.5,7.5,abs(1.9))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22,727.5,8.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23,732,9.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25,734,10,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25,737,10,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25,739,9.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27,743,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27,744,8.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26.5,746.5,8.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26,748.5,8.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26,753.5,8.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26.5,757.5,9,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26.5,758,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27.5,759.5,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(28,762,9.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(28,764,9.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(29,768,9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(30.5,769,8.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31,770,8.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(32.5,772.5,8.5,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(33.5,777.5,8,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(35,780.5,7.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(34.5,783.5,6.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(36.5,787.5,6.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(37.5,790.5,6,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38.5,792.5,5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40,797.5,4.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,802,4,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,805.5,3,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40.5,810,2,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40.5,814.5,0.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,818.5,0,abs(1.8))
+}
+dendrite_1[17] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,818.5,0,abs(1.8))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42.5,819,-0.5,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44.5,820,-1,abs(1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45.5,821.5,-1.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46.5,822.5,-1.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48,824,-1.5,abs(-1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48.5,826,-1.5,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,827,-1.5,abs(1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50.5,829,-1.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50.5,830.5,-1.5,abs(-1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,831.5,-1.5,abs(1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53.5,833.5,-1.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54,834,-1.5,abs(-1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,837,-1.5,abs(1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58,838.5,-1.5,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60,840,-1.5,abs(-1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61.5,841,-1.5,abs(1))
+}
+dendrite_1[18] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,818.5,0,abs(1.8))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,820,0,abs(-1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,822.5,0,abs(1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,826,0,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42,830.5,0,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42,833,0,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42,835.5,-1,abs(-1.7))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40.5,840,-2,abs(1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,841.5,-3,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,843,-3,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,845,-3.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39.5,846,-4,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39,846.5,-4,abs(1.1))
+}
+dendrite_1[19] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20.5,725.5,7.5,abs(1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20.5,728,8,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20,730,8.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20,730.5,8.5,abs(-1.9))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19.5,732.5,8,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,736.5,8.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,738.5,9,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18.5,739.5,9.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18.5,742.5,10,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,747.5,11,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,751,12,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18.5,753,12.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17.5,755.5,13,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17.5,758,13.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,759,13.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,761,14,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16,765.5,15,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16.5,766,16,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,768.5,16,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15,772,16,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13.5,774.5,16,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,775,16.5,abs(-1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15,779,17.5,abs(1.7))
+}
+dendrite_1[20] {
+nseg = 1
+pt3dclear()
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15,779,17.5,abs(1.7))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16,779.5,18.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,782,19.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,785,20,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20,787.5,20.5,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20,787.5,21,abs(1.2))
+}
+dendrite_1[21] {
+nseg = 1
+pt3dclear()
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15,779,17.5,abs(1.7))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,780.5,17.5,abs(1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13,783,18,abs(1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13.5,784.5,18.5,abs(1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12.5,786,19,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,788,20,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13,789.5,20.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13,791,20.5,abs(1.6))
+}
+dendrite_1[22] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,590,28,abs(2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,592,28,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5,593.5,28.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,595.5,29,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,597.5,30,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,600.5,30.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,601.5,31,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,605.5,31,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,605.5,30.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,606.5,30.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,608.5,30.5,abs(-2))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,609.5,31.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,612,31.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,612.5,31.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,615,31.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,616.5,32,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,618,32,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,619.5,32.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,623,33.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,626,34,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,628,34,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,633,34,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,635.5,34,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,636.5,34,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,638,33.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7,639.5,33.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,641.5,33.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,646.5,34,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,648,34.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,649.5,35.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,653.5,36,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,655.5,36.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,656,37,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,657.5,37,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,660,37,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,664,37,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,666,38,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12.5,667,39,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13,669.5,40,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11.5,672,40,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,672.5,40.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,674.5,41,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,677,41.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,680,42,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,680.5,42,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11.5,683,42.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11.5,684,42.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,685.5,42.5,abs(1.8))
+}
+dendrite_1[23] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,685.5,42.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,687.5,45.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11.5,693,47.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,696,48,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11.5,697,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11.5,699,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,700,49,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,704.5,50,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,706,50.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,710,50.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8.5,713,50.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,714,51,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,719.5,51,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,721.5,51,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6.5,722.5,50.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,728,50.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,733,51,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3,737,51.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2.5,740.5,53,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,744,53.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,746.5,54,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,747.5,54,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1.5,751.5,53.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,755.5,53,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,756,53,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,760,54,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,763,55.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,765,57.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,766,58,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,769.5,58.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,771,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,773,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,776.5,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,779,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,783,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,784,58.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,786,58.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5,790.5,58.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,793,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,795.5,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,797.5,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,798,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4.5,799.5,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,801,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,803.5,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,805.5,59,abs(-1.8))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6.5,808,59,abs(2.3))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,809.5,59.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6.5,810.5,60,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,816,60.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,817,60.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,818.5,60,abs(-2))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,820,59.5,abs(2))
+}
+dendrite_1[24] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,820,59.5,abs(2))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11,821,59.5,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11.5,821,59.5,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13,821.5,60,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16,820,60,abs(1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18,819,60,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19.5,821,61,abs(1.1))
+}
+dendrite_1[25] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,820,59.5,abs(2))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,821.5,60,abs(2))
+}
+dendrite_1[26] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,821.5,60,abs(2))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,823,60,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,827.5,60,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,828.5,60,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,831,60.5,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,832.5,61,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,834.5,61.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,837,62,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,839.5,62.5,abs(1.6))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,840.5,62.5,abs(1.5))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,843.5,62.5,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2,845,62.5,abs(1.3))
+}
+dendrite_1[27] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,821.5,60,abs(2))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,823.5,59.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6.5,825,59,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,827,58,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2.5,829,57,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,830,56.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,832,56.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,833,56.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1.5,835,56.5,abs(-1.8))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-3.5,838,56.5,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,838.5,56.5,abs(-1.6))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,839.5,56.5,abs(1.4))
+}
+dendrite_1[28] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,685.5,42.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12.5,688,43,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13,689,44,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13.5,692.5,44,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-14,694,44,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-14.5,697.5,44,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-14,698,44.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13.5,700,45,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13,703,46,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12.5,708,46,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13.5,709,46.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12.5,713.5,47.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,715.5,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,720.5,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,723,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,725.5,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,728.5,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,729.5,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,730.5,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,732,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,734.5,48.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,737,49,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,743.5,49,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,747,49.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,751,49,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,751,49,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,754,49,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,756.5,50,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,764.5,51,abs(-1.8))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,769,52,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9,771,52,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,775,52,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-9.5,775,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,778,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,780,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,781.5,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,783,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,784.5,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,785.5,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11.5,787.5,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,789,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,790.5,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13,792,52,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13,794,52,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-14.5,796,52,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-15,800,52,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-15.5,803,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16,804,52.5,abs(-1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16.5,806,52.5,abs(1.5))
+}
+dendrite_1[29] {
+nseg = 1
+pt3dclear()
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16.5,806,52.5,abs(1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16,808.5,47,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16,811,43.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-15,814.5,42,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-15,818,41.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-15.5,820.5,40.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16,822,39.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-17,824,38.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18,828,38,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18,829,37,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18.5,831.5,36,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-19,833,34.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-19.5,835.5,33.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-21.5,839,32.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-22.5,841.5,31.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-23,843,30,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-25,846,28,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-26,849.5,25.5,abs(-1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-28,853,24,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-29,857.5,23,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-30.5,858.5,22,abs(1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-31.5,860.5,21.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-34,865,21,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-35,867,21,abs(-1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-38,870.5,20,abs(1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-40.5,872.5,19.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-43.5,874,19.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-44.5,874,19.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-48,881,19.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-49,883,19.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-50.5,884,19,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-53,887.5,19,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-55.5,889,19,abs(-1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-58,890.5,19,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-60,891.5,19,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-62,892.5,19,abs(1.5))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-64.5,894.5,19,abs(1.2))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-67,895,19,abs(1.1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-68,897,18.5,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-68,898,18,abs(1))
+}
+dendrite_1[30] {
+nseg = 1
+pt3dclear()
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16.5,806,52.5,abs(1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-17.5,808.5,52.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18,809.5,53,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-20,812.5,54.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-20.5,813.5,57,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-20.5,814.5,60,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-19,816.5,62.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18.5,817.5,65,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-19,819,66.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18,819.5,68,abs(-1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-17,821.5,70,abs(1.5))
+}
+dendrite_2[0] {
+nseg = 1
+pt3dclear()
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,22,0,abs(2.1))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5,21.5,0,abs(1.9))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6.5,22.5,0,abs(1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,25.5,0,abs(1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11,26.5,0,abs(1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12.5,28,0,abs(1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,29,0,abs(1.7))
+}
+dendrite_2[1] {
+nseg = 1
+pt3dclear()
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,29,0,abs(1.7))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15.5,28.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,28.5,0,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22.5,28.5,0,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26,28.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(28,28,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31.5,28.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(34,28.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(35.5,30,-0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,30.5,-1,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39,29.5,-2,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,30.5,-2,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,30.5,-2.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47.5,31,-4.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,31,-7.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,31.5,-11,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(51.5,32,-13,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53,32.5,-14.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,31.5,-15.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56.5,31.5,-16.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,31.5,-17,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60.5,32,-18.5,abs(-1.2))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(63,32.5,-19,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65,33.5,-20,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(68,33.5,-22,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(69.5,34,-23.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(71,34,-25.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(72,34,-26,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(74.5,34,-27,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(76.5,35,-28.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(79,35,-30.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(82,36,-31.5,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(83.5,36.5,-32,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(85,37,-32.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(87,38,-33.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(88.5,38.5,-34.5,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(92,40,-35,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(94,41,-35,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(95.5,41.5,-36.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(97.5,42.5,-38,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(100,42,-40.5,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(103.5,43.5,-43,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(104.5,43,-45,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(105,43,-46.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(107,43.5,-47,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(108,42.5,-47.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(109.5,42.5,-49,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(113,42,-50.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(118.5,42.5,-52.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(122,44,-55,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(126.5,44.5,-56.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(128,45,-58,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(133,46.5,-60,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(137,46.5,-62.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(139.5,48,-64,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(140.5,48,-65,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(142,48.5,-65,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(146,48.5,-65.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(149,49.5,-66.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(152,49,-67.5,abs(-1.6))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(155,49.5,-68.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(156,49,-70,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(158.5,47.5,-71,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(160,48,-72.5,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(162,49,-74,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(163,49.5,-75,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(163.5,50,-76,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(164,50.5,-77,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(165.5,52,-79,abs(1.2))
+}
+dendrite_2[2] {
+nseg = 1
+pt3dclear()
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,29,0,abs(1.7))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,30.5,0,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15.5,32,0,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16.5,34,0,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18,37.5,0,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21,39.5,0,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24,43,0,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(26,44,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27,47,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27,48,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(30.5,50.5,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31.5,51.5,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(33.5,53,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(36,55.5,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(37,56.5,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39,58.5,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39.5,60,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,61,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41.5,63,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42.5,64,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,65.5,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44.5,65.5,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46,67,1,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46.5,69,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,69,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47.5,69.5,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48.5,70,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,71,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(51.5,73,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,73,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,74.5,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,74.5,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,76.5,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,79,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59,80,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,81.5,1.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60.5,83.5,1,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61,84,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62.5,86.5,0.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62.5,88,0,abs(-1.6))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(64,90.5,0,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(63.5,93,0,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(63,95,0,abs(-1.3))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65,97,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(66.5,99,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(66.5,100,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(66.5,100.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(69.5,103,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(70.5,103.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(72.5,105.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(72.5,107,-0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(75.5,111,-0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(77.5,112,-0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(79.5,113,-0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(80.5,115.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(82.5,117.5,0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(84.5,119,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(84.5,120,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(86,122,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(86.5,122,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(86.5,123.5,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(86.5,125,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(87.5,126,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(87.5,127,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(89,130,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(89.5,131.5,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(91,133.5,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(92,135.5,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(92.5,136,1.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(94,137.5,1,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(95,139,0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(98.5,142,0.5,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(100.5,145,1,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(101,147,1,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(101,148,0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(103.5,150,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(105,151.5,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(105,154,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(107,157,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(108,158,0,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(111,160,-0.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(112,162,-1,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(114,163.5,-2,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(115,164,-2,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(116,164,-2,abs(1.2))
+}
+dendrite_3[0] {
+nseg = 1
+pt3dclear()
+if(2.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,-4,0,abs(2.9))
+if(2.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11.5,-4,-1.5,abs(2.6))
+if(2.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13.5,-4.5,-3,abs(2.6))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15.5,-6,-4.5,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18,-7.5,-6,abs(2.3))
+if(-2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,-7,-6.5,abs(-2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21,-9,-7,abs(2.3))
+if(-2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22,-8.5,-7.5,abs(-2.3))
+if(-2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24,-8,-8,abs(-2.3))
+if(-2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27,-10,-9.5,abs(-2.3))
+if(-2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31.5,-12.5,-11.5,abs(-2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(33.5,-11,-14.5,abs(2.3))
+}
+dendrite_3[1] {
+nseg = 1
+pt3dclear()
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(33.5,-11,-14.5,abs(2.3))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(35.5,-10.5,-10.5,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(37.5,-9.5,-8.5,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,-10.5,-8.5,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,-8,-8.5,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45.5,-6,-10,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47.5,-5.5,-11.5,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50.5,-4.5,-13.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53,-5.5,-13.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,-5,-13.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,-4.5,-15,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61,-6.5,-17,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(64,-5,-19.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(66,-5,-20.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(70,-3.5,-21,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(72.5,-4,-21,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(75.5,-2,-21.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(78.5,-0.5,-21.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(80.5,0,-22,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(83,0,-22.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(86.5,1.5,-23,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(88,2,-24,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(90,4.5,-26.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(92.5,4.5,-29,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(93,5,-30.5,abs(-1.8))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(95,6.5,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(98,6,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(99.5,5,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(101.5,5,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(103.5,5.5,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(104.5,6,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(105,6,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(106,5,-30,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(107,6,-30,abs(1.6))
+}
+dendrite_3[2] {
+nseg = 1
+pt3dclear()
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(107,6,-30,abs(1.6))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(109,8.5,-30,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(111,9,-29.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(111.5,11.5,-29.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(113,12.5,-29.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(115,14,-29,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(119.5,16.5,-28.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(121.5,19,-28,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(125,21.5,-28.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(126.5,22,-29.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(128.5,24.5,-31,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(130.5,26,-32.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(132,27.5,-33.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(133,28.5,-34,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(136,32,-35,abs(-1.7))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(137.5,35,-36,abs(1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(140,36.5,-37,abs(1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(140.5,39,-37,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(142.5,40,-37.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(143.5,43.5,-38.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(145,45,-39,abs(-1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(147.5,48.5,-39.5,abs(1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(148,49,-41,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(150.5,52.5,-42,abs(-1.4))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(152,53.5,-43.5,abs(1.2))
+}
+dendrite_3[3] {
+nseg = 1
+pt3dclear()
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(107,6,-30,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(108.5,7,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(111,7,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(111.5,6,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(115,6,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(116.5,6,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(117.5,7,-30,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(120.5,5.5,-30,abs(-1.6))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(121.5,6,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(122,6.5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(124,7,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(124.5,7,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(126,6.5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(128,5.5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(129,5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(130.5,6,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(131.5,6,-30,abs(-1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(135,6.5,-30,abs(1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(136,7,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(138.5,7.5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(140.5,8,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(143,7,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(145,7,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(147,8,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(147.5,8,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(149,8,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(150.5,8,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(152,8.5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(154,9,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(155.5,9.5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(157.5,10.5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(160,11.5,-30,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(163,12,-29.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(163.5,11.5,-29,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(165.5,12,-28.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(166.5,12.5,-28.5,abs(-1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(168.5,13.5,-28.5,abs(1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(170.5,14,-28,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(173.5,13.5,-28,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(175.5,14,-27.5,abs(-1.4))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(178,14.5,-26.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(180,16,-25.5,abs(-1.2))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(181.5,16,-25,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(182.5,15.5,-24.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(184.5,15.5,-23.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(186.5,15.5,-22.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(188,16,-21.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(190,16.5,-20,abs(-1.1))
+if(-0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(192,17,-19,abs(-0.9))
+if(-0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(193.5,18,-18,abs(-0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(195.5,18.5,-18,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(197.5,19.5,-18,abs(0.9))
+if(0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(198.5,20,-18,abs(0.7))
+if(0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(200,19.5,-18,abs(0.7))
+if(-0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(202.5,19.5,-18,abs(-0.7))
+if(-0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(204,19.5,-17,abs(-0.7))
+if(-0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(207,17.5,-16.5,abs(-0.7))
+if(-0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(207.5,17.5,-15.5,abs(-0.7))
+if(-0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(210,17.5,-15,abs(-0.7))
+if(-0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(210.5,18,-14,abs(-0.7))
+if(-0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(213,18,-13.5,abs(-0.7))
+if(-0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(214.5,17.5,-13.5,abs(-0.7))
+if(0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(217,16.5,-13.5,abs(0.7))
+}
+dendrite_3[4] {
+nseg = 1
+pt3dclear()
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(33.5,-11,-14.5,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(36.5,-13,-12,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,-14.5,-11,abs(2.3))
+}
+dendrite_3[5] {
+nseg = 1
+pt3dclear()
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,-14.5,-11,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40.5,-15.5,-12.5,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,-17,-14.5,abs(2.3))
+if(-2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44.5,-18.5,-18,abs(-2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(48,-20,-19.5,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(51,-20.5,-21,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,-22.5,-21,abs(2.3))
+}
+dendrite_3[6] {
+nseg = 1
+pt3dclear()
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,-22.5,-21,abs(2.3))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55,-25.5,-24,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,-27,-27,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55,-29.5,-30.5,abs(-1.9))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55.5,-31.5,-31,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,-35,-31,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,-37.5,-32,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,-38.5,-33,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58.5,-42,-36,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59,-44.5,-39,abs(-2))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,-47.5,-43.5,abs(2))
+}
+dendrite_3[7] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,-47.5,-43.5,abs(2))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,-48.5,-45.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58,-50.5,-47.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57,-53,-49.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55.5,-53.5,-50.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54.5,-53.5,-52.5,abs(1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53.5,-54,-54.5,abs(1.6))
+}
+dendrite_3[8] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,-47.5,-43.5,abs(2))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61.5,-50.5,-43.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62.5,-52,-44,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(63.5,-55.5,-45.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65,-57.5,-47.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65.5,-58,-50,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(66.5,-59.5,-51,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(68,-60.5,-52.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(70,-62.5,-54,abs(-1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(71,-63.5,-56,abs(1.7))
+}
+dendrite_3[9] {
+nseg = 1
+pt3dclear()
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,-22.5,-21,abs(2.3))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,-23.5,-21,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58.5,-23,-22.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,-24.5,-23.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61.5,-24.5,-24.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62.5,-26,-24.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65,-28,-24.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(67.5,-30,-25,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(69.5,-31,-26,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(73,-34,-27.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(76,-35,-29,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(79.5,-37.5,-30,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(80,-38.5,-30.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(82,-40,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(83,-40.5,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(84,-42,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(86.5,-43.5,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(88.5,-45,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(90,-46.5,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(93,-49.5,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(94,-49.5,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(96,-51,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(96.5,-52,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(98,-52.5,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(99,-53,-30.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(99.5,-53.5,-30,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(100.5,-54,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(103,-55,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(105,-56,-29,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(107,-57,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(110,-59.5,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(110.5,-60,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(112.5,-61,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(114.5,-62.5,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(116,-64.5,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(119,-67.5,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(119.5,-67,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(122,-70,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(123,-70.5,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(125.5,-72,-29,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(126,-72.5,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(128.5,-73.5,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(128.5,-74.5,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(131.5,-74.5,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(133,-76,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(133.5,-76,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(136,-77,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(136.5,-78,-29.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(138.5,-79,-30,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(140.5,-81.5,-31,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(142.5,-81.5,-32,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(145,-82.5,-32,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(148,-83.5,-32.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(149.5,-85.5,-33.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(152.5,-85.5,-34.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(155.5,-86.5,-35.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(159.5,-88,-36,abs(-1.8))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(161.5,-89.5,-36.5,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(162.5,-91,-37,abs(-1.5))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(164.5,-92,-38.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(167.5,-93,-40.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(172,-95,-41.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(174,-96.5,-42,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(176.5,-97.5,-42.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(179,-98,-44,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(180.5,-98,-45.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(183.5,-99,-47,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(186,-100.5,-47,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(188,-101,-47,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(189,-102,-47.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(192,-103,-48,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(193,-103.5,-49,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(195,-103.5,-50,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(196.5,-106,-50.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(197,-106,-51,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(198.5,-106.5,-51.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(200,-108.5,-52,abs(-1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(202,-110,-53,abs(1.4))
+}
+dendrite_3[10] {
+nseg = 1
+pt3dclear()
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,-14.5,-11,abs(2.3))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40,-14.5,-10.5,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,-16,-10.5,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,-16.5,-10,abs(1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,-17,-10,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,-17,-10,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52,-17.5,-10,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53.5,-17.5,-9,abs(-1.5))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(55.5,-19,-8.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56.5,-19,-7.5,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61,-21,-8.5,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62.5,-20,-9.5,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(66.5,-18.5,-10.5,abs(1.2))
+}
+dendrite_4[0] {
+nseg = 1
+pt3dclear()
+if(2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,-9,0,abs(2.2))
+if(2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,-10,1.5,abs(2.2))
+if(2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,-11.5,2.5,abs(2.2))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11.5,-12.5,3.5,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13,-14,4,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14.5,-15.5,5.5,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14.5,-16.5,7.5,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15.5,-18,10,abs(2.3))
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,-20,14,abs(2.3))
+}
+dendrite_4[1] {
+nseg = 1
+pt3dclear()
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,-20,14,abs(2.3))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18.5,-22.5,6,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18,-25,2,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(18,-26.5,2,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19.5,-28.5,2,abs(-2.1))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(20.5,-30.5,2,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21.5,-32,2.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21.5,-34,3.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22.5,-37,5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21,-39,8.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22.5,-41.5,12,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24,-43,15.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23.5,-45.5,17.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24,-49,19.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22.5,-52.5,21.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23,-54.5,22,abs(-1.9))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22,-57.5,22,abs(1.9))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21,-62,21.5,abs(1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22.5,-64.5,21.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23.5,-65.5,22.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23.5,-67,24,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25,-70,25.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24,-72.5,25.5,abs(-1.9))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25.5,-75,25,abs(1.9))
+}
+dendrite_4[2] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25.5,-75,25,abs(1.9))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22.5,-76,26,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21,-76,26.5,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19,-77,26.5,abs(1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17.5,-77.5,26.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17.5,-79,26,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15.5,-81.5,25.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,-84,25,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,-84.5,25,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,-85,25,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,-88,25.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8,-88.5,27,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,-92,28.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,-92,29.5,abs(1.8))
+}
+dendrite_4[3] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,-92,29.5,abs(1.8))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,-94,30,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6.5,-97,32,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(4,-99,34,abs(-1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3.5,-100.5,35.5,abs(1.7))
+}
+dendrite_4[4] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7,-92,29.5,abs(1.8))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,-94,30.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(11.5,-95,31,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,-102,31,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,-105,31,abs(1.1))
+}
+dendrite_4[5] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25.5,-75,25,abs(1.9))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(28.5,-76,24.5,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(29,-77.5,24.5,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(30,-79.5,24.5,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31,-81.5,24.5,abs(1.5))
+}
+dendrite_4[6] {
+nseg = 1
+pt3dclear()
+if(2.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,-20,14,abs(2.3))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19.5,-21,15.5,abs(2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(21.5,-22,16.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23.5,-22,18,abs(-2))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(25,-24,19,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27,-25,20,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(29,-27,20.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31.5,-28,21.5,abs(1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(32.5,-29,22,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(34.5,-31.5,22.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(36,-31.5,22.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(36.5,-31.5,22.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,-32,23,abs(1.6))
+}
+dendrite_4[7] {
+nseg = 1
+pt3dclear()
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,-32,23,abs(1.6))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,-32,29.5,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39,-34.5,34.5,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40,-36.5,38.5,abs(1.5))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40,-39,41,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,-41.5,43.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40.5,-43.5,44,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,-45.5,44.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42,-48,44.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,-49.5,45,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44,-52,46.5,abs(-1.4))
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44,-54,48.5,abs(1.4))
+}
+dendrite_4[8] {
+nseg = 1
+pt3dclear()
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44,-54,48.5,abs(1.4))
+if(2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45,-54,47,abs(2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46,-56,46,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46,-56.5,45.5,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,-58,46.5,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50,-62,48.5,abs(-2.2))
+if(-2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,-63.5,51,abs(-2.2))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54,-65.5,52.5,abs(-1.4))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,-65.5,53,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(58.5,-67,53,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59,-68.5,53,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(61.5,-69.5,53,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62.5,-71.5,53.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(65.5,-73,53.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(67.5,-73.5,53,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(69.5,-75,52.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(71.5,-76,52.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(73.5,-77,52.5,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(76.5,-80,53,abs(1.2))
+}
+dendrite_4[9] {
+nseg = 1
+pt3dclear()
+if(1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44,-54,48.5,abs(1.4))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,-56,47,abs(1.1))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,-59,47,abs(1.5))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43,-59,48,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42.5,-61.5,48,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(44.5,-64,48.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,-66.5,50,abs(-1.2))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42,-67,51.5,abs(1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,-68.5,52.5,abs(-1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(41,-73,53,abs(1.3))
+if(1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40.5,-75,54,abs(1.3))
+}
+dendrite_4[10] {
+nseg = 1
+pt3dclear()
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,-32,23,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(39,-33,24,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40.5,-33.5,24.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42.5,-34,25,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(43.5,-34.5,26,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(46,-35.5,28,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,-35,30.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49,-36.5,31.5,abs(-1.6))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(50.5,-37.5,32,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(53,-38,31,abs(-1.2))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,-39,29.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(57.5,-40.5,28,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59,-41.5,28,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(60.5,-43,28,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(62,-44,27.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(64.5,-44,27,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(64.5,-45.5,26.5,abs(1.1))
+}
+dendrite_4[11] {
+nseg = 1
+pt3dclear()
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(64.5,-45.5,26.5,abs(1.1))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(67,-46.5,31.5,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(69,-46.5,34.5,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(70,-46.5,34.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(73.5,-48,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(74.5,-48,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(76,-48,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(78.5,-48.5,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(80.5,-47.5,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(82.5,-50,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(84,-50,35,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(87,-51,35,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(88.5,-52,35.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(90.5,-53,36,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(92,-53.5,36.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(94,-54.5,36.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(95.5,-55,36.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(96.5,-56,36.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(96.5,-56.5,36,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(97,-56.5,35.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(98,-57.5,35.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(99,-58.5,35.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(100,-58,35.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(101.5,-58.5,35.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(103,-59,35.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(104.5,-59.5,35.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(106,-60,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(106.5,-60.5,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(108.5,-60.5,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(109.5,-60.5,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(110.5,-61.5,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(112,-61,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(114.5,-63,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(116.5,-63.5,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(117.5,-64,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(118,-65,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(119,-65,35,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(120,-65.5,34.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(120.5,-67,34,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(122,-66.5,33.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(123,-66,33.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(124.5,-66.5,33.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(125.5,-66,33,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(127.5,-67.5,33,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(129,-68,33,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(130.5,-68,33,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(133,-68.5,32.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(133,-68.5,32,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(135.5,-69.5,31.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(138,-69.5,31.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(139,-71,31.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(142,-70.5,31,abs(-1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(145.5,-70,31,abs(1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(147,-69.5,31,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(148.5,-69,31,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(149.5,-69,31,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(151,-70,31,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(152.5,-69,30.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(155,-69.5,30.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(155.5,-69,31,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(158,-69.5,31.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(159,-70.5,31.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(161.5,-71.5,31.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(164,-70.5,32,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(167,-70.5,32.5,abs(-1.2))
+if(-1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(167.5,-70,33.5,abs(-1.2))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(169.5,-69,35,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(172,-68.5,36,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(176,-68.5,36,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(178,-69.5,35,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(180.5,-69.5,34.5,abs(-1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(182.5,-69.5,34,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(184.5,-70,33,abs(1))
+if(1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(187,-69.5,32,abs(1))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(189,-71.5,32,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(191,-71.5,31.5,abs(0.8))
+if(0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(191,-71.5,31.5,abs(0.7))
+if(0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(193,-73.5,31.5,abs(0.7))
+if(0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(195,-74,32,abs(0.7))
+if(0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(198,-75,33,abs(0.7))
+}
+dendrite_4[12] {
+nseg = 1
+pt3dclear()
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(64.5,-45.5,26.5,abs(1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(67,-46,26,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(70.5,-45,25.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(73,-45.5,25,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(73.5,-45.5,25.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(75.5,-45,26,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(78.5,-45,25.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(79.5,-44.5,24.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(80,-44,24,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(81.5,-44,23,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(85,-44,22,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(88,-43.5,21.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(90,-43.5,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(93,-44,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(94,-43,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(95.5,-43,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(96.5,-43.5,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(97,-44.5,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(100,-45.5,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(101,-45.5,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(103,-46,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(104,-47,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(106,-48.5,20.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(108,-50,20,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(110.5,-50,19,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(112,-50,18.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(113.5,-50,18,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(115.5,-51.5,18,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(117,-51.5,17,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(118,-51,16.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(121,-52,15.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(123.5,-52.5,15.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(126,-52,15.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(128,-51,15.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(130,-50.5,15.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(131.5,-50.5,14.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(132,-50.5,14,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(132.5,-51,13,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(133.5,-51,12.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(134.5,-50.5,12,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(135,-50.5,12,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(135.5,-51,11.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(137,-51.5,10.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(137.5,-51.5,9,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(138.5,-52,8,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(140,-51.5,7.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(141.5,-52.5,8,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(143.5,-52,8,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(144.5,-52,7.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(145,-52,7,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(148,-52,6.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(149.5,-52,6,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(150,-52,3.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(151.5,-50.5,1.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(152.5,-51,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(154,-51.5,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(155,-51.5,0,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(155.5,-51.5,-0.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(156.5,-52.5,-1,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(158,-53,-2,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(160.5,-54,-2.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(163.5,-54.5,-3.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(165,-54.5,-4.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(167.5,-53.5,-5.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(168.5,-53.5,-6.5,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(170.5,-55,-7.5,abs(1.1))
+}
+dendrite_5[0] {
+nseg = 1
+pt3dclear()
+if(2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,-11,0,abs(2.4))
+if(2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6.5,-14,2,abs(2.4))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,-16.5,2.5,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,-20.5,2,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9.5,-24.5,1.5,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,-28,1.5,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10,-31.5,1,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,-34.5,0.5,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,-37.5,0,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,-41,0,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13,-47.5,0,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(14,-52,0,abs(2.1))
+if(2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(15.5,-55.5,0,abs(2.1))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16,-59,0,abs(1.8))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(16.5,-62,0,abs(1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17,-62.5,0,abs(-1.5))
+if(-1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(17.5,-64,0,abs(-1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(19.5,-67.5,0,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(22,-70.5,0,abs(1.5))
+if(1.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(23,-72,0,abs(1.5))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24.5,-74.5,0,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24.5,-76.5,0,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(24.5,-78.5,0,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(27.5,-82.5,0,abs(1.2))
+if(1.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(29.5,-85.5,0,abs(1.2))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(31.5,-90,0,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(34,-94,0,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(35.5,-97,0,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(38,-101,0,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(40,-105.5,0,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(42.5,-110.5,0.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45,-114.5,0,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(45.5,-117.5,-0.5,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(47,-120.5,-2,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,-125.5,-2,abs(1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(49.5,-130.5,-2,abs(1.1))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52,-133.5,-1.5,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(52.5,-137,-2,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(54,-140,-2,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(56,-141.5,-1.5,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(59.5,-145,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(67,-151,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(67.5,-152,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(69.5,-155,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(72,-159,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(74,-162.5,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(76.5,-166.5,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(79,-170,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(81,-174,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(83,-178,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(84.5,-182,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(86.5,-186,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(89.5,-189,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(93,-191.5,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(96.5,-194,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(99.5,-197,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(102.5,-200.5,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(105,-204.5,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(108,-208,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(110.5,-211.5,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(112.5,-215,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(113,-218,0,abs(0.9))
+if(0.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(113.5,-221,0,abs(0.9))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(114,-223.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(116,-226.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(118.5,-229,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(122,-231.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(125.5,-234,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(128.5,-237,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(131.5,-240.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(133.5,-244,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(135.5,-248,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(137.5,-252.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(139,-256.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(142,-260,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(145,-262.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(148.5,-265,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(151.5,-268,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(154,-272,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(156.5,-275.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(158.5,-279.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(161.5,-282.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(164.5,-285.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(167.5,-287.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(170.5,-289.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(171.5,-290.5,0,abs(0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(173.5,-295,0,abs(0.8))
+}
+dendrite_6[0] {
+nseg = 1
+pt3dclear()
+if(2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,-10.5,0,abs(2.7))
+if(2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0,-14.5,-5,abs(2.7))
+if(-2.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,-17,-10,abs(-2.7))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1.5,-19.5,-13,abs(-2))
+if(2.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1.5,-21.5,-14,abs(2.2))
+if(2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,-24,-14,abs(2.4))
+}
+dendrite_6[1] {
+nseg = 1
+pt3dclear()
+if(2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,-24,-14,abs(2.4))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-4.5,-23,-15,abs(-1.8))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-6,-24,-15.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-8,-27,-16.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10.5,-28,-18,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13,-29.5,-20,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-16,-30.5,-22,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18.5,-31,-23.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-20.5,-32,-24,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-23.5,-34.5,-24,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-24,-36.5,-24.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-27,-38,-25.5,abs(-1.7))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-29,-39,-26.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-31,-40,-27,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-33.5,-41.5,-27.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-35,-43.5,-28,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-38,-45,-29,abs(-1.9))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-40.5,-46,-32,abs(1.9))
+}
+dendrite_6[2] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-40.5,-46,-32,abs(1.9))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-42,-48.5,-31.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-44,-49.5,-31.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-46.5,-50.5,-32,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-48,-51,-32.5,abs(-1.8))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-50.5,-52.5,-33,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-54,-53.5,-36,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-56,-57.5,-38.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-57,-59.5,-41.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-59.5,-60,-41.5,abs(-1.7))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-61.5,-62.5,-42.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-63.5,-63.5,-45,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-62.5,-66,-47.5,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-64.5,-68.5,-51,abs(1.1))
+}
+dendrite_6[3] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-40.5,-46,-32,abs(1.9))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-42,-46,-32,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-44.5,-45.5,-33.5,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-45.5,-46,-36.5,abs(1.1))
+}
+dendrite_6[4] {
+nseg = 1
+pt3dclear()
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-45.5,-46,-36.5,abs(1.1))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-48,-46.5,-34,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-50.5,-46.5,-32.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-53,-48,-32,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-54.5,-48.5,-31.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-56.5,-49,-31,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-58,-50,-31.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-59,-48.5,-32.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-61.5,-49,-34,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-63,-49,-35,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-65.5,-49,-36.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-67,-49.5,-38,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-69,-50.5,-39.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-70,-51,-41,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-72,-52,-42.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-75,-53.5,-44.5,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-75.5,-53.5,-45.5,abs(-1.7))
+if(-0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-77,-54.5,-46,abs(-0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-78.5,-54.5,-46.5,abs(0.8))
+if(-0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-80,-55,-47,abs(-0.8))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-81,-57,-47.5,abs(0.8))
+}
+dendrite_6[5] {
+nseg = 1
+pt3dclear()
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-45.5,-46,-36.5,abs(1.1))
+if(0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-48,-44.5,-36.5,abs(0.8))
+if(0.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-51,-43,-36.5,abs(0.6))
+if(0.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-53.5,-42,-37.5,abs(0.6))
+if(0.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-57,-41,-39,abs(0.6))
+if(0.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-59,-40,-40,abs(0.6))
+if(0.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-61.5,-39,-41,abs(0.6))
+if(0.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-63.5,-39.5,-42,abs(0.6))
+if(0.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-65,-40,-43.5,abs(0.6))
+}
+dendrite_6[6] {
+nseg = 1
+pt3dclear()
+if(2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-2,-24,-14,abs(2.4))
+if(2.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-1,-26.5,-16.5,abs(2.4))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-0.5,-27,-19,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0,-29,-20,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0,-30,-21,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(0.5,-31,-21,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1,-33,-21,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(1,-34,-21.5,abs(-2))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(2,-34.5,-22,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,-37,-24,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(3,-37,-25.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5,-38.5,-28.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(5.5,-40,-31.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(6,-41,-33.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,-42,-34.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,-43,-34.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,-45,-35.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,-45,-38.5,abs(1.8))
+}
+dendrite_6[7] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,-45,-38.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,-46.5,-38,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(7.5,-47.5,-38.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(8.5,-48.5,-40,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9.5,-50.5,-41.5,abs(1.8))
+}
+dendrite_6[8] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9,-45,-38.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(9.5,-45.5,-38,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(10.5,-46.5,-38,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12,-47,-38,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(12.5,-47,-38,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(13.5,-47,-38.5,abs(1.8))
+}
+dendrite_7[0] {
+nseg = 1
+pt3dclear()
+if(4.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-10,-0.5,0,abs(4.2))
+if(3.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-13.5,-0.5,-0.5,abs(3.8))
+if(-3.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18,-0.5,-1,abs(-3.2))
+if(-3.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-20,-0.5,-2,abs(-3.2))
+if(-3.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-24,0,-2.5,abs(-3.2))
+if(3.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-24.5,-0.5,-3.5,abs(3.2))
+}
+dendrite_7[1] {
+nseg = 1
+pt3dclear()
+if(3.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-24.5,-0.5,-3.5,abs(3.2))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-26,2,-3,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-28,2.5,-3,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-30.5,4,-3.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-31.5,4,-4.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-34.5,5.5,-5.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-37,6.5,-6,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-40,7.5,-5.5,abs(-2.1))
+if(-2.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-42,9,-4,abs(-2.1))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-43,9.5,-2,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-45,10.5,-0.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-47,12,1,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-48.5,12.5,4,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-50,12.5,7,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-52,13.5,9.5,abs(-1.9))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-54.5,14.5,12,abs(1.9))
+}
+dendrite_7[2] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-54.5,14.5,12,abs(1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-58,16,14,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-58.5,19,15.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-60.5,21,16.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-63.5,24,18,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-65.5,26.5,19,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-67,30,19.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-69,29.5,21,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-69,33,22,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-70.5,36.5,24,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-72.5,36.5,25,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-75,38,26,abs(-1.9))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-76.5,39.5,26,abs(1.9))
+}
+dendrite_7[3] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-54.5,14.5,12,abs(1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-58,13,12,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-61,14,12,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-62.5,13.5,12,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-67.5,12,13.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-69.5,11.5,15.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-71.5,11.5,17.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-73.5,12,17.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-76,13,18.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-79,13.5,20.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-83,13.5,22.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-85,14,26,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-88,14.5,29.5,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-91,13.5,34,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-93,12,37,abs(-1.9))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-95,11.5,39,abs(1.9))
+}
+dendrite_7[4] {
+nseg = 1
+pt3dclear()
+if(3.2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-24.5,-0.5,-3.5,abs(3.2))
+if(-2.5 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-27,-3,-5,abs(-2.5))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-29.5,-4.5,-6,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-32.5,-7.5,-6.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-34.5,-9.5,-6.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-35.5,-11.5,-6.5,abs(-1.8))
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-36,-13.5,-6.5,abs(1.8))
+}
+dendrite_7[5] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-36,-13.5,-6.5,abs(1.8))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-37.5,-14.5,-4.5,abs(-1.7))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39,-15,-3,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-41.5,-15.5,-2.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-42.5,-16.5,-2,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-44.5,-15.5,-1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-46,-15,-1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-48.5,-16,-1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-50.5,-15,-2,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-53,-14,-1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-55,-14,0,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-57.5,-12.5,1.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-60,-12.5,3,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-62,-11,3.5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-63,-11,5,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-66,-11,6,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-68,-9.5,7,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-70.5,-8,7,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-72,-8,7,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-76.5,-6,7,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-77.5,-6,7,abs(-1.3))
+if(-1.3 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-79.5,-6,8,abs(-1.3))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-82,-3.5,9,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-84,-1.5,9.5,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-85,0,9,abs(-1.4))
+if(-1.4 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-87,1.5,9.5,abs(-1.4))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-89,3,10.5,abs(-1.6))
+if(1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-90,4,12.5,abs(1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-92,5,13,abs(-1.6))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-95.5,7,13.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-98,8,15,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-101.5,9.5,16.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-104,11,17.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-107.5,11.5,17.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-111,12.5,17.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-112.5,13,17.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-118.5,17,17.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-121.5,18,18,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-125.5,19,19,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-127.5,19,20,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-130,20,21,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-133,21,21.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-135.5,21.5,23.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-137,20,26,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-140,22.5,27.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-142,23.5,28.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-144.5,24.5,30.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-147.5,26.5,33,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-150.5,25,34.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-152,25,35,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-155,25,35.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-158.5,26,35.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-161,25,35.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-163.5,26.5,36,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-165.5,26,36.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-167,26,37,abs(-1.1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-169.5,26.5,37,abs(-1))
+if(-1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-170.5,27,37,abs(-1))
+if(-0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-173,28.5,37,abs(-0.8))
+if(-0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-177,29,37,abs(-0.8))
+if(-0.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-180.5,30,37,abs(-0.8))
+if(0.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-183.5,29,37,abs(0.7))
+}
+dendrite_7[6] {
+nseg = 1
+pt3dclear()
+if(1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-36,-13.5,-6.5,abs(1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-37,-16.5,-6.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-36.5,-19.5,-6,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-37,-22.5,-5.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-37.5,-23.5,-5.5,abs(-1.8))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-37.5,-25.5,-6,abs(-1.9))
+if(-1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-37.5,-27.5,-6.5,abs(-1.9))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-38,-30,-7,abs(2))
+}
+dendrite_7[7] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-38,-30,-7,abs(2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39.5,-31.5,-7,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-41,-33.5,-7.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-42,-35.5,-7.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-43,-38.5,-7,abs(-2))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-45.5,-39.5,-6,abs(-1.7))
+if(-1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-46.5,-42.5,-4.5,abs(-1.7))
+if(1.7 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-47,-45.5,-1.5,abs(1.7))
+}
+dendrite_7[8] {
+nseg = 1
+pt3dclear()
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-38,-30,-7,abs(2))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39,-33,-9.5,abs(2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39,-36,-11.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-40,-38.5,-13.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39,-41,-15.5,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39,-41,-18,abs(-2))
+if(-2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-41.5,-46,-21.5,abs(-2))
+if(2 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-42,-48.5,-26.5,abs(2))
+}
+dendrite_8[0] {
+nseg = 1
+pt3dclear()
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-5.5,18,0,abs(1.9))
+if(1.9 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-7.5,18,0,abs(1.9))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-11,20,-1,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-12,21,-3,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-14.5,21,-5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-17,23,-7,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-18.5,23.5,-8,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-20,25.5,-9,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-22,26.5,-10.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-24,26.5,-11.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-25,28,-13,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-30,30,-14.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-33,33,-17,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-34.5,33.5,-19,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-35.5,34.5,-20.5,abs(-1.8))
+if(-1.8 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-38,36,-20.5,abs(-1.8))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-39,36.5,-20.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-40.5,36.5,-20.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-42,38,-21,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-43.5,39,-21.5,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-45,39.5,-22,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-47,40.5,-23,abs(-1.6))
+if(-1.6 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-49,42.5,-23.5,abs(-1.6))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-52.5,42.5,-23.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-54.5,44,-24,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-56.5,45,-24,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-58.5,46,-25,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-60,47,-25.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-62.5,49.5,-26,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-65.5,51.5,-26.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-67,51.5,-26.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-67,52.5,-26.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-68.5,54,-26.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-70.5,55.5,-26.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-73.5,57,-27,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-76,57.5,-28.5,abs(-1.1))
+if(-1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-78.5,58.5,-30.5,abs(-1.1))
+if(1.1 < 0) {
+ nspine = nspine + 1 
+}
+pt3dadd(-81,58,-31.5,abs(1.1))
+}
+soma connect dendrite_1[0] (0), 0.5
+soma connect dendrite_2[0] (0), 0.5
+soma connect dendrite_3[0] (0), 0.5
+soma connect dendrite_4[0] (0), 0.5
+soma connect dendrite_5[0] (0), 0.5
+soma connect dendrite_6[0] (0), 0.5
+soma connect dendrite_7[0] (0), 0.5
+soma connect dendrite_8[0] (0), 0.5
+dendrite_1[0] connect dendrite_1[1] (0), 1
+dendrite_1[0] connect dendrite_1[2] (0), 1
+dendrite_1[2] connect dendrite_1[3] (0), 1
+dendrite_1[2] connect dendrite_1[4] (0), 1
+dendrite_1[4] connect dendrite_1[5] (0), 1
+dendrite_1[4] connect dendrite_1[6] (0), 1
+dendrite_1[6] connect dendrite_1[7] (0), 1
+dendrite_1[6] connect dendrite_1[8] (0), 1
+dendrite_1[8] connect dendrite_1[9] (0), 1
+dendrite_1[9] connect dendrite_1[10] (0), 1
+dendrite_1[10] connect dendrite_1[11] (0), 1
+dendrite_1[10] connect dendrite_1[12] (0), 1
+dendrite_1[9] connect dendrite_1[13] (0), 1
+dendrite_1[8] connect dendrite_1[14] (0), 1
+dendrite_1[14] connect dendrite_1[15] (0), 1
+dendrite_1[15] connect dendrite_1[16] (0), 1
+dendrite_1[16] connect dendrite_1[17] (0), 1
+dendrite_1[16] connect dendrite_1[18] (0), 1
+dendrite_1[15] connect dendrite_1[19] (0), 1
+dendrite_1[19] connect dendrite_1[20] (0), 1
+dendrite_1[19] connect dendrite_1[21] (0), 1
+dendrite_1[14] connect dendrite_1[22] (0), 1
+dendrite_1[22] connect dendrite_1[23] (0), 1
+dendrite_1[23] connect dendrite_1[24] (0), 1
+dendrite_1[23] connect dendrite_1[25] (0), 1
+dendrite_1[25] connect dendrite_1[26] (0), 1
+dendrite_1[25] connect dendrite_1[27] (0), 1
+dendrite_1[22] connect dendrite_1[28] (0), 1
+dendrite_1[28] connect dendrite_1[29] (0), 1
+dendrite_1[28] connect dendrite_1[30] (0), 1
+dendrite_2[0] connect dendrite_2[1] (0), 1
+dendrite_2[0] connect dendrite_2[2] (0), 1
+dendrite_3[0] connect dendrite_3[1] (0), 1
+dendrite_3[1] connect dendrite_3[2] (0), 1
+dendrite_3[1] connect dendrite_3[3] (0), 1
+dendrite_3[0] connect dendrite_3[4] (0), 1
+dendrite_3[4] connect dendrite_3[5] (0), 1
+dendrite_3[5] connect dendrite_3[6] (0), 1
+dendrite_3[6] connect dendrite_3[7] (0), 1
+dendrite_3[6] connect dendrite_3[8] (0), 1
+dendrite_3[5] connect dendrite_3[9] (0), 1
+dendrite_3[4] connect dendrite_3[10] (0), 1
+dendrite_4[0] connect dendrite_4[1] (0), 1
+dendrite_4[1] connect dendrite_4[2] (0), 1
+dendrite_4[2] connect dendrite_4[3] (0), 1
+dendrite_4[2] connect dendrite_4[4] (0), 1
+dendrite_4[1] connect dendrite_4[5] (0), 1
+dendrite_4[0] connect dendrite_4[6] (0), 1
+dendrite_4[6] connect dendrite_4[7] (0), 1
+dendrite_4[7] connect dendrite_4[8] (0), 1
+dendrite_4[7] connect dendrite_4[9] (0), 1
+dendrite_4[6] connect dendrite_4[10] (0), 1
+dendrite_4[10] connect dendrite_4[11] (0), 1
+dendrite_4[10] connect dendrite_4[12] (0), 1
+dendrite_6[0] connect dendrite_6[1] (0), 1
+dendrite_6[1] connect dendrite_6[2] (0), 1
+dendrite_6[1] connect dendrite_6[3] (0), 1
+dendrite_6[3] connect dendrite_6[4] (0), 1
+dendrite_6[3] connect dendrite_6[5] (0), 1
+dendrite_6[0] connect dendrite_6[6] (0), 1
+dendrite_6[6] connect dendrite_6[7] (0), 1
+dendrite_6[6] connect dendrite_6[8] (0), 1
+dendrite_7[0] connect dendrite_7[1] (0), 1
+dendrite_7[1] connect dendrite_7[2] (0), 1
+dendrite_7[1] connect dendrite_7[3] (0), 1
+dendrite_7[0] connect dendrite_7[4] (0), 1
+dendrite_7[4] connect dendrite_7[5] (0), 1
+dendrite_7[4] connect dendrite_7[6] (0), 1
+dendrite_7[6] connect dendrite_7[7] (0), 1
+dendrite_7[6] connect dendrite_7[8] (0), 1

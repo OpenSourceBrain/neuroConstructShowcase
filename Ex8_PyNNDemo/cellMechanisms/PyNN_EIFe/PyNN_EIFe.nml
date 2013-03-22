@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 http://neuroml.svn.sourceforge.net/viewvc/neuroml/NeuroML2/Schemas/NeuroML2/NeuroML_v2alpha.xsd"
+         id="PyNN_EIFe">
+
+<notes>NeuroML 2 file containing an abstract cell definition</notes>
+
+<EIF_cond_exp_isfa_ista id="PyNN_EIFe" a="0.0" b="0.0805" cm="0.281"
+    delta_T="2.0" e_rev_E="0.0" e_rev_I="-80.0" i_offset="0.6" tau_m="9.3667" tau_refrac="5" tau_syn_E="5.0"
+    tau_syn_I="5.0" tau_w="144.0" v_init="-65" v_reset="-68.0" v_rest="-70.6" v_spike="-40.0" v_thresh="-52.0"/>
+
+</neuroml>

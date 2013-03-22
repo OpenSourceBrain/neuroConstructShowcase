@@ -1,0 +1,2549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.6.0_20" class="java.beans.XMLDecoder">
+
+<!-- This is a neuroConstruct project file. It's best to open this
+file with neuroConstruct, as opposed to editing it directly. 
+
+Note that this file is neuroConstruct specific and isn't any 
+part of NeuroML or any standardised XML specification. -->
+
+ <object class="ucl.physiol.neuroconstruct.project.BasicProjectInfo">
+  <void property="projectDescription">
+   <string>Project for testing generation of code for PyNN compatible simulators. Generate the chosen Simulation Configuration, go to tab Export -&gt; PyNN, and generate for one of the supported simulators. 
+
+Note: only NEST and NEURON tested so far (on Linux). 
+
+Before testing neuroConstruct generated PyNN scripts, you will have to install one or more of these simulators first, install PyNN from http://neuralensemble.org/trac/PyNN, perform any post install changes in the simulator, and test:
+
+    from pyNN.NEURON import *
+
+etc. in your chosen simulator.
+
+</string>
+  </void>
+  <void property="projectFileVersion">
+   <string>neuroConstruct v1.5.2</string>
+  </void>
+  <void property="projectName">
+   <string>Ex8_PyNNDemo</string>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.RegionsInfo">
+  <void property="internalData">
+   <void method="get">
+    <string>Name</string>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_2</string>
+    </void>
+   </void>
+   <void method="get">
+    <string>Colour</string>
+    <void method="add">
+     <object id="Color0" class="java.awt.Color">
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object idref="Color0"/>
+    </void>
+   </void>
+   <void method="get">
+    <string>Description</string>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.RectangularBox">
+      <void property="parameterList">
+       <void index="3">
+        <void property="value">
+         <float>400.0</float>
+        </void>
+       </void>
+       <void index="4">
+        <void property="value">
+         <float>100.0</float>
+        </void>
+       </void>
+       <void index="5">
+        <void property="value">
+         <float>400.0</float>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.RectangularBox">
+      <void property="parameterList">
+       <void index="1">
+        <void property="value">
+         <float>100.0</float>
+        </void>
+       </void>
+       <void index="3">
+        <void property="value">
+         <float>400.0</float>
+        </void>
+       </void>
+       <void index="4">
+        <void property="value">
+         <float>100.0</float>
+        </void>
+       </void>
+       <void index="5">
+        <void property="value">
+         <float>400.0</float>
+        </void>
+       </void>
+      </void>
+     </object>
+    </void>
+   </void>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.CellGroupsInfo">
+  <void property="internalData">
+   <void method="get">
+    <string>Cell Packing Adapter</string>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter">
+      <void property="maxNumberCells">
+       <int>4</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter">
+      <void property="maxNumberCells">
+       <int>4</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter">
+      <void property="maxNumberCells">
+       <int>40</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter">
+      <void property="maxNumberCells">
+       <int>40</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter">
+      <void property="maxNumberCells">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter">
+      <void property="maxNumberCells">
+       <int>20</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+   </void>
+   <void method="get">
+    <string>Cell Type</string>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_spontaneous</string>
+    </void>
+    <void method="add">
+     <string>IF_spontaneousFaster</string>
+    </void>
+    <void method="add">
+     <string>IF_spontaneous</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_spontaneousFaster</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_A</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_B</string>
+    </void>
+    <void method="add">
+     <string>IF_cond_alpha_B</string>
+    </void>
+    <void method="add">
+     <string>PyNN_EIFe</string>
+    </void>
+    <void method="add">
+     <string>PyNN_IFa</string>
+    </void>
+    <void method="add">
+     <string>PyNN_HH</string>
+    </void>
+   </void>
+   <void method="get">
+    <string>Priority</string>
+    <void method="add">
+     <int>10</int>
+    </void>
+    <void method="add">
+     <int>9</int>
+    </void>
+    <void method="add">
+     <int>8</int>
+    </void>
+    <void method="add">
+     <int>7</int>
+    </void>
+    <void method="add">
+     <int>6</int>
+    </void>
+    <void method="add">
+     <int>5</int>
+    </void>
+    <void method="add">
+     <int>4</int>
+    </void>
+    <void method="add">
+     <int>3</int>
+    </void>
+    <void method="add">
+     <int>2</int>
+    </void>
+    <void method="add">
+     <int>1</int>
+    </void>
+    <void method="add">
+     <int>-1</int>
+    </void>
+    <void method="add">
+     <int>-2</int>
+    </void>
+    <void method="add">
+     <int>-3</int>
+    </void>
+    <void method="add">
+     <int>-3</int>
+    </void>
+    <void method="add">
+     <int>-4</int>
+    </void>
+    <void method="add">
+     <int>-5</int>
+    </void>
+    <void method="add">
+     <int>-6</int>
+    </void>
+    <void method="add">
+     <int>-7</int>
+    </void>
+   </void>
+   <void method="get">
+    <string>Colour</string>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>244</int>
+      <int>212</int>
+      <int>45</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>236</int>
+      <int>240</int>
+      <int>141</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>43</int>
+      <int>149</int>
+      <int>194</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>202</int>
+      <int>16</int>
+      <int>121</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>89</int>
+      <int>17</int>
+      <int>219</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>221</int>
+      <int>226</int>
+      <int>70</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>61</int>
+      <int>186</int>
+      <int>255</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>176</int>
+      <int>212</int>
+      <int>75</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>251</int>
+      <int>80</int>
+      <int>25</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>34</int>
+      <int>167</int>
+      <int>224</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>252</int>
+      <int>104</int>
+      <int>184</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>147</int>
+      <int>69</int>
+      <int>116</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>20</int>
+      <int>140</int>
+      <int>228</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>210</int>
+      <int>217</int>
+      <int>103</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>120</int>
+      <int>106</int>
+      <int>116</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>108</int>
+      <int>206</int>
+      <int>6</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>140</int>
+      <int>107</int>
+      <int>51</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>168</int>
+      <int>159</int>
+      <int>57</int>
+      <int>255</int>
+     </object>
+    </void>
+   </void>
+   <void method="get">
+    <string>Region Name</string>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_2</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_2</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_2</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+    <void method="add">
+     <string>Regions_1</string>
+    </void>
+   </void>
+   <void method="get">
+    <string>Cell Group Name</string>
+    <void method="add">
+     <string>CellsA</string>
+    </void>
+    <void method="add">
+     <string>CellsB</string>
+    </void>
+    <void method="add">
+     <string>CG3</string>
+    </void>
+    <void method="add">
+     <string>CG4</string>
+    </void>
+    <void method="add">
+     <string>CG5</string>
+    </void>
+    <void method="add">
+     <string>CGspont</string>
+    </void>
+    <void method="add">
+     <string>CG7</string>
+    </void>
+    <void method="add">
+     <string>CG8</string>
+    </void>
+    <void method="add">
+     <string>CG9</string>
+    </void>
+    <void method="add">
+     <string>CG10</string>
+    </void>
+    <void method="add">
+     <string>CG_STP1</string>
+    </void>
+    <void method="add">
+     <string>CG_STP2</string>
+    </void>
+    <void method="add">
+     <string>CG_STP3</string>
+    </void>
+    <void method="add">
+     <string>CGA</string>
+    </void>
+    <void method="add">
+     <string>CGB</string>
+    </void>
+    <void method="add">
+     <string>CG_PyNN_EIFe</string>
+    </void>
+    <void method="add">
+     <string>CG_PyNN_IFa</string>
+    </void>
+    <void method="add">
+     <string>CG_PyNN_HH</string>
+    </void>
+   </void>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.SimPlotInfo">
+  <void property="allSimPlots">
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CellsA</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CellsA_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.5</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CellsA_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CellsB</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_5</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CellsB_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG3</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG3_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG3_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG4</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG4_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG4_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG5</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG5_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG5_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGspont</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CGspont_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CGspont_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG7</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG8_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG7_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG8</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG8_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG8_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG9</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG8_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG9_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG10</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CGspont_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG10_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CellsB</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_4</string>
+     </void>
+     <void property="maxValue">
+      <float>5.0E-7</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CellsB_v_2</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CellsA_CellsA:AlphaSyn1:COND</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_STP1</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_STP1_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_STP1_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_STP2</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_STP1_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_STP2_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_STP3</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_STP1_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_STP3_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_STP2</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_4</string>
+     </void>
+     <void property="maxValue">
+      <float>1.4E-6</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CellsB_v_3</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGspont_CG8:STPSynapseDep:COND</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_STP3</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_4</string>
+     </void>
+     <void property="maxValue">
+      <float>1.4E-6</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CellsB_v_4</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGspont_CG9:STPSynapseFac:COND</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGA</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CGA_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CGA_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGB</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CGB_v</string>
+     </void>
+     <void property="maxValue">
+      <float>-50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-60.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CGB_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG8</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_0</string>
+     </void>
+     <void property="maxValue">
+      <float>5.0E-7</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_0</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGspont_CG10:STDPSynapse:COND</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG8</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_12</string>
+     </void>
+     <void property="maxValue">
+      <float>0.2</float>
+     </void>
+     <void property="minValue">
+      <float>-0.2</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_1</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGspont_CG10:STDPSynapse:M</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG8</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_12</string>
+     </void>
+     <void property="maxValue">
+      <float>0.2</float>
+     </void>
+     <void property="minValue">
+      <float>-0.2</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_2</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGspont_CG10:STDPSynapse:P</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG8</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_13</string>
+     </void>
+     <void property="maxValue">
+      <float>2.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_3</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGspont_CG10:STDPSynapse:stdp_weight_factor</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG8</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_14</string>
+     </void>
+     <void property="maxValue">
+      <float>400.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_4</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGspont_CG10:STDPSynapse:t_pre_spike</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG8</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_14</string>
+     </void>
+     <void property="maxValue">
+      <float>400.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_5</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGspont_CG10:STDPSynapse:t_post_spike</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGB</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_0</string>
+     </void>
+     <void property="maxValue">
+      <float>5.0E-7</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_6</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGA_CGB:STDPSynapse2:COND</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGB</string>
+     </void>
+     <void property="cellNumber">
+      <string>0</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_15</string>
+     </void>
+     <void property="maxValue">
+      <float>2.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>Var_7</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGA_CGB:STDPSynapse2:stdp_weight_factor</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CGB</string>
+     </void>
+     <void property="cellNumber">
+      <string>8#</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_15</string>
+     </void>
+     <void property="maxValue">
+      <float>2.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotReference">
+      <string>Var_8</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>SYN:NetConn_CGA_CGB:STDPSynapse2:stdp_weight_factor</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_PyNN_EIFe</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_PyNN_EIFe_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_PyNN_EIFe_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_PyNN_IFa</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_PyNN_EIFe_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_PyNN_IFa_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_PyNN_HH</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_PyNN_EIFe_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_PyNN_HH_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.ProjectProperties"/>
+ <object class="ucl.physiol.neuroconstruct.utils.Display3DProperties">
+  <void property="backgroundColour3D">
+   <object class="java.awt.Color">
+    <int>144</int>
+    <int>166</int>
+    <int>232</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void property="cellColour3D">
+   <object class="java.awt.Color">
+    <int>255</int>
+    <int>255</int>
+    <int>255</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void property="showRegions">
+   <boolean>false</boolean>
+  </void>
+  <void property="showSynapseEndpoints">
+   <boolean>false</boolean>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.neuron.NeuronSettings">
+  <void property="copySimFiles">
+   <boolean>true</boolean>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.genesis.GenesisSettings">
+  <void property="unitSystemToUse">
+   <int>3</int>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.psics.PsicsSettings"/>
+ <object class="ucl.physiol.neuroconstruct.simulation.SimulationParameters">
+  <void property="dt">
+   <float>0.01</float>
+  </void>
+  <void property="duration">
+   <float>100.0</float>
+  </void>
+  <void property="reference">
+   <string>Sim_1158</string>
+  </void>
+  <void property="saveCopyGenSimFiles">
+   <boolean>true</boolean>
+  </void>
+  <void property="whatToRecord">
+   <int>2</int>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.ElecInputInfo">
+  <void property="allStims">
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.RandomSpikeTrainSettings">
+     <void property="cellGroup">
+      <string>CellsA</string>
+     </void>
+     <void property="rate">
+      <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+       <void property="fixedNum">
+        <float>0.1</float>
+       </void>
+       <void property="numberType">
+        <int>11</int>
+       </void>
+      </object>
+     </void>
+     <void property="reference">
+      <string>Input_0</string>
+     </void>
+     <void property="synapseType">
+      <string>AlphaSynInput</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.RandomSpikeTrainSettings">
+     <void property="cellGroup">
+      <string>CG3</string>
+     </void>
+     <void property="rate">
+      <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+       <void property="fixedNum">
+        <float>0.1</float>
+       </void>
+       <void property="numberType">
+        <int>11</int>
+       </void>
+      </object>
+     </void>
+     <void property="reference">
+      <string>Input_1</string>
+     </void>
+     <void property="synapseType">
+      <string>AlphaSynInput</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.RandomSpikeTrainSettings">
+     <void property="cellGroup">
+      <string>CG5</string>
+     </void>
+     <void property="rate">
+      <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+       <void property="fixedNum">
+        <float>0.2</float>
+       </void>
+       <void property="numberType">
+        <int>11</int>
+       </void>
+      </object>
+     </void>
+     <void property="reference">
+      <string>Input_2</string>
+     </void>
+     <void property="synapseType">
+      <string>AlphaSynInput</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.RandomSpikeTrainSettings">
+     <void property="cellGroup">
+      <string>CG7</string>
+     </void>
+     <void property="rate">
+      <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+       <void property="fixedNum">
+        <float>0.4</float>
+       </void>
+       <void property="numberType">
+        <int>11</int>
+       </void>
+      </object>
+     </void>
+     <void property="reference">
+      <string>Input_3</string>
+     </void>
+     <void property="synapseType">
+      <string>AlphaSyn1</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.RandomSpikeTrainSettings">
+     <void property="cellGroup">
+      <string>CG8</string>
+     </void>
+     <void property="rate">
+      <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+       <void property="fixedNum">
+        <float>0.4</float>
+       </void>
+       <void property="numberType">
+        <int>11</int>
+       </void>
+      </object>
+     </void>
+     <void property="reference">
+      <string>Input_4</string>
+     </void>
+     <void property="synapseType">
+      <string>AlphaSyn1</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.RandomSpikeTrainSettings">
+     <void property="cellGroup">
+      <string>CG9</string>
+     </void>
+     <void property="rate">
+      <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+       <void property="fixedNum">
+        <float>0.04</float>
+       </void>
+       <void property="numberType">
+        <int>11</int>
+       </void>
+      </object>
+     </void>
+     <void property="reference">
+      <string>Input_5</string>
+     </void>
+     <void property="segChooser">
+      <object class="ucl.physiol.neuroconstruct.project.segmentchoice.GroupDistributedSegments">
+       <void property="group">
+        <string>all</string>
+       </void>
+       <void property="numberOfSegments">
+        <int>245</int>
+       </void>
+      </object>
+     </void>
+     <void property="synapseType">
+      <string>STDPSynapse</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.RandomSpikeTrainSettings">
+     <void property="cellGroup">
+      <string>CGA</string>
+     </void>
+     <void property="rate">
+      <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+       <void property="fixedNum">
+        <float>0.23</float>
+       </void>
+       <void property="numberType">
+        <int>11</int>
+       </void>
+      </object>
+     </void>
+     <void property="reference">
+      <string>Input_6</string>
+     </void>
+     <void property="synapseType">
+      <string>AlphaSyn1</string>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.SimConfigInfo">
+  <void property="allSimConfigs">
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CellsB</string>
+      </void>
+      <void method="add">
+       <string>CellsA</string>
+      </void>
+     </void>
+     <void property="description">
+      <string>This is the default configuration of the Cell Groups, stimulations, plots, etc for this project</string>
+     </void>
+     <void property="inputs">
+      <void method="add">
+       <string>Input_0</string>
+      </void>
+     </void>
+     <void property="name">
+      <string>Default Simulation Configuration</string>
+     </void>
+     <void property="netConns">
+      <void method="add">
+       <string>NetConn_CellsA_CellsA</string>
+      </void>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CellsA_v</string>
+      </void>
+      <void method="add">
+       <string>CellsB_v</string>
+      </void>
+     </void>
+     <void property="simDuration">
+      <float>300.0</float>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CG4</string>
+      </void>
+      <void method="add">
+       <string>CG3</string>
+      </void>
+     </void>
+     <void property="description">
+      <string>A net with many cells</string>
+     </void>
+     <void property="inputs">
+      <void method="add">
+       <string>Input_1</string>
+      </void>
+     </void>
+     <void property="name">
+      <string>LargeNetwork</string>
+     </void>
+     <void property="netConns">
+      <void method="add">
+       <string>NetConn_CG3_CG4</string>
+      </void>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CG3_v</string>
+      </void>
+      <void method="add">
+       <string>CG4_v</string>
+      </void>
+     </void>
+     <void property="simDuration">
+      <float>300.0</float>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CG_STP3</string>
+      </void>
+      <void method="add">
+       <string>CG_STP2</string>
+      </void>
+      <void method="add">
+       <string>CG_STP1</string>
+      </void>
+      <void method="add">
+       <string>CGspont</string>
+      </void>
+     </void>
+     <void property="name">
+      <string>STPDemo</string>
+     </void>
+     <void property="netConns">
+      <void method="add">
+       <string>NetConn_CGspont_CG_STP1</string>
+      </void>
+      <void method="add">
+       <string>NetConn_CGspont_CG9</string>
+      </void>
+      <void method="add">
+       <string>NetConn_CGspont_CG8</string>
+      </void>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CellsB_v_4</string>
+      </void>
+      <void method="add">
+       <string>CG_STP1_v</string>
+      </void>
+      <void method="add">
+       <string>CellsB_v_3</string>
+      </void>
+      <void method="add">
+       <string>CG_STP2_v</string>
+      </void>
+      <void method="add">
+       <string>CGspont_v</string>
+      </void>
+      <void method="add">
+       <string>CG_STP3_v</string>
+      </void>
+     </void>
+     <void property="simDuration">
+      <float>300.0</float>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CG8</string>
+      </void>
+      <void method="add">
+       <string>CG7</string>
+      </void>
+     </void>
+     <void property="name">
+      <string>STDPDemo</string>
+     </void>
+     <void property="netConns">
+      <void method="add">
+       <string>NetConn_CGspont_CG10</string>
+      </void>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CG10_v</string>
+      </void>
+      <void method="add">
+       <string>CG7_v</string>
+      </void>
+      <void method="add">
+       <string>CGspont_v</string>
+      </void>
+      <void method="add">
+       <string>CG8_v</string>
+      </void>
+      <void method="add">
+       <string>Var_5</string>
+      </void>
+      <void method="add">
+       <string>Var_4</string>
+      </void>
+      <void method="add">
+       <string>Var_3</string>
+      </void>
+      <void method="add">
+       <string>Var_2</string>
+      </void>
+      <void method="add">
+       <string>Var_1</string>
+      </void>
+      <void method="add">
+       <string>Var_0</string>
+      </void>
+     </void>
+     <void property="simDuration">
+      <float>500.0</float>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CGA</string>
+      </void>
+      <void method="add">
+       <string>CGB</string>
+      </void>
+     </void>
+     <void property="inputs">
+      <void method="add">
+       <string>Input_6</string>
+      </void>
+     </void>
+     <void property="name">
+      <string>STDPDemo2</string>
+     </void>
+     <void property="netConns">
+      <void method="add">
+       <string>NetConn_CGA_CGB</string>
+      </void>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CGB_v</string>
+      </void>
+      <void method="add">
+       <string>CG9_v</string>
+      </void>
+      <void method="add">
+       <string>Var_7</string>
+      </void>
+     </void>
+     <void property="simDuration">
+      <float>2000.0</float>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimConfig">
+     <void property="cellGroups">
+      <void method="add">
+       <string>CG_PyNN_HH</string>
+      </void>
+      <void method="add">
+       <string>CG_PyNN_EIFe</string>
+      </void>
+      <void method="add">
+       <string>CG_PyNN_IFa</string>
+      </void>
+     </void>
+     <void property="name">
+      <string>TestPyNN_NML2</string>
+     </void>
+     <void property="plots">
+      <void method="add">
+       <string>CG_PyNN_IFa_v</string>
+      </void>
+      <void method="add">
+       <string>CG_PyNN_EIFe_v</string>
+      </void>
+      <void method="add">
+       <string>CG_PyNN_HH_v</string>
+      </void>
+     </void>
+     <void property="simDuration">
+      <float>500.0</float>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.SimpleNetworkConnectionsInfo">
+  <void property="internalData">
+   <void method="get">
+    <string>Name</string>
+    <void method="add">
+     <string>NetConn_CellsA_CellsA</string>
+    </void>
+    <void method="add">
+     <string>NetConn_CG3_CG4</string>
+    </void>
+    <void method="add">
+     <string>NetConn_CG5_CG5</string>
+    </void>
+    <void method="add">
+     <string>NetConn_CGspont_CG7</string>
+    </void>
+    <void method="add">
+     <string>NetConn_CGspont_CG8</string>
+    </void>
+    <void method="add">
+     <string>NetConn_CGspont_CG9</string>
+    </void>
+    <void method="add">
+     <string>NetConn_CGspont_CG10</string>
+    </void>
+    <void method="add">
+     <string>NetConn_CGspont_CG_STP1</string>
+    </void>
+    <void method="add">
+     <string>NetConn_CGA_CGB</string>
+    </void>
+   </void>
+   <void method="get">
+    <string>AP speed</string>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+    <void method="add">
+     <float>3.4028235E38</float>
+    </void>
+   </void>
+   <void method="get">
+    <string>Synapse Type</string>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="fixedNum">
+           <float>5.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>AlphaSyn1</string>
+        </void>
+        <void property="threshold">
+         <double>-50.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="fixedNum">
+           <float>2.0</float>
+          </void>
+          <void property="inhomoExpr">
+           <object class="ucl.physiol.neuroconstruct.utils.equation.Constant">
+            <void property="value">
+             <double>1.0</double>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="fixedNum">
+           <float>5.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>AlphaSyn1</string>
+        </void>
+        <void property="threshold">
+         <double>-50.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="inhomoExpr">
+           <object class="ucl.physiol.neuroconstruct.utils.equation.Constant">
+            <void property="value">
+             <double>1.0</double>
+            </void>
+           </object>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="fixedNum">
+           <float>5.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>AlphaSyn1</string>
+        </void>
+        <void property="threshold">
+         <double>-20.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="fixedNum">
+           <float>5.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>AlphaSyn1</string>
+        </void>
+        <void property="threshold">
+         <double>-50.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="fixedNum">
+           <float>5.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>STPSynapseDep</string>
+        </void>
+        <void property="threshold">
+         <double>-50.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="fixedNum">
+           <float>3.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="fixedNum">
+           <float>5.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>STPSynapseFac</string>
+        </void>
+        <void property="threshold">
+         <double>-50.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="fixedNum">
+           <float>3.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>STDPSynapse</string>
+        </void>
+        <void property="threshold">
+         <double>-50.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="fixedNum">
+           <float>100.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="fixedNum">
+           <float>5.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>FixedSyn</string>
+        </void>
+        <void property="threshold">
+         <double>-50.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="fixedNum">
+           <float>3.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.util.Vector">
+      <void method="add">
+       <object class="ucl.physiol.neuroconstruct.project.SynapticProperties">
+        <void property="delayGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.NumberGenerator">
+          <void property="fixedNum">
+           <float>5.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+        <void property="synapseType">
+         <string>STDPSynapse2</string>
+        </void>
+        <void property="threshold">
+         <double>-50.0</double>
+        </void>
+        <void property="weightsGenerator">
+         <object class="ucl.physiol.neuroconstruct.utils.WeightGenerator">
+          <void property="fixedNum">
+           <float>3.0</float>
+          </void>
+          <void property="numberType">
+           <int>11</int>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </void>
+   <void method="get">
+    <string>Max/min</string>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.MaxMinLength"/>
+    </void>
+   </void>
+   <void method="get">
+    <string>Search Pattern</string>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.SearchPattern">
+      <void property="type">
+       <int>0</int>
+      </void>
+     </object>
+    </void>
+   </void>
+   <void method="get">
+    <string>Source</string>
+    <void method="add">
+     <string>CellsA</string>
+    </void>
+    <void method="add">
+     <string>CG3</string>
+    </void>
+    <void method="add">
+     <string>CG5</string>
+    </void>
+    <void method="add">
+     <string>CGspont</string>
+    </void>
+    <void method="add">
+     <string>CGspont</string>
+    </void>
+    <void method="add">
+     <string>CGspont</string>
+    </void>
+    <void method="add">
+     <string>CG7</string>
+    </void>
+    <void method="add">
+     <string>CGspont</string>
+    </void>
+    <void method="add">
+     <string>CGA</string>
+    </void>
+   </void>
+   <void method="get">
+    <string>Connectivity Conditions</string>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+      <void property="numConnsInitiatingCellGroup">
+       <void property="fixedNum">
+        <float>2.0</float>
+       </void>
+      </void>
+      <void property="onlyConnectToUniqueCells">
+       <boolean>true</boolean>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+      <void property="numConnsInitiatingCellGroup">
+       <void property="fixedNum">
+        <float>22.0</float>
+       </void>
+      </void>
+      <void property="onlyConnectToUniqueCells">
+       <boolean>true</boolean>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+      <void property="numConnsInitiatingCellGroup">
+       <void property="fixedNum">
+        <float>8.0</float>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.ConnectivityConditions">
+      <void property="allowAutapses">
+       <boolean>false</boolean>
+      </void>
+     </object>
+    </void>
+   </void>
+   <void method="get">
+    <string>Target</string>
+    <void method="add">
+     <string>CellsB</string>
+    </void>
+    <void method="add">
+     <string>CG4</string>
+    </void>
+    <void method="add">
+     <string>CG5</string>
+    </void>
+    <void method="add">
+     <string>CG7</string>
+    </void>
+    <void method="add">
+     <string>CG_STP2</string>
+    </void>
+    <void method="add">
+     <string>CG_STP3</string>
+    </void>
+    <void method="add">
+     <string>CG8</string>
+    </void>
+    <void method="add">
+     <string>CG_STP1</string>
+    </void>
+    <void method="add">
+     <string>CGB</string>
+    </void>
+   </void>
+  </void>
+ </object>
+ <object class="ucl.physiol.neuroconstruct.project.ArbourConnectionsInfo"/>
+</java>

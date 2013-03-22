@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 http://neuroml.svn.sourceforge.net/viewvc/neuroml/NeuroML2/Schemas/NeuroML2/NeuroML_v2alpha.xsd"
+         id="AdEx_TC">
+
+<notes>NeuroML 2 file containing an abstract cell definition</notes>
+
+<adExIaFCell id="AdEx_TC"
+             C="200pF" gL="10nS" EL="-60mV" reset="-60mV" VT = "-50mV"
+             thresh = "-50mV" delT="2.5mV" tauw="600ms" refract="2.5ms"
+             a ="0.04uS"   b = "0nA" Iamp="0A"  Idel="0ms"   Idur="2000ms"/>
+
+</neuroml>

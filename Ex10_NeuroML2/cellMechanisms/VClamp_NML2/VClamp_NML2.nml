@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 http://neuroml.svn.sourceforge.net/viewvc/neuroml/NeuroML2/Schemas/NeuroML2/NeuroML_v2alpha.xsd" id="VClamp_NML2">
+        
+    <notes>NeuroML 2 file containing a voltage clamp</notes>
+
+    <voltageClamp id="vClamp1" delay="150ms" duration="50ms" targetVoltage="0mV" seriesResistance="10ohm"/>
+
+</neuroml>
