@@ -3,5 +3,6 @@ generatedNeuroML
 generatedGENESIS
 generatedMOOSE
 generatedPSICS
+generatedPyNN
 simulations
-
+*$py.class
