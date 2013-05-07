@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.6.0_24" class="java.beans.XMLDecoder">
+<java version="1.6.0_27" class="java.beans.XMLDecoder">
 
 <!-- This is a neuroConstruct project file. It's best to open this
 file with neuroConstruct, as opposed to editing it directly. 
@@ -18,7 +18,7 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
 ** Use a small dt to get good agreement between NEURON &amp; LEMS!! **</string>
   </void>
   <void property="projectFileVersion">
-   <string>neuroConstruct v1.6.0</string>
+   <string>neuroConstruct v1.7.0</string>
   </void>
   <void property="projectName">
    <string>Ex10_NeuroML2</string>
@@ -1155,10 +1155,10 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
       <string>CGAbst_v</string>
      </void>
      <void property="maxValue">
-      <float>50.0</float>
+      <float>-38.0</float>
      </void>
      <void property="minValue">
-      <float>-90.0</float>
+      <float>-80.0</float>
      </void>
      <void property="plotAndOrSave">
       <string>Plot and save</string>
@@ -2731,7 +2731,7 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
    <float>25.0</float>
   </void>
   <void property="reference">
-   <string>Sim_199</string>
+   <string>Sim_264</string>
   </void>
   <void property="temperature">
    <float>32.0</float>
@@ -2778,7 +2778,7 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
       </void>
      </void>
      <void property="cellGroup">
-      <string>SampleCellGroup</string>
+      <string>CellGroup_NML1</string>
      </void>
      <void property="del">
       <void property="fixedNum">
@@ -3423,13 +3423,13 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="inputs">
       <void method="add">
-       <string>SampleIClamp</string>
+       <string>Input_1</string>
       </void>
       <void method="add">
        <string>Input_12</string>
       </void>
       <void method="add">
-       <string>Input_1</string>
+       <string>SampleIClamp</string>
       </void>
      </void>
      <void property="name">
@@ -3440,46 +3440,46 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
        <string>CellGroup_NML1_v</string>
       </void>
       <void method="add">
-       <string>SamplePlot</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_8</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_7</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_6</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_5</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_4</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_3</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_2</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_1</string>
-      </void>
-      <void method="add">
-       <string>Var_3</string>
-      </void>
-      <void method="add">
-       <string>Var_1</string>
-      </void>
-      <void method="add">
        <string>CellGroupIaF_v</string>
+      </void>
+      <void method="add">
+       <string>CG2_v</string>
       </void>
       <void method="add">
        <string>CGMainen_v_4</string>
       </void>
       <void method="add">
-       <string>CG2_v</string>
+       <string>SamplePlot</string>
+      </void>
+      <void method="add">
+       <string>SamplePlot_1</string>
+      </void>
+      <void method="add">
+       <string>SamplePlot_2</string>
+      </void>
+      <void method="add">
+       <string>SamplePlot_3</string>
+      </void>
+      <void method="add">
+       <string>SamplePlot_4</string>
+      </void>
+      <void method="add">
+       <string>SamplePlot_5</string>
+      </void>
+      <void method="add">
+       <string>SamplePlot_6</string>
+      </void>
+      <void method="add">
+       <string>SamplePlot_7</string>
+      </void>
+      <void method="add">
+       <string>SamplePlot_8</string>
+      </void>
+      <void method="add">
+       <string>Var_1</string>
+      </void>
+      <void method="add">
+       <string>Var_3</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3491,13 +3491,13 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>CG3</string>
+       <string>CellGroup_NML1</string>
       </void>
       <void method="add">
        <string>CG2</string>
       </void>
       <void method="add">
-       <string>SampleCellGroup</string>
+       <string>CG3</string>
       </void>
      </void>
      <void property="inputs">
@@ -3518,13 +3518,16 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
-       <string>SamplePlot</string>
+       <string>CellGroup_NML1_v</string>
+      </void>
+      <void method="add">
+       <string>CG2_v</string>
       </void>
       <void method="add">
        <string>CG3_v</string>
       </void>
       <void method="add">
-       <string>CG2_v</string>
+       <string>SamplePlot</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3536,24 +3539,15 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>CGAbst2</string>
+       <string>CGIaF</string>
       </void>
       <void method="add">
        <string>CGIaFRef</string>
       </void>
-      <void method="add">
-       <string>CGIaF</string>
-      </void>
-      <void method="add">
-       <string>CGAbst</string>
-      </void>
      </void>
      <void property="inputs">
       <void method="add">
-       <string>Input_9</string>
-      </void>
-      <void method="add">
-       <string>Input_8</string>
+       <string>Input_10</string>
       </void>
       <void method="add">
        <string>Input_13</string>
@@ -3562,7 +3556,10 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
        <string>Input_3</string>
       </void>
       <void method="add">
-       <string>Input_10</string>
+       <string>Input_8</string>
+      </void>
+      <void method="add">
+       <string>Input_9</string>
       </void>
      </void>
      <void property="name">
@@ -3570,28 +3567,28 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
-       <string>CGIaFRef_v</string>
-      </void>
-      <void method="add">
-       <string>CGIaF_v</string>
-      </void>
-      <void method="add">
-       <string>RS_04_v</string>
-      </void>
-      <void method="add">
        <string>CellGroupIaF_v</string>
+      </void>
+      <void method="add">
+       <string>CGAbst2_v</string>
       </void>
       <void method="add">
        <string>CGAbst_v</string>
       </void>
       <void method="add">
-       <string>RS_005_v</string>
+       <string>CGIaF_v</string>
+      </void>
+      <void method="add">
+       <string>CGIaFRef_v</string>
       </void>
       <void method="add">
        <string>FS_v</string>
       </void>
       <void method="add">
-       <string>CGAbst2_v</string>
+       <string>RS_005_v</string>
+      </void>
+      <void method="add">
+       <string>RS_04_v</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3616,13 +3613,13 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
-       <string>SamplePlot_5</string>
+       <string>SamplePlot</string>
       </void>
       <void method="add">
        <string>SamplePlot_4</string>
       </void>
       <void method="add">
-       <string>SamplePlot</string>
+       <string>SamplePlot_5</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3650,13 +3647,13 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
        <string>CGMainen_v</string>
       </void>
       <void method="add">
-       <string>CGMainen_v_3</string>
+       <string>CGMainen_v_1</string>
       </void>
       <void method="add">
        <string>CGMainen_v_2</string>
       </void>
       <void method="add">
-       <string>CGMainen_v_1</string>
+       <string>CGMainen_v_3</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3673,10 +3670,10 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="inputs">
       <void method="add">
-       <string>Input_6</string>
+       <string>Input_12</string>
       </void>
       <void method="add">
-       <string>Input_12</string>
+       <string>Input_6</string>
       </void>
      </void>
      <void property="name">
@@ -3684,19 +3681,19 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
-       <string>CG_Gran_v_23</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_22</string>
-      </void>
-      <void method="add">
        <string>CG_Gran_v</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_20</string>
       </void>
       <void method="add">
        <string>CG_Gran_v_21</string>
       </void>
       <void method="add">
-       <string>CG_Gran_v_20</string>
+       <string>CG_Gran_v_22</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_23</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3708,10 +3705,10 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>INCells</string>
+       <string>ExcCells</string>
       </void>
       <void method="add">
-       <string>ExcCells</string>
+       <string>INCells</string>
       </void>
      </void>
      <void property="description">
@@ -3719,16 +3716,16 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="inputs">
       <void method="add">
-       <string>Input_9</string>
-      </void>
-      <void method="add">
-       <string>Input_8</string>
+       <string>Input_10</string>
       </void>
       <void method="add">
        <string>Input_7</string>
       </void>
       <void method="add">
-       <string>Input_10</string>
+       <string>Input_8</string>
+      </void>
+      <void method="add">
+       <string>Input_9</string>
       </void>
      </void>
      <void property="name">
@@ -3750,10 +3747,10 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
-       <string>INCells_v</string>
+       <string>ExcCells_v</string>
       </void>
       <void method="add">
-       <string>ExcCells_v</string>
+       <string>INCells_v</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3765,10 +3762,10 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>RS_005</string>
+       <string>FS</string>
       </void>
       <void method="add">
-       <string>FS</string>
+       <string>RS_005</string>
       </void>
       <void method="add">
        <string>RS_04</string>
@@ -3779,31 +3776,31 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="inputs">
       <void method="add">
-       <string>Input_19</string>
-      </void>
-      <void method="add">
-       <string>Input_18</string>
-      </void>
-      <void method="add">
-       <string>Input_17</string>
-      </void>
-      <void method="add">
-       <string>Input_9</string>
-      </void>
-      <void method="add">
-       <string>Input_16</string>
-      </void>
-      <void method="add">
-       <string>Input_8</string>
-      </void>
-      <void method="add">
-       <string>Input_15</string>
+       <string>Input_10</string>
       </void>
       <void method="add">
        <string>Input_14</string>
       </void>
       <void method="add">
-       <string>Input_10</string>
+       <string>Input_15</string>
+      </void>
+      <void method="add">
+       <string>Input_16</string>
+      </void>
+      <void method="add">
+       <string>Input_17</string>
+      </void>
+      <void method="add">
+       <string>Input_18</string>
+      </void>
+      <void method="add">
+       <string>Input_19</string>
+      </void>
+      <void method="add">
+       <string>Input_8</string>
+      </void>
+      <void method="add">
+       <string>Input_9</string>
       </void>
      </void>
      <void property="name">
@@ -3816,22 +3813,22 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
-       <string>RE_v</string>
-      </void>
-      <void method="add">
-       <string>TC_v</string>
-      </void>
-      <void method="add">
-       <string>RS_04_v</string>
+       <string>FS_v</string>
       </void>
       <void method="add">
        <string>LTS_v</string>
       </void>
       <void method="add">
+       <string>RE_v</string>
+      </void>
+      <void method="add">
        <string>RS_005_v</string>
       </void>
       <void method="add">
-       <string>FS_v</string>
+       <string>RS_04_v</string>
+      </void>
+      <void method="add">
+       <string>TC_v</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3856,37 +3853,37 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
-       <string>CG_Gran_v_5</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_4</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_3</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_2</string>
-      </void>
-      <void method="add">
        <string>CG_Gran_v_1</string>
       </void>
       <void method="add">
-       <string>CG_Gran_v_15</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_14</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_13</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_12</string>
+       <string>CG_Gran_v_10</string>
       </void>
       <void method="add">
        <string>CG_Gran_v_11</string>
       </void>
       <void method="add">
-       <string>CG_Gran_v_10</string>
+       <string>CG_Gran_v_12</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_13</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_14</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_15</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_2</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_3</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_4</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_5</string>
       </void>
      </void>
      <void property="simDuration">
@@ -3911,28 +3908,28 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
-       <string>CG_Gran_v_22</string>
-      </void>
-      <void method="add">
        <string>CG_Gran_v</string>
       </void>
       <void method="add">
-       <string>CG_Gran_v_21</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_20</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_13</string>
-      </void>
-      <void method="add">
-       <string>CG_Gran_v_12</string>
+       <string>CG_Gran_v_10</string>
       </void>
       <void method="add">
        <string>CG_Gran_v_11</string>
       </void>
       <void method="add">
-       <string>CG_Gran_v_10</string>
+       <string>CG_Gran_v_12</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_13</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_20</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_21</string>
+      </void>
+      <void method="add">
+       <string>CG_Gran_v_22</string>
       </void>
      </void>
      <void property="simDuration">
@@ -4291,10 +4288,10 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
    <void method="get">
     <string>Source</string>
     <void method="add">
-     <string>SampleCellGroup</string>
+     <string>CellGroup_NML1</string>
     </void>
     <void method="add">
-     <string>SampleCellGroup</string>
+     <string>CellGroup_NML1</string>
     </void>
     <void method="add">
      <string>CGAbst2</string>

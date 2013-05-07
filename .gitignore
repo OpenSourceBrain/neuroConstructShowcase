@@ -6,3 +6,5 @@ generatedPSICS
 generatedPyNN
 simulations
 *$py.class
+*.pyc
+*.bak

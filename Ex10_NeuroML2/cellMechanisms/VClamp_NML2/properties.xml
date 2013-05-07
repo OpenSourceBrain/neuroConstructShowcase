@@ -16,5 +16,5 @@ Note the following:
 <entry key="Mechanism Type">NeuroML 2 point current</entry>
 <entry key="Implementation method">NeuroML 2 Component</entry>
 <entry key="ChannelML file">VClamp_NML2.nml</entry>
-<entry key="Description">NeuroML 2 file containing a single point current</entry>
+<entry key="Description">NeuroML 2 file containing a voltage clamp</entry>
 </properties>
