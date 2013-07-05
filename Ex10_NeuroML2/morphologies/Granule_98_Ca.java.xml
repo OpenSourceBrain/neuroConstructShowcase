@@ -125,7 +125,7 @@
   </void>
   <void property="synapsesVsGroups">
    <void method="put">
-    <string>NMDA</string>
+    <string>MF_AMPA</string>
     <object class="java.util.Vector">
      <void method="add">
       <string>all</string>
@@ -133,7 +133,7 @@
     </object>
    </void>
    <void method="put">
-    <string>MF_AMPA</string>
+    <string>NMDA</string>
     <object class="java.util.Vector">
      <void method="add">
       <string>all</string>

@@ -2731,7 +2731,7 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
    <float>25.0</float>
   </void>
   <void property="reference">
-   <string>Sim_264</string>
+   <string>Sim_287</string>
   </void>
   <void property="temperature">
    <float>32.0</float>
@@ -3551,6 +3551,9 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
       </void>
       <void method="add">
        <string>Input_13</string>
+      </void>
+      <void method="add">
+       <string>Input_2</string>
       </void>
       <void method="add">
        <string>Input_3</string>

@@ -82,7 +82,7 @@
   </void>
   <void property="synapsesVsGroups">
    <void method="put">
-    <string>SingleExpSyn</string>
+    <string>PY_IN_Syn</string>
     <object class="java.util.Vector">
      <void method="add">
       <string>all</string>
@@ -90,7 +90,7 @@
     </object>
    </void>
    <void method="put">
-    <string>PY_IN_Syn</string>
+    <string>SingleExpSyn</string>
     <object class="java.util.Vector">
      <void method="add">
       <string>all</string>

@@ -8,3 +8,5 @@ simulations
 *$py.class
 *.pyc
 *.bak
+
+/Ex10_NeuroML2/generatedNeuroMLA
