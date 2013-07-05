@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.6.0_20" class="java.beans.XMLDecoder">
+<java version="1.6.0_27" class="java.beans.XMLDecoder">
 
 <!-- This is a neuroConstruct project file. It's best to open this
 file with neuroConstruct, as opposed to editing it directly. 
@@ -22,7 +22,7 @@ etc. in your chosen simulator.
 </string>
   </void>
   <void property="projectFileVersion">
-   <string>neuroConstruct v1.5.2</string>
+   <string>neuroConstruct v1.7.0</string>
   </void>
   <void property="projectName">
    <string>Ex8_PyNNDemo</string>
@@ -1486,7 +1486,7 @@ etc. in your chosen simulator.
    <float>100.0</float>
   </void>
   <void property="reference">
-   <string>Sim_1158</string>
+   <string>Sim_1174</string>
   </void>
   <void property="saveCopyGenSimFiles">
    <boolean>true</boolean>
@@ -1676,10 +1676,10 @@ etc. in your chosen simulator.
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>CellsB</string>
+       <string>CellsA</string>
       </void>
       <void method="add">
-       <string>CellsA</string>
+       <string>CellsB</string>
       </void>
      </void>
      <void property="description">
@@ -1715,10 +1715,10 @@ etc. in your chosen simulator.
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>CG4</string>
+       <string>CG3</string>
       </void>
       <void method="add">
-       <string>CG3</string>
+       <string>CG4</string>
       </void>
      </void>
      <void property="description">
@@ -1754,13 +1754,13 @@ etc. in your chosen simulator.
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>CG_STP3</string>
+       <string>CG_STP1</string>
       </void>
       <void method="add">
        <string>CG_STP2</string>
       </void>
       <void method="add">
-       <string>CG_STP1</string>
+       <string>CG_STP3</string>
       </void>
       <void method="add">
        <string>CGspont</string>
@@ -1782,22 +1782,22 @@ etc. in your chosen simulator.
      </void>
      <void property="plots">
       <void method="add">
+       <string>CellsB_v_3</string>
+      </void>
+      <void method="add">
        <string>CellsB_v_4</string>
       </void>
       <void method="add">
        <string>CG_STP1_v</string>
       </void>
       <void method="add">
-       <string>CellsB_v_3</string>
-      </void>
-      <void method="add">
        <string>CG_STP2_v</string>
       </void>
       <void method="add">
-       <string>CGspont_v</string>
+       <string>CG_STP3_v</string>
       </void>
       <void method="add">
-       <string>CG_STP3_v</string>
+       <string>CGspont_v</string>
       </void>
      </void>
      <void property="simDuration">
@@ -1809,10 +1809,10 @@ etc. in your chosen simulator.
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>CG8</string>
+       <string>CG7</string>
       </void>
       <void method="add">
-       <string>CG7</string>
+       <string>CG8</string>
       </void>
      </void>
      <void property="name">
@@ -1831,28 +1831,28 @@ etc. in your chosen simulator.
        <string>CG7_v</string>
       </void>
       <void method="add">
-       <string>CGspont_v</string>
-      </void>
-      <void method="add">
        <string>CG8_v</string>
       </void>
       <void method="add">
-       <string>Var_5</string>
+       <string>CGspont_v</string>
       </void>
       <void method="add">
-       <string>Var_4</string>
-      </void>
-      <void method="add">
-       <string>Var_3</string>
-      </void>
-      <void method="add">
-       <string>Var_2</string>
+       <string>Var_0</string>
       </void>
       <void method="add">
        <string>Var_1</string>
       </void>
       <void method="add">
-       <string>Var_0</string>
+       <string>Var_2</string>
+      </void>
+      <void method="add">
+       <string>Var_3</string>
+      </void>
+      <void method="add">
+       <string>Var_4</string>
+      </void>
+      <void method="add">
+       <string>Var_5</string>
       </void>
      </void>
      <void property="simDuration">
@@ -1885,10 +1885,10 @@ etc. in your chosen simulator.
      </void>
      <void property="plots">
       <void method="add">
-       <string>CGB_v</string>
+       <string>CG9_v</string>
       </void>
       <void method="add">
-       <string>CG9_v</string>
+       <string>CGB_v</string>
       </void>
       <void method="add">
        <string>Var_7</string>
@@ -1903,10 +1903,10 @@ etc. in your chosen simulator.
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
-       <string>CG_PyNN_HH</string>
+       <string>CG_PyNN_EIFe</string>
       </void>
       <void method="add">
-       <string>CG_PyNN_EIFe</string>
+       <string>CG_PyNN_HH</string>
       </void>
       <void method="add">
        <string>CG_PyNN_IFa</string>
@@ -1917,13 +1917,13 @@ etc. in your chosen simulator.
      </void>
      <void property="plots">
       <void method="add">
-       <string>CG_PyNN_IFa_v</string>
-      </void>
-      <void method="add">
        <string>CG_PyNN_EIFe_v</string>
       </void>
       <void method="add">
        <string>CG_PyNN_HH_v</string>
+      </void>
+      <void method="add">
+       <string>CG_PyNN_IFa_v</string>
       </void>
      </void>
      <void property="simDuration">

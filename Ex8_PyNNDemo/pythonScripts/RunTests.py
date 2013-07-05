@@ -45,6 +45,7 @@ simulators =            ["PYNN_NEST", "PYNN_NEURON", "PYNN_BRIAN"]
 simulators =            ["PYNN_NEST", "PYNN_NEURON", "LEMS"]
 simulators =            ["PYNN_NEURON", "LEMS"]
 #simulators =            ["NEURON"]
+simulators =            ["LEMS"]
 
 
 numConcurrentSims =     4
