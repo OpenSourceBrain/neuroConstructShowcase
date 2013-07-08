@@ -82,7 +82,8 @@ def testAll(argv=None):
 
     # These were discovered using analyseSims = True above.
     # They need to hold for all simulators
-    spikeTimesToCheck = {'SampleCellGroup_0' : [102.2, 118.4, 134.4, 150.3, 166.3, 182.3, 198.3]}
+    spikeTimesToCheck = {'SampleCellGroup_0' : [102.2, 118.4, 134.4, 150.4, 166.4, 182.3, 198.3],
+                         'SampleCellGroup_lowQ10ExpTemp_0' : [101.87, 110.581, 119.215, 127.845, 136.474, 145.104, 153.734, 162.363, 170.993, 179.622, 188.252, 196.882]}
 
     spikeTimeAccuracy = 0.1
 
