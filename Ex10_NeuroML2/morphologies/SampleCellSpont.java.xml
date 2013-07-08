@@ -62,10 +62,10 @@
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
      <void property="density">
-      <float>3.0E-9</float>
+      <float>1.2E-6</float>
      </void>
      <void property="name">
-      <string>HighLeak</string>
+      <string>NaConductance</string>
      </void>
     </object>
     <object class="java.util.Vector">
@@ -92,10 +92,10 @@
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
      <void property="density">
-      <float>1.2E-6</float>
+      <float>3.0E-9</float>
      </void>
      <void property="name">
-      <string>NaConductance</string>
+      <string>HighLeak</string>
      </void>
     </object>
     <object class="java.util.Vector">

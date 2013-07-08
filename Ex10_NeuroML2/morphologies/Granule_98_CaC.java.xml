@@ -61,8 +61,11 @@
   <void property="chanMechsVsGroups">
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>3.30033E-10</float>
+     </void>
      <void property="name">
-      <string>Gran_CaPool_98</string>
+      <string>GranPassiveCond</string>
      </void>
     </object>
     <object class="java.util.Vector">
@@ -73,11 +76,8 @@
    </void>
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
-     <void property="density">
-      <float>3.30033E-10</float>
-     </void>
      <void property="name">
-      <string>GranPassiveCond</string>
+      <string>Gran_CaPool_98</string>
      </void>
     </object>
     <object class="java.util.Vector">

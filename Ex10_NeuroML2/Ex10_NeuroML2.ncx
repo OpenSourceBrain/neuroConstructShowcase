@@ -245,6 +245,12 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <void method="add">
      <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
     </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
    </void>
    <void method="get">
     <string>Cell Type</string>
@@ -311,6 +317,12 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <void method="add">
      <string>SampleCellNML2_lowQ10ExpTemp</string>
     </void>
+    <void method="add">
+     <string>IaF_GrC</string>
+    </void>
+    <void method="add">
+     <string>IaF_GrC_NoRef</string>
+    </void>
    </void>
    <void method="get">
     <string>Priority</string>
@@ -376,6 +388,12 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     </void>
     <void method="add">
      <int>-10</int>
+    </void>
+    <void method="add">
+     <int>-11</int>
+    </void>
+    <void method="add">
+     <int>-12</int>
     </void>
    </void>
    <void method="get">
@@ -548,6 +566,22 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
       <int>255</int>
      </object>
     </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>202</int>
+      <int>36</int>
+      <int>230</int>
+      <int>255</int>
+     </object>
+    </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>117</int>
+      <int>24</int>
+      <int>91</int>
+      <int>255</int>
+     </object>
+    </void>
    </void>
    <void method="get">
     <string>Region Name</string>
@@ -592,6 +626,12 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     </void>
     <void method="add">
      <string>Cortex</string>
+    </void>
+    <void method="add">
+     <string>SampleRegion</string>
+    </void>
+    <void method="add">
+     <string>SampleRegion</string>
     </void>
     <void method="add">
      <string>SampleRegion</string>
@@ -679,6 +719,12 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     </void>
     <void method="add">
      <string>SampleCellGroup_lowQ10ExpTemp</string>
+    </void>
+    <void method="add">
+     <string>CG_IaF_GrC</string>
+    </void>
+    <void method="add">
+     <string>CG_IaF_GrC_NoRef</string>
     </void>
    </void>
   </void>
@@ -2814,6 +2860,62 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_IaF_GrC</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_IaF_GrC_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_IaF_GrC_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>CG_IaF_GrC_NoRef</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>CG_IaF_GrC_NoRef_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>CG_IaF_GrC_NoRef_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.ProjectProperties"/>
@@ -2851,7 +2953,7 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
  </object>
  <object class="ucl.physiol.neuroconstruct.simulation.SimulationParameters">
   <void property="dt">
-   <float>0.01</float>
+   <float>0.005</float>
   </void>
   <void property="duration">
    <float>100.0</float>
@@ -2875,7 +2977,7 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
    <float>25.0</float>
   </void>
   <void property="reference">
-   <string>Sim_323</string>
+   <string>Sim_328</string>
   </void>
   <void property="temperature">
    <float>32.0</float>
@@ -3579,6 +3681,52 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
+     <void property="cellGroup">
+      <string>CG_IaF_GrC</string>
+     </void>
+     <void property="del">
+      <void property="fixedNum">
+       <float>50.0</float>
+      </void>
+     </void>
+     <void property="dur">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+      <void property="numberType">
+       <int>11</int>
+      </void>
+     </void>
+     <void property="reference">
+      <string>Input_21</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
+     <void property="cellGroup">
+      <string>CG_IaF_GrC_NoRef</string>
+     </void>
+     <void property="del">
+      <void property="fixedNum">
+       <float>50.0</float>
+      </void>
+     </void>
+     <void property="dur">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+      <void property="numberType">
+       <int>11</int>
+      </void>
+     </void>
+     <void property="reference">
+      <string>Input_22</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.SimConfigInfo">
@@ -3702,6 +3850,12 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <object class="ucl.physiol.neuroconstruct.project.SimConfig">
      <void property="cellGroups">
       <void method="add">
+       <string>CG_IaF_GrC</string>
+      </void>
+      <void method="add">
+       <string>CG_IaF_GrC_NoRef</string>
+      </void>
+      <void method="add">
        <string>CGIaF</string>
       </void>
       <void method="add">
@@ -3719,6 +3873,12 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
        <string>Input_2</string>
       </void>
       <void method="add">
+       <string>Input_21</string>
+      </void>
+      <void method="add">
+       <string>Input_22</string>
+      </void>
+      <void method="add">
        <string>Input_3</string>
       </void>
       <void method="add">
@@ -3734,6 +3894,12 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      <void property="plots">
       <void method="add">
        <string>CellGroupIaF_v</string>
+      </void>
+      <void method="add">
+       <string>CG_IaF_GrC_NoRef_v</string>
+      </void>
+      <void method="add">
+       <string>CG_IaF_GrC_v</string>
       </void>
       <void method="add">
        <string>CGAbst2_v</string>
