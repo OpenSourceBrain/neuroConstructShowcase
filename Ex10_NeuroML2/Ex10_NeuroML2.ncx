@@ -242,6 +242,9 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <void method="add">
      <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
     </void>
+    <void method="add">
+     <object class="ucl.physiol.neuroconstruct.project.packing.RandomCellPackingAdapter"/>
+    </void>
    </void>
    <void method="get">
     <string>Cell Type</string>
@@ -305,6 +308,9 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     <void method="add">
      <string>IaFRefSpont</string>
     </void>
+    <void method="add">
+     <string>SampleCellNML2_lowQ10ExpTemp</string>
+    </void>
    </void>
    <void method="get">
     <string>Priority</string>
@@ -367,6 +373,9 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     </void>
     <void method="add">
      <int>-9</int>
+    </void>
+    <void method="add">
+     <int>-10</int>
     </void>
    </void>
    <void method="get">
@@ -531,6 +540,14 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
       <int>255</int>
      </object>
     </void>
+    <void method="add">
+     <object class="java.awt.Color">
+      <int>161</int>
+      <int>21</int>
+      <int>32</int>
+      <int>255</int>
+     </object>
+    </void>
    </void>
    <void method="get">
     <string>Region Name</string>
@@ -575,6 +592,9 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     </void>
     <void method="add">
      <string>Cortex</string>
+    </void>
+    <void method="add">
+     <string>SampleRegion</string>
     </void>
     <void method="add">
      <string>SampleRegion</string>
@@ -656,6 +676,9 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
     </void>
     <void method="add">
      <string>CGIaFRef</string>
+    </void>
+    <void method="add">
+     <string>SampleCellGroup_lowQ10ExpTemp</string>
     </void>
    </void>
   </void>
@@ -777,37 +800,6 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="valuePlotted">
       <string>NaConductance:h</string>
-     </void>
-    </object>
-   </void>
-   <void method="add">
-    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
-     <void property="cellGroup">
-      <string>SampleCellGroup</string>
-     </void>
-     <void property="cellNumber">
-      <string>*</string>
-     </void>
-     <void property="graphWindow">
-      <string>GraphWin_2</string>
-     </void>
-     <void property="maxValue">
-      <float>1.0</float>
-     </void>
-     <void property="minValue">
-      <float>0.0</float>
-     </void>
-     <void property="plotAndOrSave">
-      <string>Plot and save</string>
-     </void>
-     <void property="plotReference">
-      <string>SamplePlot_3</string>
-     </void>
-     <void property="segmentId">
-      <string>0</string>
-     </void>
-     <void property="valuePlotted">
-      <string>KConductance:n</string>
      </void>
     </object>
    </void>
@@ -1050,68 +1042,6 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="valuePlotted">
       <string>SYN:NC2:SingleExpSyn:COND</string>
-     </void>
-    </object>
-   </void>
-   <void method="add">
-    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
-     <void property="cellGroup">
-      <string>SampleCellGroup</string>
-     </void>
-     <void property="cellNumber">
-      <string>*</string>
-     </void>
-     <void property="graphWindow">
-      <string>GraphWin_2</string>
-     </void>
-     <void property="maxValue">
-      <float>1.0</float>
-     </void>
-     <void property="minValue">
-      <float>0.0</float>
-     </void>
-     <void property="plotAndOrSave">
-      <string>Plot and save</string>
-     </void>
-     <void property="plotReference">
-      <string>SamplePlot_4</string>
-     </void>
-     <void property="segmentId">
-      <string>0</string>
-     </void>
-     <void property="valuePlotted">
-      <string>NaCond_NML2:m_q</string>
-     </void>
-    </object>
-   </void>
-   <void method="add">
-    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
-     <void property="cellGroup">
-      <string>SampleCellGroup</string>
-     </void>
-     <void property="cellNumber">
-      <string>*</string>
-     </void>
-     <void property="graphWindow">
-      <string>GraphWin_2</string>
-     </void>
-     <void property="maxValue">
-      <float>1.0</float>
-     </void>
-     <void property="minValue">
-      <float>0.0</float>
-     </void>
-     <void property="plotAndOrSave">
-      <string>Plot and save</string>
-     </void>
-     <void property="plotReference">
-      <string>SamplePlot_5</string>
-     </void>
-     <void property="segmentId">
-      <string>0</string>
-     </void>
-     <void property="valuePlotted">
-      <string>NaCond_NML2:h_q</string>
      </void>
     </object>
    </void>
@@ -2670,6 +2600,220 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>SampleCellGroup_lowQ10ExpTemp</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>SampleCellGroup_lowQ10ExpTemp_v</string>
+     </void>
+     <void property="maxValue">
+      <float>50.0</float>
+     </void>
+     <void property="minValue">
+      <float>-90.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>SampleCellGroup_lowQ10ExpTemp_v</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>SampleCellGroup_lowQ10ExpTemp</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_30</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>NML2_lowQ10T_Nam</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>NaCond_lowQ10ExpTemp_NML2:m_q</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>SampleCellGroup_lowQ10ExpTemp</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_30</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>NML2_lowQ10T_Nah</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>NaCond_lowQ10ExpTemp_NML2:h_q</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>SampleCellGroup_lowQ10ExpTemp</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_30</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>NML2_lowQ10T_Kn</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>KCond_lowQ10ExpTemp_NML2:n_q</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>SampleCellGroup</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_2</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>NML2_Nam</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>NaCond_NML2:m_q</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>SampleCellGroup</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_2</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>NML2_Nah</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>NaCond_NML2:h_q</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.project.SimPlot">
+     <void property="cellGroup">
+      <string>SampleCellGroup</string>
+     </void>
+     <void property="cellNumber">
+      <string>*</string>
+     </void>
+     <void property="graphWindow">
+      <string>GraphWin_2</string>
+     </void>
+     <void property="maxValue">
+      <float>1.0</float>
+     </void>
+     <void property="minValue">
+      <float>0.0</float>
+     </void>
+     <void property="plotAndOrSave">
+      <string>Plot and save</string>
+     </void>
+     <void property="plotReference">
+      <string>NML2_Kn</string>
+     </void>
+     <void property="segmentId">
+      <string>0</string>
+     </void>
+     <void property="valuePlotted">
+      <string>KCond_NML2:n_q</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.ProjectProperties"/>
@@ -2731,7 +2875,7 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
    <float>25.0</float>
   </void>
   <void property="reference">
-   <string>Sim_287</string>
+   <string>Sim_323</string>
   </void>
   <void property="temperature">
    <float>32.0</float>
@@ -3407,6 +3551,34 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
     </object>
    </void>
+   <void method="add">
+    <object class="ucl.physiol.neuroconstruct.simulation.IClampSettings">
+     <void property="amp">
+      <void property="fixedNum">
+       <float>0.08</float>
+      </void>
+     </void>
+     <void property="cellGroup">
+      <string>SampleCellGroup_lowQ10ExpTemp</string>
+     </void>
+     <void property="del">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+     </void>
+     <void property="dur">
+      <void property="fixedNum">
+       <float>100.0</float>
+      </void>
+      <void property="numberType">
+       <int>11</int>
+      </void>
+     </void>
+     <void property="reference">
+      <string>SampleIClamp_lowQ10ExpTemp</string>
+     </void>
+    </object>
+   </void>
   </void>
  </object>
  <object class="ucl.physiol.neuroconstruct.project.SimConfigInfo">
@@ -3456,15 +3628,6 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
       </void>
       <void method="add">
        <string>SamplePlot_2</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_3</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_4</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_5</string>
       </void>
       <void method="add">
        <string>SamplePlot_6</string>
@@ -3605,10 +3768,16 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
       <void method="add">
        <string>SampleCellGroup</string>
       </void>
+      <void method="add">
+       <string>SampleCellGroup_lowQ10ExpTemp</string>
+      </void>
      </void>
      <void property="inputs">
       <void method="add">
        <string>SampleIClamp</string>
+      </void>
+      <void method="add">
+       <string>SampleIClamp_lowQ10ExpTemp</string>
       </void>
      </void>
      <void property="name">
@@ -3616,13 +3785,28 @@ Note that AdEx IaF cells here (AdEx_FS, AdEx_RS005, etc.) are based on those in 
      </void>
      <void property="plots">
       <void method="add">
+       <string>NML2_Kn</string>
+      </void>
+      <void method="add">
+       <string>NML2_lowQ10T_Kn</string>
+      </void>
+      <void method="add">
+       <string>NML2_lowQ10T_Nah</string>
+      </void>
+      <void method="add">
+       <string>NML2_lowQ10T_Nam</string>
+      </void>
+      <void method="add">
+       <string>NML2_Nah</string>
+      </void>
+      <void method="add">
+       <string>NML2_Nam</string>
+      </void>
+      <void method="add">
+       <string>SampleCellGroup_lowQ10ExpTemp_v</string>
+      </void>
+      <void method="add">
        <string>SamplePlot</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_4</string>
-      </void>
-      <void method="add">
-       <string>SamplePlot_5</string>
       </void>
      </void>
      <void property="simDuration">
