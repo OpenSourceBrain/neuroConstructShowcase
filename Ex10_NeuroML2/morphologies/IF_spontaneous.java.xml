@@ -61,11 +61,8 @@
   <void property="chanMechsVsGroups">
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
-     <void property="density">
-      <float>1.0E-9</float>
-     </void>
      <void property="name">
-      <string>HighRevPotLeak</string>
+      <string>SimpleIntFire</string>
      </void>
     </object>
     <object class="java.util.Vector">
@@ -76,8 +73,11 @@
    </void>
    <void method="put">
     <object class="ucl.physiol.neuroconstruct.cell.ChannelMechanism">
+     <void property="density">
+      <float>1.0E-9</float>
+     </void>
      <void property="name">
-      <string>SimpleIntFire</string>
+      <string>HighRevPotLeak</string>
      </void>
     </object>
     <object class="java.util.Vector">

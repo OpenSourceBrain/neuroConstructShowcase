@@ -2,10 +2,14 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/master/Schemas/NeuroML2/NeuroML_v2beta.xsd"
-         id="IaFRefSpont">
+         id="IaF_GrC_NoRef">
 
-	<notes>NeuroML 2 file containing an abstract cell definition</notes>
+  <notes>NeuroML 2 file containing an abstract cell definition.</notes>
 
-	<iafTauRefCell id="IaFRefSpont" leakReversal="-50mV" thresh="-55mV" reset="-70mV" tau="30ms" refract="10ms"/>
+  <iafCell id="IaF_GrC_NoRef" leakReversal="-78.47mV" leakConductance="1.498nS" thresh="-40mV" reset="-63mV" C="3.22pF">
+    <notes>...
+    </notes>
+  </iafCell>
+
 
 </neuroml>
