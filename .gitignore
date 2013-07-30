@@ -1,3 +1,4 @@
+*~
 generatedNEURON
 generatedNeuroML
 generatedGENESIS
@@ -9,4 +10,5 @@ simulations
 *.pyc
 *.bak
 
+Ex8_PyNNDemo/pythonScripts/Results
 /Ex10_NeuroML2/generatedNeuroMLA
