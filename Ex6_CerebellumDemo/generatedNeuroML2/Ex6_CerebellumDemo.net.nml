@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta1.xsd" id="network_Ex6_CerebellumDemo">
+
+    <notes>
+
+Network structure (NeuroML 2beta1) for project: Ex6_CerebellumDemo saved with neuroConstruct v1.7.0 on: 11:51:37, 30-Oct-13
+
+Cell Group: PurkinjeCells contains 4 cells
+Cell Group: GranuleCells contains 80 cells
+Cell Group: MossyFibers contains 12 cells
+Cell Group: GolgiCells contains 4 cells
+
+Network connection: NetConn_2 contains 33 individual synaptic connections
+Network connection: NetConn_GranuleCells_GolgiCells contains 80 individual synaptic connections
+Network connection: NetConn_1 contains 324 individual synaptic connections
+
+
+    </notes>
+
+
+    <include href="GolgiCell.cell.nml"/>
+    <include href="GranuleCell.cell.nml"/>
+    <include href="MossyFiber.cell.nml"/>
+    <include href="PurkinjeCell.cell.nml"/>
+    <include href="KConductance.channel.nml"/>
+    <include href="PassiveCond.channel.nml"/>
+    <include href="NaConductance.channel.nml"/>
+    <include href="GranGolgiSyn.synapse.nml"/>
+    <include href="GranPurkSyn.synapse.nml"/>
+    <include href="MFGranSyn.synapse.nml"/>
+
+    <spikeGeneratorPoisson id="Input_0" averageRate="50.0 per_ms"/>
+
+    
+    <network id="network_Ex6_CerebellumDemo" type="networkWithTemperature" temperature="25.0 degC">
+
+        
+
+        <population id="PurkinjeCells" component="PurkinjeCell" type="populationList">
+            <instance id="0">
+                <location x="91.6996" y="176.4876" z="75.88908"/>
+            </instance>
+            <instance id="1">
+                <location x="34.232094" y="173.79414" z="115.74309"/>
+            </instance>
+            <instance id="2">
+                <location x="121.37791" y="183.10812" z="83.03014"/>
+            </instance>
+            <instance id="3">
+                <location x="51.874138" y="165.61873" z="59.65896"/>
+            </instance>
+        </population>
+
+        <population id="GranuleCells" component="GranuleCell" type="populationList">
+            <instance id="0">
+                <location x="65.01428" y="107.62881" z="195.38687"/>
+            </instance>
+            <instance id="1">
+                <location x="115.699684" y="145.2819" z="21.86352"/>
+            </instance>
+            <instance id="2">
+                <location x="128.36032" y="118.326164" z="187.00728"/>
+            </instance>
+            <instance id="3">
+                <location x="6.1947346" y="137.94096" z="112.26912"/>
+            </instance>
+            <instance id="4">
+                <location x="186.61317" y="104.1346" z="26.998627"/>
+            </instance>
+            <instance id="5">
+                <location x="160.10167" y="127.14532" z="97.64667"/>
+            </instance>
+            <instance id="6">
+                <location x="185.81638" y="125.70091" z="23.6804"/>
+            </instance>
+            <instance id="7">
+                <location x="138.9792" y="112.32518" z="6.597197"/>
+            </instance>
+            <instance id="8">
+                <location x="160.79572" y="110.80442" z="164.01921"/>
+            </instance>
+            <instance id="9">
+                <location x="94.640205" y="119.19632" z="54.65962"/>
+            </instance>
+            <instance id="10">
+                <location x="153.86636" y="117.6311" z="136.37202"/>
+            </instance>
+            <instance id="11">
+                <location x="82.223495" y="139.91109" z="50.627888"/>
+            </instance>
+            <instance id="12">
+                <location x="7.058704" y="134.76227" z="59.28204"/>
+            </instance>
+            <instance id="13">
+                <location x="90.027" y="112.10736" z="36.55088"/>
+            </instance>
+            <instance id="14">
+                <location x="45.169163" y="125.164444" z="59.185028"/>
+            </instance>
+            <instance id="15">
+                <location x="88.68321" y="106.240295" z="8.991755"/>
+            </instance>
+            <instance id="16">
+                <location x="75.60221" y="134.33717" z="72.72667"/>
+            </instance>
+            <instance id="17">
+                <location x="92.81599" y="118.02792" z="7.945049"/>
+            </instance>
+            <instance id="18">
+                <location x="47.262775" y="139.09018" z="160.45363"/>
+            </instance>
+            <instance id="19">
+                <location x="183.25267" y="137.20488" z="147.36966"/>
+            </instance>
+            <instance id="20">
+                <location x="186.42049" y="127.97356" z="187.29088"/>
+            </instance>
+            <instance id="21">
+                <location x="146.78806" y="105.0509" z="153.17178"/>
+            </instance>
+            <instance id="22">
+                <location x="170.5967" y="118.253685" z="140.2137"/>
+            </instance>
+            <instance id="23">
+                <location x="166.5574" y="141.99579" z="141.64941"/>
+            </instance>
+            <instance id="24">
+                <location x="45.032764" y="138.55457" z="42.103683"/>
+            </instance>
+            <instance id="25">
+                <location x="36.87718" y="128.05093" z="11.075497"/>
+            </instance>
+            <instance id="26">
+                <location x="56.573128" y="127.39049" z="92.53525"/>
+            </instance>
+            <instance id="27">
+                <location x="118.616165" y="145.45212" z="42.59001"/>
+            </instance>
+            <instance id="28">
+                <location x="47.84236" y="141.67863" z="110.168396"/>
+            </instance>
+            <instance id="29">
+                <location x="153.38719" y="139.01389" z="176.85953"/>
+            </instance>
+            <instance id="30">
+                <location x="41.168606" y="136.76282" z="118.66994"/>
+            </instance>
+            <instance id="31">
+                <location x="9.518671" y="113.8725" z="70.130325"/>
+            </instance>
+            <instance id="32">
+                <location x="82.69907" y="125.76608" z="65.9601"/>
+            </instance>
+            <instance id="33">
+                <location x="155.23831" y="126.81579" z="43.755554"/>
+            </instance>
+            <instance id="34">
+                <location x="45.029438" y="129.74028" z="129.9572"/>
+            </instance>
+            <instance id="35">
+                <location x="13.920916" y="108.975044" z="13.438522"/>
+            </instance>
+            <instance id="36">
+                <location x="159.446" y="137.13129" z="120.672"/>
+            </instance>
+            <instance id="37">
+                <location x="65.118805" y="140.7726" z="44.105484"/>
+            </instance>
+            <instance id="38">
+                <location x="115.0576" y="124.77433" z="195.17339"/>
+            </instance>
+            <instance id="39">
+                <location x="85.42285" y="118.30492" z="30.283463"/>
+            </instance>
+            <instance id="40">
+                <location x="27.415562" y="113.84414" z="163.58978"/>
+            </instance>
+            <instance id="41">
+                <location x="166.75679" y="125.85953" z="69.72836"/>
+            </instance>
+            <instance id="42">
+                <location x="6.196189" y="114.55804" z="85.62565"/>
+            </instance>
+            <instance id="43">
+                <location x="31.61378" y="118.382484" z="93.8588"/>
+            </instance>
+            <instance id="44">
+                <location x="87.17122" y="136.57849" z="118.736824"/>
+            </instance>
+            <instance id="45">
+                <location x="77.083244" y="120.00523" z="120.96494"/>
+            </instance>
+            <instance id="46">
+                <location x="159.51682" y="116.36591" z="61.0875"/>
+            </instance>
+            <instance id="47">
+                <location x="152.61061" y="106.93507" z="164.74013"/>
+            </instance>
+            <instance id="48">
+                <location x="8.522677" y="119.087036" z="97.30301"/>
+            </instance>
+            <instance id="49">
+                <location x="174.28569" y="124.07624" z="106.035385"/>
+            </instance>
+            <instance id="50">
+                <location x="64.64022" y="131.55484" z="78.58281"/>
+            </instance>
+            <instance id="51">
+                <location x="141.51466" y="137.4524" z="140.04861"/>
+            </instance>
+            <instance id="52">
+                <location x="120.382866" y="106.16286" z="103.76171"/>
+            </instance>
+            <instance id="53">
+                <location x="109.38464" y="105.36334" z="70.08017"/>
+            </instance>
+            <instance id="54">
+                <location x="47.533955" y="128.01962" z="81.812454"/>
+            </instance>
+            <instance id="55">
+                <location x="116.112175" y="112.830315" z="125.39929"/>
+            </instance>
+            <instance id="56">
+                <location x="179.93724" y="106.818924" z="101.855"/>
+            </instance>
+            <instance id="57">
+                <location x="189.00392" y="137.28572" z="29.127514"/>
+            </instance>
+            <instance id="58">
+                <location x="73.431335" y="138.13959" z="22.317123"/>
+            </instance>
+            <instance id="59">
+                <location x="28.193306" y="109.841965" z="179.09155"/>
+            </instance>
+            <instance id="60">
+                <location x="166.50578" y="134.26558" z="6.985593"/>
+            </instance>
+            <instance id="61">
+                <location x="189.3841" y="106.75431" z="156.38353"/>
+            </instance>
+            <instance id="62">
+                <location x="144.94077" y="130.54024" z="21.06979"/>
+            </instance>
+            <instance id="63">
+                <location x="116.30586" y="117.21559" z="55.72803"/>
+            </instance>
+            <instance id="64">
+                <location x="28.7156" y="144.50706" z="155.81354"/>
+            </instance>
+            <instance id="65">
+                <location x="28.21927" y="118.69225" z="67.64053"/>
+            </instance>
+            <instance id="66">
+                <location x="121.2187" y="104.47148" z="7.8891635"/>
+            </instance>
+            <instance id="67">
+                <location x="96.07718" y="136.26152" z="167.86905"/>
+            </instance>
+            <instance id="68">
+                <location x="77.0145" y="136.83899" z="89.49848"/>
+            </instance>
+            <instance id="69">
+                <location x="52.77567" y="121.29491" z="182.11238"/>
+            </instance>
+            <instance id="70">
+                <location x="20.592022" y="110.327354" z="52.454124"/>
+            </instance>
+            <instance id="71">
+                <location x="26.42691" y="120.866455" z="27.530872"/>
+            </instance>
+            <instance id="72">
+                <location x="118.45311" y="141.43799" z="132.07758"/>
+            </instance>
+            <instance id="73">
+                <location x="41.488422" y="104.2063" z="32.43071"/>
+            </instance>
+            <instance id="74">
+                <location x="189.79059" y="119.852394" z="143.59908"/>
+            </instance>
+            <instance id="75">
+                <location x="79.27667" y="141.37872" z="129.50584"/>
+            </instance>
+            <instance id="76">
+                <location x="119.07607" y="128.79558" z="79.58679"/>
+            </instance>
+            <instance id="77">
+                <location x="108.383896" y="142.6073" z="125.7256"/>
+            </instance>
+            <instance id="78">
+                <location x="155.64146" y="127.05329" z="76.22865"/>
+            </instance>
+            <instance id="79">
+                <location x="133.35437" y="114.13307" z="45.049263"/>
+            </instance>
+        </population>
+
+        <population id="MossyFibers" component="MossyFiber" type="populationList">
+            <instance id="0">
+                <location x="188.14444" y="120.12148" z="7.5876713"/>
+            </instance>
+            <instance id="1">
+                <location x="67.11961" y="117.698685" z="139.68835"/>
+            </instance>
+            <instance id="2">
+                <location x="95.01693" y="124.973755" z="94.9732"/>
+            </instance>
+            <instance id="3">
+                <location x="40.28088" y="118.1079" z="129.09273"/>
+            </instance>
+            <instance id="4">
+                <location x="77.023056" y="111.908745" z="128.962"/>
+            </instance>
+            <instance id="5">
+                <location x="90.33593" y="111.19238" z="29.559505"/>
+            </instance>
+            <instance id="6">
+                <location x="46.63813" y="112.422035" z="75.617966"/>
+            </instance>
+            <instance id="7">
+                <location x="159.49039" y="108.08002" z="104.42171"/>
+            </instance>
+            <instance id="8">
+                <location x="29.035843" y="109.04796" z="150.84402"/>
+            </instance>
+            <instance id="9">
+                <location x="77.53133" y="109.90427" z="59.618366"/>
+            </instance>
+            <instance id="10">
+                <location x="82.83379" y="123.61675" z="115.866615"/>
+            </instance>
+            <instance id="11">
+                <location x="146.18576" y="115.90976" z="111.268425"/>
+            </instance>
+        </population>
+
+        <population id="GolgiCells" component="GolgiCell" type="populationList">
+            <instance id="0">
+                <location x="42.109966" y="119.53743" z="58.605637"/>
+            </instance>
+            <instance id="1">
+                <location x="56.29535" y="127.77073" z="107.776115"/>
+            </instance>
+            <instance id="2">
+                <location x="167.42213" y="120.83924" z="83.001625"/>
+            </instance>
+            <instance id="3">
+                <location x="180.74382" y="128.72433" z="32.79717"/>
+            </instance>
+        </population>
+
+
+
+        <population id="Input_0_population" component="Input_0" size="12"/>    <projection id="NetConn_2" presynapticPopulation="GranuleCells" postsynapticPopulation="PurkinjeCells" synapse="GranPurkSyn">
+            <connection id="0" preCellId="../GranuleCells/1/GranuleCell" postCellId="../PurkinjeCells/3/PurkinjeCell" preSegmentId="21" preFractionAlong="0.9337265" postSegmentId="34" postFractionAlong="0.6493082"/>
+            <connection id="1" preCellId="../GranuleCells/2/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="21" preFractionAlong="0.81408995" postSegmentId="39" postFractionAlong="0.04343994"/>
+            <connection id="2" preCellId="../GranuleCells/4/GranuleCell" postCellId="../PurkinjeCells/2/PurkinjeCell" preSegmentId="11" preFractionAlong="0.6998192" postSegmentId="31" postFractionAlong="0.12074179"/>
+            <connection id="3" preCellId="../GranuleCells/10/GranuleCell" postCellId="../PurkinjeCells/2/PurkinjeCell" preSegmentId="3" preFractionAlong="0.25799608" postSegmentId="35" postFractionAlong="0.03631345"/>
+            <connection id="4" preCellId="../GranuleCells/12/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="16" preFractionAlong="0.97585756" postSegmentId="17" postFractionAlong="0.18570891"/>
+            <connection id="5" preCellId="../GranuleCells/14/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="9" preFractionAlong="0.85743636" postSegmentId="33" postFractionAlong="0.4380481"/>
+            <connection id="6" preCellId="../GranuleCells/16/GranuleCell" postCellId="../PurkinjeCells/2/PurkinjeCell" preSegmentId="10" preFractionAlong="0.061981965" postSegmentId="34" postFractionAlong="0.5085674"/>
+            <connection id="7" preCellId="../GranuleCells/21/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="7" preFractionAlong="0.8129734" postSegmentId="40" postFractionAlong="0.012152458"/>
+            <connection id="8" preCellId="../GranuleCells/24/GranuleCell" postCellId="../PurkinjeCells/3/PurkinjeCell" preSegmentId="4" preFractionAlong="0.448814" postSegmentId="31" postFractionAlong="0.8707237"/>
+            <connection id="9" preCellId="../GranuleCells/26/GranuleCell" postCellId="../PurkinjeCells/2/PurkinjeCell" preSegmentId="16" preFractionAlong="0.18973084" postSegmentId="37" postFractionAlong="0.20649116"/>
+            <connection id="10" preCellId="../GranuleCells/27/GranuleCell" postCellId="../PurkinjeCells/3/PurkinjeCell" preSegmentId="21" preFractionAlong="0.7983673" postSegmentId="17" postFractionAlong="0.9708894"/>
+            <connection id="11" preCellId="../GranuleCells/29/GranuleCell" postCellId="../PurkinjeCells/2/PurkinjeCell" preSegmentId="7" preFractionAlong="0.5666908" postSegmentId="40" postFractionAlong="0.6182262"/>
+            <connection id="12" preCellId="../GranuleCells/34/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="7" preFractionAlong="0.011357879" postSegmentId="36" postFractionAlong="0.17824951"/>
+            <connection id="13" preCellId="../GranuleCells/35/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="18" preFractionAlong="0.6782379" postSegmentId="26" postFractionAlong="0.18714622"/>
+            <connection id="14" preCellId="../GranuleCells/39/GranuleCell" postCellId="../PurkinjeCells/3/PurkinjeCell" preSegmentId="5" preFractionAlong="0.59794235" postSegmentId="33" postFractionAlong="0.50717896"/>
+            <connection id="15" preCellId="../GranuleCells/40/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="14" preFractionAlong="0.14926223" postSegmentId="40" postFractionAlong="0.2011743"/>
+            <connection id="16" preCellId="../GranuleCells/42/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="2" preFractionAlong="0.3616662" postSegmentId="26" postFractionAlong="0.0012356052"/>
+            <connection id="17" preCellId="../GranuleCells/43/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="2" preFractionAlong="0.18242168" postSegmentId="31" postFractionAlong="0.28148046"/>
+            <connection id="18" preCellId="../GranuleCells/48/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="3" preFractionAlong="0.6926514" postSegmentId="31" postFractionAlong="0.2556989"/>
+            <connection id="19" preCellId="../GranuleCells/50/GranuleCell" postCellId="../PurkinjeCells/2/PurkinjeCell" preSegmentId="18" preFractionAlong="0.9019394" postSegmentId="20" postFractionAlong="0.23192461"/>
+            <connection id="20" preCellId="../GranuleCells/51/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="23" preFractionAlong="0.5594772" postSegmentId="42" postFractionAlong="0.48407716"/>
+            <connection id="21" preCellId="../GranuleCells/52/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="11" preFractionAlong="0.76708907" postSegmentId="35" postFractionAlong="0.12933019"/>
+            <connection id="22" preCellId="../GranuleCells/53/GranuleCell" postCellId="../PurkinjeCells/3/PurkinjeCell" preSegmentId="15" preFractionAlong="0.6401474" postSegmentId="20" postFractionAlong="0.0713328"/>
+            <connection id="23" preCellId="../GranuleCells/56/GranuleCell" postCellId="../PurkinjeCells/2/PurkinjeCell" preSegmentId="13" preFractionAlong="0.70414275" postSegmentId="35" postFractionAlong="0.26683572"/>
+            <connection id="24" preCellId="../GranuleCells/60/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="21" preFractionAlong="0.30400544" postSegmentId="27" postFractionAlong="0.29117677"/>
+            <connection id="25" preCellId="../GranuleCells/61/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="19" preFractionAlong="0.5937225" postSegmentId="39" postFractionAlong="0.12932129"/>
+            <connection id="26" preCellId="../GranuleCells/64/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="4" preFractionAlong="0.5880257" postSegmentId="42" postFractionAlong="0.89927244"/>
+            <connection id="27" preCellId="../GranuleCells/65/GranuleCell" postCellId="../PurkinjeCells/3/PurkinjeCell" preSegmentId="6" preFractionAlong="0.72665596" postSegmentId="23" postFractionAlong="0.16051693"/>
+            <connection id="28" preCellId="../GranuleCells/68/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="6" preFractionAlong="0.13153037" postSegmentId="35" postFractionAlong="0.44722822"/>
+            <connection id="29" preCellId="../GranuleCells/71/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="14" preFractionAlong="0.4984215" postSegmentId="32" postFractionAlong="0.27701074"/>
+            <connection id="30" preCellId="../GranuleCells/75/GranuleCell" postCellId="../PurkinjeCells/1/PurkinjeCell" preSegmentId="9" preFractionAlong="0.758947" postSegmentId="20" postFractionAlong="0.36084762"/>
+            <connection id="31" preCellId="../GranuleCells/76/GranuleCell" postCellId="../PurkinjeCells/0/PurkinjeCell" preSegmentId="11" preFractionAlong="0.79020995" postSegmentId="24" postFractionAlong="0.30310792"/>
+            <connection id="32" preCellId="../GranuleCells/77/GranuleCell" postCellId="../PurkinjeCells/2/PurkinjeCell" preSegmentId="4" preFractionAlong="0.32730198" postSegmentId="42" postFractionAlong="0.7213379"/>
+        </projection>
+
+
+        <projection id="NetConn_GranuleCells_GolgiCells" presynapticPopulation="GranuleCells" postsynapticPopulation="GolgiCells" synapse="GranGolgiSyn">
+            <connection id="0" preCellId="../GranuleCells/0/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="12" preFractionAlong="0.5275757" postSegmentId="24" postFractionAlong="0.106654234"/>
+            <connection id="1" preCellId="../GranuleCells/1/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="19" preFractionAlong="0.7320725" postSegmentId="44" postFractionAlong="0.078080244"/>
+            <connection id="2" preCellId="../GranuleCells/2/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="7" preFractionAlong="0.3450218" postSegmentId="30" postFractionAlong="0.5025525"/>
+            <connection id="3" preCellId="../GranuleCells/3/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="25" preFractionAlong="0.78350985" postSegmentId="48" postFractionAlong="0.9815014"/>
+            <connection id="4" preCellId="../GranuleCells/4/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="4" preFractionAlong="0.097052574" postSegmentId="28" postFractionAlong="0.5202954"/>
+            <connection id="5" preCellId="../GranuleCells/5/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="13" preFractionAlong="0.015574646" postSegmentId="36" postFractionAlong="0.60733765"/>
+            <connection id="6" preCellId="../GranuleCells/6/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="6" preFractionAlong="0.70865595" postSegmentId="36" postFractionAlong="0.84911746"/>
+            <connection id="7" preCellId="../GranuleCells/7/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="13" preFractionAlong="0.52363664" postSegmentId="34" postFractionAlong="0.5881124"/>
+            <connection id="8" preCellId="../GranuleCells/8/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="14" preFractionAlong="0.7999878" postSegmentId="24" postFractionAlong="0.105978265"/>
+            <connection id="9" preCellId="../GranuleCells/9/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="24" preFractionAlong="0.8562439" postSegmentId="28" postFractionAlong="0.98592126"/>
+            <connection id="10" preCellId="../GranuleCells/10/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="10" preFractionAlong="0.20044097" postSegmentId="30" postFractionAlong="0.29059651"/>
+            <connection id="11" preCellId="../GranuleCells/11/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="15" preFractionAlong="0.9898926" postSegmentId="44" postFractionAlong="0.61857706"/>
+            <connection id="12" preCellId="../GranuleCells/12/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="13" preFractionAlong="0.29476625" postSegmentId="44" postFractionAlong="0.05058187"/>
+            <connection id="13" preCellId="../GranuleCells/13/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="19" preFractionAlong="0.0963974" postSegmentId="45" postFractionAlong="0.29221153"/>
+            <connection id="14" preCellId="../GranuleCells/14/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="14" preFractionAlong="0.1485054" postSegmentId="49" postFractionAlong="0.9275736"/>
+            <connection id="15" preCellId="../GranuleCells/15/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="3" preFractionAlong="0.44947577" postSegmentId="33" postFractionAlong="0.39939755"/>
+            <connection id="16" preCellId="../GranuleCells/16/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="5" preFractionAlong="0.38010827" postSegmentId="25" postFractionAlong="0.4287411"/>
+            <connection id="17" preCellId="../GranuleCells/17/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="20" preFractionAlong="0.98712003" postSegmentId="39" postFractionAlong="0.13744506"/>
+            <connection id="18" preCellId="../GranuleCells/18/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="16" preFractionAlong="0.1845688" postSegmentId="24" postFractionAlong="0.86887515"/>
+            <connection id="19" preCellId="../GranuleCells/19/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="20" preFractionAlong="0.22572479" postSegmentId="51" postFractionAlong="0.36127198"/>
+            <connection id="20" preCellId="../GranuleCells/20/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="19" preFractionAlong="0.1479309" postSegmentId="26" postFractionAlong="0.024204101"/>
+            <connection id="21" preCellId="../GranuleCells/21/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="16" preFractionAlong="0.7060684" postSegmentId="23" postFractionAlong="0.8827605"/>
+            <connection id="22" preCellId="../GranuleCells/22/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="12" preFractionAlong="0.20901108" postSegmentId="28" postFractionAlong="0.17804594"/>
+            <connection id="23" preCellId="../GranuleCells/23/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="12" preFractionAlong="0.5451828" postSegmentId="28" postFractionAlong="0.9094396"/>
+            <connection id="24" preCellId="../GranuleCells/24/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="19" preFractionAlong="0.40034485" postSegmentId="51" postFractionAlong="0.6097095"/>
+            <connection id="25" preCellId="../GranuleCells/25/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="5" preFractionAlong="0.44279784" postSegmentId="38" postFractionAlong="0.5695288"/>
+            <connection id="26" preCellId="../GranuleCells/26/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="13" preFractionAlong="0.19662933" postSegmentId="50" postFractionAlong="0.9387163"/>
+            <connection id="27" preCellId="../GranuleCells/27/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="15" preFractionAlong="0.613768" postSegmentId="40" postFractionAlong="0.98970276"/>
+            <connection id="28" preCellId="../GranuleCells/28/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="12" preFractionAlong="0.23320083" postSegmentId="34" postFractionAlong="0.56451416"/>
+            <connection id="29" preCellId="../GranuleCells/29/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="14" preFractionAlong="0.35046083" postSegmentId="28" postFractionAlong="0.29941922"/>
+            <connection id="30" preCellId="../GranuleCells/30/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="18" preFractionAlong="0.7718979" postSegmentId="35" postFractionAlong="0.71067774"/>
+            <connection id="31" preCellId="../GranuleCells/31/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="5" preFractionAlong="0.12801647" postSegmentId="25" postFractionAlong="0.7236883"/>
+            <connection id="32" preCellId="../GranuleCells/32/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="13" preFractionAlong="0.78477633" postSegmentId="51" postFractionAlong="0.83147705"/>
+            <connection id="33" preCellId="../GranuleCells/33/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="12" preFractionAlong="0.7375862" postSegmentId="34" postFractionAlong="0.38803303"/>
+            <connection id="34" preCellId="../GranuleCells/34/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="13" preFractionAlong="0.6683289" postSegmentId="49" postFractionAlong="0.58785194"/>
+            <connection id="35" preCellId="../GranuleCells/35/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="14" preFractionAlong="0.13961181" postSegmentId="33" postFractionAlong="0.30383053"/>
+            <connection id="36" preCellId="../GranuleCells/36/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="11" preFractionAlong="0.70279616" postSegmentId="24" postFractionAlong="0.41832465"/>
+            <connection id="37" preCellId="../GranuleCells/37/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="10" preFractionAlong="0.6353615" postSegmentId="51" postFractionAlong="0.6176123"/>
+            <connection id="38" preCellId="../GranuleCells/38/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="9" preFractionAlong="0.12373428" postSegmentId="49" postFractionAlong="0.87520343"/>
+            <connection id="39" preCellId="../GranuleCells/39/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="7" preFractionAlong="0.21178512" postSegmentId="39" postFractionAlong="0.6545207"/>
+            <connection id="40" preCellId="../GranuleCells/40/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="25" preFractionAlong="0.8258789" postSegmentId="49" postFractionAlong="0.9068949"/>
+            <connection id="41" preCellId="../GranuleCells/41/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="13" preFractionAlong="0.53572464" postSegmentId="35" postFractionAlong="0.9286701"/>
+            <connection id="42" preCellId="../GranuleCells/42/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="17" preFractionAlong="0.3190735" postSegmentId="50" postFractionAlong="0.027523242"/>
+            <connection id="43" preCellId="../GranuleCells/43/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="13" preFractionAlong="0.033003997" postSegmentId="44" postFractionAlong="0.42140502"/>
+            <connection id="44" preCellId="../GranuleCells/44/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="20" preFractionAlong="0.21119995" postSegmentId="51" postFractionAlong="0.20385498"/>
+            <connection id="45" preCellId="../GranuleCells/45/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="13" preFractionAlong="0.739106" postSegmentId="25" postFractionAlong="0.39898568"/>
+            <connection id="46" preCellId="../GranuleCells/46/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="3" preFractionAlong="0.88530827" postSegmentId="41" postFractionAlong="0.62748533"/>
+            <connection id="47" preCellId="../GranuleCells/47/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="22" preFractionAlong="0.860347" postSegmentId="28" postFractionAlong="0.658634"/>
+            <connection id="48" preCellId="../GranuleCells/48/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="16" preFractionAlong="0.6483795" postSegmentId="49" postFractionAlong="0.31095988"/>
+            <connection id="49" preCellId="../GranuleCells/49/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="12" preFractionAlong="0.3391861" postSegmentId="23" postFractionAlong="0.4095601"/>
+            <connection id="50" preCellId="../GranuleCells/50/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="11" preFractionAlong="0.39738616" postSegmentId="43" postFractionAlong="0.1204309"/>
+            <connection id="51" preCellId="../GranuleCells/51/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="14" preFractionAlong="1.6479492E-4" postSegmentId="26" postFractionAlong="0.92475283"/>
+            <connection id="52" preCellId="../GranuleCells/52/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="13" preFractionAlong="0.23521575" postSegmentId="49" postFractionAlong="0.42467245"/>
+            <connection id="53" preCellId="../GranuleCells/53/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="24" preFractionAlong="0.24127808" postSegmentId="35" postFractionAlong="0.15208618"/>
+            <connection id="54" preCellId="../GranuleCells/54/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="3" preFractionAlong="0.13949251" postSegmentId="43" postFractionAlong="0.8615283"/>
+            <connection id="55" preCellId="../GranuleCells/55/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="3" preFractionAlong="0.5208411" postSegmentId="29" postFractionAlong="0.19690959"/>
+            <connection id="56" preCellId="../GranuleCells/56/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="11" preFractionAlong="0.88324356" postSegmentId="28" postFractionAlong="0.9222851"/>
+            <connection id="57" preCellId="../GranuleCells/57/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="24" preFractionAlong="0.47183076" postSegmentId="34" postFractionAlong="0.50949097"/>
+            <connection id="58" preCellId="../GranuleCells/58/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="2" preFractionAlong="0.12801075" postSegmentId="44" postFractionAlong="0.14859213"/>
+            <connection id="59" preCellId="../GranuleCells/59/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="11" preFractionAlong="0.9298813" postSegmentId="26" postFractionAlong="0.20757782"/>
+            <connection id="60" preCellId="../GranuleCells/60/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="3" preFractionAlong="0.5752206" postSegmentId="41" postFractionAlong="0.46074462"/>
+            <connection id="61" preCellId="../GranuleCells/61/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="18" preFractionAlong="0.9751541" postSegmentId="51" postFractionAlong="0.76450926"/>
+            <connection id="62" preCellId="../GranuleCells/62/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="25" preFractionAlong="0.66065216" postSegmentId="40" postFractionAlong="0.71338373"/>
+            <connection id="63" preCellId="../GranuleCells/63/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="5" preFractionAlong="0.9087337" postSegmentId="44" postFractionAlong="0.32312623"/>
+            <connection id="64" preCellId="../GranuleCells/64/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="23" preFractionAlong="0.99200135" postSegmentId="31" postFractionAlong="0.37998047"/>
+            <connection id="65" preCellId="../GranuleCells/65/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="17" preFractionAlong="0.570607" postSegmentId="26" postFractionAlong="0.47341615"/>
+            <connection id="66" preCellId="../GranuleCells/66/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="18" preFractionAlong="0.13886261" postSegmentId="25" postFractionAlong="0.08097015"/>
+            <connection id="67" preCellId="../GranuleCells/67/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="9" preFractionAlong="0.53212357" postSegmentId="23" postFractionAlong="0.36742905"/>
+            <connection id="68" preCellId="../GranuleCells/68/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="3" preFractionAlong="0.31765985" postSegmentId="48" postFractionAlong="0.5906115"/>
+            <connection id="69" preCellId="../GranuleCells/69/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="2" preFractionAlong="0.09509182" postSegmentId="23" postFractionAlong="0.9118695"/>
+            <connection id="70" preCellId="../GranuleCells/70/GranuleCell" postCellId="../GolgiCells/1/GolgiCell" preSegmentId="3" preFractionAlong="0.57838917" postSegmentId="39" postFractionAlong="0.7693512"/>
+            <connection id="71" preCellId="../GranuleCells/71/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="12" preFractionAlong="0.72757417" postSegmentId="46" postFractionAlong="0.984126"/>
+            <connection id="72" preCellId="../GranuleCells/72/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="9" preFractionAlong="0.5487434" postSegmentId="49" postFractionAlong="0.14688314"/>
+            <connection id="73" preCellId="../GranuleCells/73/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="17" preFractionAlong="0.19291839" postSegmentId="38" postFractionAlong="0.27855286"/>
+            <connection id="74" preCellId="../GranuleCells/74/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="4" preFractionAlong="0.4466854" postSegmentId="28" postFractionAlong="0.18881255"/>
+            <connection id="75" preCellId="../GranuleCells/75/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="9" preFractionAlong="0.9538414" postSegmentId="48" postFractionAlong="0.21630614"/>
+            <connection id="76" preCellId="../GranuleCells/76/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="3" preFractionAlong="0.7809998" postSegmentId="44" postFractionAlong="0.70104164"/>
+            <connection id="77" preCellId="../GranuleCells/77/GranuleCell" postCellId="../GolgiCells/0/GolgiCell" preSegmentId="11" preFractionAlong="0.82342833" postSegmentId="28" postFractionAlong="0.84058404"/>
+            <connection id="78" preCellId="../GranuleCells/78/GranuleCell" postCellId="../GolgiCells/2/GolgiCell" preSegmentId="16" preFractionAlong="0.988031" postSegmentId="31" postFractionAlong="0.19000916"/>
+            <connection id="79" preCellId="../GranuleCells/79/GranuleCell" postCellId="../GolgiCells/3/GolgiCell" preSegmentId="20" preFractionAlong="0.96740264" postSegmentId="30" postFractionAlong="0.58889073"/>
+        </projection>
+
+        <projection id="Input_0_projection">
+    <connection id="0"/>
+    
+    <connection id="1"/>
+    
+    <connection id="2"/>
+    
+    <connection id="3"/>
+    
+    <connection id="4"/>
+    
+    <connection id="5"/>
+    
+    <connection id="6"/>
+    
+    <connection id="7"/>
+    
+    <connection id="8"/>
+    
+    <connection id="9"/>
+    
+    <connection id="10"/>
+    
+    <connection id="11"/>
+    </projection>    <projection id="NetConn_1" presynapticPopulation="MossyFibers" postsynapticPopulation="GranuleCells" synapse="MFGranSyn">
+            <connection id="0" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/0/GranuleCell" preSegmentId="0" preFractionAlong="0.3059578" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="1" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/0/GranuleCell" preSegmentId="0" preFractionAlong="0.2874995" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="2" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/0/GranuleCell" preSegmentId="0" preFractionAlong="0.41985023" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="3" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/0/GranuleCell" preSegmentId="0" preFractionAlong="0.8906363" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="4" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/1/GranuleCell" preSegmentId="0" preFractionAlong="0.99614173" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="5" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/1/GranuleCell" preSegmentId="0" preFractionAlong="0.7920293" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="6" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/1/GranuleCell" preSegmentId="0" preFractionAlong="0.62836295" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="7" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/1/GranuleCell" preSegmentId="0" preFractionAlong="0.7961594" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="8" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/2/GranuleCell" preSegmentId="0" preFractionAlong="0.51496476" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="9" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/2/GranuleCell" preSegmentId="0" preFractionAlong="0.5136105" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="10" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/2/GranuleCell" preSegmentId="0" preFractionAlong="0.64008546" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="11" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/2/GranuleCell" preSegmentId="0" preFractionAlong="0.62551343" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="12" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/3/GranuleCell" preSegmentId="0" preFractionAlong="0.7731375" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="13" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/3/GranuleCell" preSegmentId="0" preFractionAlong="0.7735097" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="14" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/3/GranuleCell" preSegmentId="0" preFractionAlong="0.5986954" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="15" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/3/GranuleCell" preSegmentId="0" preFractionAlong="0.4549471" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="16" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/4/GranuleCell" preSegmentId="0" preFractionAlong="0.36131448" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="17" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/4/GranuleCell" preSegmentId="0" preFractionAlong="0.96004325" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="18" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/4/GranuleCell" preSegmentId="0" preFractionAlong="0.34244806" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="19" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/4/GranuleCell" preSegmentId="0" preFractionAlong="0.527874" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="20" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/5/GranuleCell" preSegmentId="0" preFractionAlong="0.88491327" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="21" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/5/GranuleCell" preSegmentId="0" preFractionAlong="0.7124918" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="22" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/5/GranuleCell" preSegmentId="0" preFractionAlong="0.11386526" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="23" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/5/GranuleCell" preSegmentId="0" preFractionAlong="0.62942123" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="24" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/6/GranuleCell" preSegmentId="0" preFractionAlong="0.60069036" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="25" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/6/GranuleCell" preSegmentId="0" preFractionAlong="0.4416675" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="26" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/6/GranuleCell" preSegmentId="0" preFractionAlong="0.86229485" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="27" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/6/GranuleCell" preSegmentId="0" preFractionAlong="0.39230698" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="28" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/6/GranuleCell" preSegmentId="0" preFractionAlong="0.44192624" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="29" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/7/GranuleCell" preSegmentId="0" preFractionAlong="0.26742387" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="30" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/7/GranuleCell" preSegmentId="0" preFractionAlong="0.8431999" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="31" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/7/GranuleCell" preSegmentId="0" preFractionAlong="0.014548063" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="32" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/8/GranuleCell" preSegmentId="0" preFractionAlong="0.37901896" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="33" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/8/GranuleCell" preSegmentId="0" preFractionAlong="0.21066886" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="34" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/8/GranuleCell" preSegmentId="0" preFractionAlong="0.80995744" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="35" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/8/GranuleCell" preSegmentId="0" preFractionAlong="0.01349771" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="36" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/9/GranuleCell" preSegmentId="0" preFractionAlong="0.8682984" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="37" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/9/GranuleCell" preSegmentId="0" preFractionAlong="0.005595088" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="38" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/9/GranuleCell" preSegmentId="0" preFractionAlong="0.42291206" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="39" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/9/GranuleCell" preSegmentId="0" preFractionAlong="0.28328872" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="40" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/10/GranuleCell" preSegmentId="0" preFractionAlong="0.013939679" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="41" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/10/GranuleCell" preSegmentId="0" preFractionAlong="0.80293167" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="42" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/10/GranuleCell" preSegmentId="0" preFractionAlong="0.87237793" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="43" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/10/GranuleCell" preSegmentId="0" preFractionAlong="0.012962401" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="44" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/11/GranuleCell" preSegmentId="0" preFractionAlong="0.35489982" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="45" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/11/GranuleCell" preSegmentId="0" preFractionAlong="0.7121439" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="46" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/11/GranuleCell" preSegmentId="0" preFractionAlong="0.26370394" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="47" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/11/GranuleCell" preSegmentId="0" preFractionAlong="0.82417876" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="48" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/12/GranuleCell" preSegmentId="0" preFractionAlong="0.1503303" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="49" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/12/GranuleCell" preSegmentId="0" preFractionAlong="0.1250813" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="50" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/12/GranuleCell" preSegmentId="0" preFractionAlong="0.26436114" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="51" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/12/GranuleCell" preSegmentId="0" preFractionAlong="0.9455753" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="52" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/13/GranuleCell" preSegmentId="0" preFractionAlong="0.36025816" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="53" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/13/GranuleCell" preSegmentId="0" preFractionAlong="0.26115775" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="54" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/13/GranuleCell" preSegmentId="0" preFractionAlong="0.6059286" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="55" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/13/GranuleCell" preSegmentId="0" preFractionAlong="0.68324053" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="56" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/13/GranuleCell" preSegmentId="0" preFractionAlong="0.13605416" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="57" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/14/GranuleCell" preSegmentId="0" preFractionAlong="0.7485055" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="58" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/14/GranuleCell" preSegmentId="0" preFractionAlong="0.8621501" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="59" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/14/GranuleCell" preSegmentId="0" preFractionAlong="0.74944174" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="60" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/14/GranuleCell" preSegmentId="0" preFractionAlong="0.36916006" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="61" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/15/GranuleCell" preSegmentId="0" preFractionAlong="0.02498424" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="62" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/15/GranuleCell" preSegmentId="0" preFractionAlong="0.07959813" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="63" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/15/GranuleCell" preSegmentId="0" preFractionAlong="0.48434544" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="64" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/15/GranuleCell" preSegmentId="0" preFractionAlong="0.32568145" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="65" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/16/GranuleCell" preSegmentId="0" preFractionAlong="0.17121428" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="66" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/16/GranuleCell" preSegmentId="0" preFractionAlong="0.065950334" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="67" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/16/GranuleCell" preSegmentId="0" preFractionAlong="0.13581604" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="68" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/16/GranuleCell" preSegmentId="0" preFractionAlong="0.7671974" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="69" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/17/GranuleCell" preSegmentId="0" preFractionAlong="0.7618822" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="70" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/17/GranuleCell" preSegmentId="0" preFractionAlong="0.7175444" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="71" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/17/GranuleCell" preSegmentId="0" preFractionAlong="0.6957074" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="72" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/17/GranuleCell" preSegmentId="0" preFractionAlong="0.40332556" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="73" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/18/GranuleCell" preSegmentId="0" preFractionAlong="0.70069504" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="74" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/18/GranuleCell" preSegmentId="0" preFractionAlong="0.8182881" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="75" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/18/GranuleCell" preSegmentId="0" preFractionAlong="0.19171596" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="76" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/19/GranuleCell" preSegmentId="0" preFractionAlong="0.3948205" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="77" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/19/GranuleCell" preSegmentId="0" preFractionAlong="0.124828696" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="78" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/19/GranuleCell" preSegmentId="0" preFractionAlong="0.32601666" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="79" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/19/GranuleCell" preSegmentId="0" preFractionAlong="0.62786597" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="80" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/20/GranuleCell" preSegmentId="0" preFractionAlong="0.8198171" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="81" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/20/GranuleCell" preSegmentId="0" preFractionAlong="0.080111325" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="82" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/20/GranuleCell" preSegmentId="0" preFractionAlong="0.507825" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="83" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/20/GranuleCell" preSegmentId="0" preFractionAlong="0.3203987" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="84" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/21/GranuleCell" preSegmentId="0" preFractionAlong="0.32902676" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="85" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/21/GranuleCell" preSegmentId="0" preFractionAlong="0.23457634" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="86" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/21/GranuleCell" preSegmentId="0" preFractionAlong="0.24649048" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="87" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/21/GranuleCell" preSegmentId="0" preFractionAlong="0.4221025" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="88" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/22/GranuleCell" preSegmentId="0" preFractionAlong="0.6611917" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="89" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/22/GranuleCell" preSegmentId="0" preFractionAlong="0.8085131" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="90" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/22/GranuleCell" preSegmentId="0" preFractionAlong="0.43984514" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="91" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/22/GranuleCell" preSegmentId="0" preFractionAlong="0.24201238" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="92" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/23/GranuleCell" preSegmentId="0" preFractionAlong="0.33343393" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="93" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/23/GranuleCell" preSegmentId="0" preFractionAlong="0.516534" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="94" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/23/GranuleCell" preSegmentId="0" preFractionAlong="0.5348278" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="95" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/24/GranuleCell" preSegmentId="0" preFractionAlong="0.012088478" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="96" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/24/GranuleCell" preSegmentId="0" preFractionAlong="0.7958523" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="97" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/24/GranuleCell" preSegmentId="0" preFractionAlong="0.0748837" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="98" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/24/GranuleCell" preSegmentId="0" preFractionAlong="0.9872391" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="99" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/25/GranuleCell" preSegmentId="0" preFractionAlong="0.29936808" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="100" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/25/GranuleCell" preSegmentId="0" preFractionAlong="0.78952664" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="101" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/25/GranuleCell" preSegmentId="0" preFractionAlong="0.52029544" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="102" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/26/GranuleCell" preSegmentId="0" preFractionAlong="0.049360096" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="103" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/26/GranuleCell" preSegmentId="0" preFractionAlong="0.14577699" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="104" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/26/GranuleCell" preSegmentId="0" preFractionAlong="0.8412944" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="105" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/26/GranuleCell" preSegmentId="0" preFractionAlong="0.6532301" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="106" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/27/GranuleCell" preSegmentId="0" preFractionAlong="0.1952008" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="107" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/27/GranuleCell" preSegmentId="0" preFractionAlong="0.5452834" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="108" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/27/GranuleCell" preSegmentId="0" preFractionAlong="0.6218299" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="109" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/27/GranuleCell" preSegmentId="0" preFractionAlong="0.9897331" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="110" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/28/GranuleCell" preSegmentId="0" preFractionAlong="0.03652793" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="111" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/28/GranuleCell" preSegmentId="0" preFractionAlong="0.8456768" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="112" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/28/GranuleCell" preSegmentId="0" preFractionAlong="0.46974736" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="113" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/29/GranuleCell" preSegmentId="0" preFractionAlong="0.93966305" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="114" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/29/GranuleCell" preSegmentId="0" preFractionAlong="0.5068423" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="115" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/29/GranuleCell" preSegmentId="0" preFractionAlong="0.46444678" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="116" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/30/GranuleCell" preSegmentId="0" preFractionAlong="0.85198224" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="117" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/30/GranuleCell" preSegmentId="0" preFractionAlong="0.97385067" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="118" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/30/GranuleCell" preSegmentId="0" preFractionAlong="0.9591371" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="119" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/30/GranuleCell" preSegmentId="0" preFractionAlong="0.8334135" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="120" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/31/GranuleCell" preSegmentId="0" preFractionAlong="0.4649306" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="121" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/31/GranuleCell" preSegmentId="0" preFractionAlong="0.44917202" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="122" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/31/GranuleCell" preSegmentId="0" preFractionAlong="0.19224763" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="123" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/31/GranuleCell" preSegmentId="0" preFractionAlong="0.14987123" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="124" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/31/GranuleCell" preSegmentId="0" preFractionAlong="0.6199068" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="125" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/32/GranuleCell" preSegmentId="0" preFractionAlong="0.20270932" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="126" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/32/GranuleCell" preSegmentId="0" preFractionAlong="0.44681108" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="127" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/32/GranuleCell" preSegmentId="0" preFractionAlong="0.2614326" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="128" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/32/GranuleCell" preSegmentId="0" preFractionAlong="0.15092283" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="129" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/32/GranuleCell" preSegmentId="0" preFractionAlong="0.51539356" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="130" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/33/GranuleCell" preSegmentId="0" preFractionAlong="0.58596015" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="131" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/33/GranuleCell" preSegmentId="0" preFractionAlong="0.16434425" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="132" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/33/GranuleCell" preSegmentId="0" preFractionAlong="0.8963611" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="133" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/33/GranuleCell" preSegmentId="0" preFractionAlong="0.13704532" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="134" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/34/GranuleCell" preSegmentId="0" preFractionAlong="0.7769954" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="135" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/34/GranuleCell" preSegmentId="0" preFractionAlong="0.14349043" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="136" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/34/GranuleCell" preSegmentId="0" preFractionAlong="0.6754316" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="137" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/34/GranuleCell" preSegmentId="0" preFractionAlong="0.59018135" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="138" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/35/GranuleCell" preSegmentId="0" preFractionAlong="0.90922004" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="139" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/35/GranuleCell" preSegmentId="0" preFractionAlong="0.5238252" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="140" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/35/GranuleCell" preSegmentId="0" preFractionAlong="0.621437" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="141" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/35/GranuleCell" preSegmentId="0" preFractionAlong="0.056580245" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="142" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/36/GranuleCell" preSegmentId="0" preFractionAlong="0.31442904" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="143" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/36/GranuleCell" preSegmentId="0" preFractionAlong="0.13305062" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="144" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/36/GranuleCell" preSegmentId="0" preFractionAlong="0.43420005" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="145" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/36/GranuleCell" preSegmentId="0" preFractionAlong="0.49210513" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="146" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/37/GranuleCell" preSegmentId="0" preFractionAlong="0.44592845" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="147" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/37/GranuleCell" preSegmentId="0" preFractionAlong="0.47409892" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="148" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/37/GranuleCell" preSegmentId="0" preFractionAlong="0.25429034" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="149" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/38/GranuleCell" preSegmentId="0" preFractionAlong="0.73998344" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="150" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/38/GranuleCell" preSegmentId="0" preFractionAlong="0.42457747" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="151" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/38/GranuleCell" preSegmentId="0" preFractionAlong="0.64151514" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="152" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/38/GranuleCell" preSegmentId="0" preFractionAlong="0.9347134" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="153" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/39/GranuleCell" preSegmentId="0" preFractionAlong="0.56003755" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="154" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/39/GranuleCell" preSegmentId="0" preFractionAlong="0.3497864" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="155" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/39/GranuleCell" preSegmentId="0" preFractionAlong="0.08376366" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="156" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/39/GranuleCell" preSegmentId="0" preFractionAlong="0.096410155" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="157" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/40/GranuleCell" preSegmentId="0" preFractionAlong="0.76578575" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="158" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/40/GranuleCell" preSegmentId="0" preFractionAlong="0.41853315" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="159" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/40/GranuleCell" preSegmentId="0" preFractionAlong="0.063156426" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="160" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/40/GranuleCell" preSegmentId="0" preFractionAlong="0.77038103" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="161" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/41/GranuleCell" preSegmentId="0" preFractionAlong="0.4471478" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="162" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/41/GranuleCell" preSegmentId="0" preFractionAlong="0.24931854" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="163" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/41/GranuleCell" preSegmentId="0" preFractionAlong="0.5957819" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="164" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/41/GranuleCell" preSegmentId="0" preFractionAlong="0.34574306" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="165" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/42/GranuleCell" preSegmentId="0" preFractionAlong="0.39144516" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="166" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/42/GranuleCell" preSegmentId="0" preFractionAlong="0.5306469" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="167" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/42/GranuleCell" preSegmentId="0" preFractionAlong="0.047919214" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="168" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/42/GranuleCell" preSegmentId="0" preFractionAlong="0.07058376" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="169" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/43/GranuleCell" preSegmentId="0" preFractionAlong="0.95311815" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="170" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/43/GranuleCell" preSegmentId="0" preFractionAlong="0.40935135" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="171" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/43/GranuleCell" preSegmentId="0" preFractionAlong="0.20857882" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="172" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/43/GranuleCell" preSegmentId="0" preFractionAlong="0.15069973" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="173" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/44/GranuleCell" preSegmentId="0" preFractionAlong="0.27906698" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="174" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/44/GranuleCell" preSegmentId="0" preFractionAlong="0.7280368" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="175" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/44/GranuleCell" preSegmentId="0" preFractionAlong="0.92356473" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="176" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/44/GranuleCell" preSegmentId="0" preFractionAlong="0.95788926" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="177" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/45/GranuleCell" preSegmentId="0" preFractionAlong="0.15306807" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="178" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/45/GranuleCell" preSegmentId="0" preFractionAlong="0.012774825" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="179" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/45/GranuleCell" preSegmentId="0" preFractionAlong="0.87802494" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="180" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/45/GranuleCell" preSegmentId="0" preFractionAlong="0.04893881" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="181" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/46/GranuleCell" preSegmentId="0" preFractionAlong="0.41642678" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="182" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/46/GranuleCell" preSegmentId="0" preFractionAlong="0.54948956" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="183" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/46/GranuleCell" preSegmentId="0" preFractionAlong="0.7931047" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="184" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/46/GranuleCell" preSegmentId="0" preFractionAlong="0.36556226" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="185" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/47/GranuleCell" preSegmentId="0" preFractionAlong="0.4262873" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="186" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/47/GranuleCell" preSegmentId="0" preFractionAlong="0.3523457" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="187" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/47/GranuleCell" preSegmentId="0" preFractionAlong="0.2878862" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="188" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/47/GranuleCell" preSegmentId="0" preFractionAlong="0.4792173" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="189" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/48/GranuleCell" preSegmentId="0" preFractionAlong="0.7333044" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="190" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/48/GranuleCell" preSegmentId="0" preFractionAlong="0.1755116" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="191" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/48/GranuleCell" preSegmentId="0" preFractionAlong="0.39756447" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="192" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/48/GranuleCell" preSegmentId="0" preFractionAlong="0.1703772" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="193" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/49/GranuleCell" preSegmentId="0" preFractionAlong="0.71043205" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="194" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/49/GranuleCell" preSegmentId="0" preFractionAlong="0.8855611" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="195" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/49/GranuleCell" preSegmentId="0" preFractionAlong="0.2617687" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="196" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/49/GranuleCell" preSegmentId="0" preFractionAlong="0.12184638" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="197" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/50/GranuleCell" preSegmentId="0" preFractionAlong="0.375836" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="198" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/50/GranuleCell" preSegmentId="0" preFractionAlong="0.15731895" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="199" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/50/GranuleCell" preSegmentId="0" preFractionAlong="0.7763164" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="200" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/50/GranuleCell" preSegmentId="0" preFractionAlong="0.6879207" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="201" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/50/GranuleCell" preSegmentId="0" preFractionAlong="0.6684771" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="202" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/51/GranuleCell" preSegmentId="0" preFractionAlong="0.06891155" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="203" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/51/GranuleCell" preSegmentId="0" preFractionAlong="0.69213575" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="204" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/51/GranuleCell" preSegmentId="0" preFractionAlong="0.90316176" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="205" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/51/GranuleCell" preSegmentId="0" preFractionAlong="0.17027485" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="206" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/52/GranuleCell" preSegmentId="0" preFractionAlong="0.48714083" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="207" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/52/GranuleCell" preSegmentId="0" preFractionAlong="0.84561735" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="208" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/52/GranuleCell" preSegmentId="0" preFractionAlong="0.43438625" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="209" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/52/GranuleCell" preSegmentId="0" preFractionAlong="0.18303257" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="210" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/53/GranuleCell" preSegmentId="0" preFractionAlong="0.34648383" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="211" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/53/GranuleCell" preSegmentId="0" preFractionAlong="0.13199902" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="212" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/53/GranuleCell" preSegmentId="0" preFractionAlong="0.3876742" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="213" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/53/GranuleCell" preSegmentId="0" preFractionAlong="0.26964414" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="214" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/54/GranuleCell" preSegmentId="0" preFractionAlong="0.6683192" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="215" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/54/GranuleCell" preSegmentId="0" preFractionAlong="0.8803237" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="216" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/54/GranuleCell" preSegmentId="0" preFractionAlong="0.2953086" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="217" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/54/GranuleCell" preSegmentId="0" preFractionAlong="0.07570547" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="218" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/55/GranuleCell" preSegmentId="0" preFractionAlong="0.8032219" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="219" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/55/GranuleCell" preSegmentId="0" preFractionAlong="0.3059342" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="220" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/55/GranuleCell" preSegmentId="0" preFractionAlong="0.08264607" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="221" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/55/GranuleCell" preSegmentId="0" preFractionAlong="0.097186625" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="222" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/56/GranuleCell" preSegmentId="0" preFractionAlong="0.8536275" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="223" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/56/GranuleCell" preSegmentId="0" preFractionAlong="0.26174307" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="224" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/56/GranuleCell" preSegmentId="0" preFractionAlong="0.5099162" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="225" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/56/GranuleCell" preSegmentId="0" preFractionAlong="0.97254807" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="226" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/57/GranuleCell" preSegmentId="0" preFractionAlong="0.90368026" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="227" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/57/GranuleCell" preSegmentId="0" preFractionAlong="0.4116366" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="228" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/57/GranuleCell" preSegmentId="0" preFractionAlong="0.2753629" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="229" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/57/GranuleCell" preSegmentId="0" preFractionAlong="0.5011876" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="230" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/57/GranuleCell" preSegmentId="0" preFractionAlong="0.18731856" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="231" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/58/GranuleCell" preSegmentId="0" preFractionAlong="0.59831476" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="232" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/58/GranuleCell" preSegmentId="0" preFractionAlong="0.98334235" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="233" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/58/GranuleCell" preSegmentId="0" preFractionAlong="0.7563136" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="234" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/58/GranuleCell" preSegmentId="0" preFractionAlong="0.6577154" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="235" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/59/GranuleCell" preSegmentId="0" preFractionAlong="0.6226488" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="236" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/59/GranuleCell" preSegmentId="0" preFractionAlong="0.15910822" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="237" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/59/GranuleCell" preSegmentId="0" preFractionAlong="0.100773156" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="238" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/59/GranuleCell" preSegmentId="0" preFractionAlong="0.670091" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="239" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/59/GranuleCell" preSegmentId="0" preFractionAlong="0.83721143" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="240" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/60/GranuleCell" preSegmentId="0" preFractionAlong="0.91735595" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="241" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/60/GranuleCell" preSegmentId="0" preFractionAlong="0.63066125" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="242" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/60/GranuleCell" preSegmentId="0" preFractionAlong="0.40782392" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="243" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/60/GranuleCell" preSegmentId="0" preFractionAlong="0.8307506" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="244" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/61/GranuleCell" preSegmentId="0" preFractionAlong="0.10772878" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="245" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/61/GranuleCell" preSegmentId="0" preFractionAlong="0.06683391" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="246" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/61/GranuleCell" preSegmentId="0" preFractionAlong="0.18579197" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="247" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/61/GranuleCell" preSegmentId="0" preFractionAlong="0.8779961" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="248" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/61/GranuleCell" preSegmentId="0" preFractionAlong="0.072797656" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="249" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/62/GranuleCell" preSegmentId="0" preFractionAlong="0.46766818" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="250" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/62/GranuleCell" preSegmentId="0" preFractionAlong="0.71263283" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="251" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/62/GranuleCell" preSegmentId="0" preFractionAlong="0.7050918" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="252" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/62/GranuleCell" preSegmentId="0" preFractionAlong="0.82279164" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="253" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/63/GranuleCell" preSegmentId="0" preFractionAlong="0.87860656" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="254" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/63/GranuleCell" preSegmentId="0" preFractionAlong="0.7478882" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="255" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/63/GranuleCell" preSegmentId="0" preFractionAlong="0.61544836" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="256" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/63/GranuleCell" preSegmentId="0" preFractionAlong="0.7137152" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="257" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/64/GranuleCell" preSegmentId="0" preFractionAlong="0.34505576" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="258" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/64/GranuleCell" preSegmentId="0" preFractionAlong="0.46601403" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="259" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/64/GranuleCell" preSegmentId="0" preFractionAlong="0.055740535" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="260" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/64/GranuleCell" preSegmentId="0" preFractionAlong="0.9935849" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="261" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/65/GranuleCell" preSegmentId="0" preFractionAlong="0.034608245" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="262" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/65/GranuleCell" preSegmentId="0" preFractionAlong="0.54749936" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="263" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/65/GranuleCell" preSegmentId="0" preFractionAlong="0.31730998" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="264" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/65/GranuleCell" preSegmentId="0" preFractionAlong="0.020100951" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="265" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/66/GranuleCell" preSegmentId="0" preFractionAlong="0.7830178" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="266" preCellId="../MossyFibers/0/MossyFiber" postCellId="../GranuleCells/66/GranuleCell" preSegmentId="0" preFractionAlong="0.8289401" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="267" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/66/GranuleCell" preSegmentId="0" preFractionAlong="0.9534785" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="268" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/66/GranuleCell" preSegmentId="0" preFractionAlong="0.55461067" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="269" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/66/GranuleCell" preSegmentId="0" preFractionAlong="0.033712804" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="270" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/67/GranuleCell" preSegmentId="0" preFractionAlong="0.61909705" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="271" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/67/GranuleCell" preSegmentId="0" preFractionAlong="0.20690888" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="272" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/67/GranuleCell" preSegmentId="0" preFractionAlong="0.9381941" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="273" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/67/GranuleCell" preSegmentId="0" preFractionAlong="0.9704107" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="274" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/67/GranuleCell" preSegmentId="0" preFractionAlong="0.6819459" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="275" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/68/GranuleCell" preSegmentId="0" preFractionAlong="0.16865379" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="276" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/68/GranuleCell" preSegmentId="0" preFractionAlong="0.6291335" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="277" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/68/GranuleCell" preSegmentId="0" preFractionAlong="0.07902634" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="278" preCellId="../MossyFibers/8/MossyFiber" postCellId="../GranuleCells/69/GranuleCell" preSegmentId="0" preFractionAlong="0.5752311" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="279" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/69/GranuleCell" preSegmentId="0" preFractionAlong="0.10135245" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="280" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/69/GranuleCell" preSegmentId="0" preFractionAlong="0.5021194" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="281" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/69/GranuleCell" preSegmentId="0" preFractionAlong="0.04743159" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="282" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/69/GranuleCell" preSegmentId="0" preFractionAlong="0.9098797" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="283" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/70/GranuleCell" preSegmentId="0" preFractionAlong="0.9925841" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="284" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/70/GranuleCell" preSegmentId="0" preFractionAlong="0.45089376" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="285" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/70/GranuleCell" preSegmentId="0" preFractionAlong="0.36964458" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="286" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/70/GranuleCell" preSegmentId="0" preFractionAlong="0.1233834" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="287" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/71/GranuleCell" preSegmentId="0" preFractionAlong="0.6178956" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="288" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/71/GranuleCell" preSegmentId="0" preFractionAlong="0.5670569" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="289" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/71/GranuleCell" preSegmentId="0" preFractionAlong="0.08269471" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="290" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/71/GranuleCell" preSegmentId="0" preFractionAlong="0.0051447153" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="291" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/71/GranuleCell" preSegmentId="0" preFractionAlong="0.5740193" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="292" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/72/GranuleCell" preSegmentId="0" preFractionAlong="0.9297829" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="293" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/72/GranuleCell" preSegmentId="0" preFractionAlong="0.97144955" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="294" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/72/GranuleCell" preSegmentId="0" preFractionAlong="0.081998646" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="295" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/72/GranuleCell" preSegmentId="0" preFractionAlong="0.98242974" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="296" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/72/GranuleCell" preSegmentId="0" preFractionAlong="0.77320826" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="297" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/73/GranuleCell" preSegmentId="0" preFractionAlong="0.4493881" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="298" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/73/GranuleCell" preSegmentId="0" preFractionAlong="0.115890086" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="299" preCellId="../MossyFibers/6/MossyFiber" postCellId="../GranuleCells/73/GranuleCell" preSegmentId="0" preFractionAlong="0.889268" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="300" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/74/GranuleCell" preSegmentId="0" preFractionAlong="0.5305518" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="301" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/74/GranuleCell" preSegmentId="0" preFractionAlong="0.5834102" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="302" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/74/GranuleCell" preSegmentId="0" preFractionAlong="0.6326542" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="303" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/74/GranuleCell" preSegmentId="0" preFractionAlong="0.1346466" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="304" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/75/GranuleCell" preSegmentId="0" preFractionAlong="0.7583567" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="305" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/75/GranuleCell" preSegmentId="0" preFractionAlong="0.32005197" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="306" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/75/GranuleCell" preSegmentId="0" preFractionAlong="0.87146056" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="307" preCellId="../MossyFibers/1/MossyFiber" postCellId="../GranuleCells/75/GranuleCell" preSegmentId="0" preFractionAlong="0.7176337" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="308" preCellId="../MossyFibers/3/MossyFiber" postCellId="../GranuleCells/75/GranuleCell" preSegmentId="0" preFractionAlong="0.294299" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="309" preCellId="../MossyFibers/11/MossyFiber" postCellId="../GranuleCells/76/GranuleCell" preSegmentId="0" preFractionAlong="0.7754176" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="310" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/76/GranuleCell" preSegmentId="0" preFractionAlong="0.8631931" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="311" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/76/GranuleCell" preSegmentId="0" preFractionAlong="0.38974065" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="312" preCellId="../MossyFibers/4/MossyFiber" postCellId="../GranuleCells/77/GranuleCell" preSegmentId="0" preFractionAlong="0.8909891" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="313" preCellId="../MossyFibers/10/MossyFiber" postCellId="../GranuleCells/77/GranuleCell" preSegmentId="0" preFractionAlong="0.52634263" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="314" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/77/GranuleCell" preSegmentId="0" preFractionAlong="0.5417688" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="315" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/77/GranuleCell" preSegmentId="0" preFractionAlong="0.23768634" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="316" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/78/GranuleCell" preSegmentId="0" preFractionAlong="0.7034045" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="317" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/78/GranuleCell" preSegmentId="0" preFractionAlong="0.3219434" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="318" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/78/GranuleCell" preSegmentId="0" preFractionAlong="0.7732007" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="319" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/78/GranuleCell" preSegmentId="0" preFractionAlong="0.50956094" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="320" preCellId="../MossyFibers/9/MossyFiber" postCellId="../GranuleCells/79/GranuleCell" preSegmentId="0" preFractionAlong="0.085424125" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="321" preCellId="../MossyFibers/7/MossyFiber" postCellId="../GranuleCells/79/GranuleCell" preSegmentId="0" preFractionAlong="0.39960462" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="322" preCellId="../MossyFibers/5/MossyFiber" postCellId="../GranuleCells/79/GranuleCell" preSegmentId="0" preFractionAlong="0.5891938" postSegmentId="0" postFractionAlong="0.5"/>
+            <connection id="323" preCellId="../MossyFibers/2/MossyFiber" postCellId="../GranuleCells/79/GranuleCell" preSegmentId="0" preFractionAlong="0.041763604" postSegmentId="0" postFractionAlong="0.5"/>
+        </projection>
+
+
+        
+
+
+
+        
+
+
+
+
+
+    </network>
+
+</neuroml>

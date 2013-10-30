@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta1.xsd" id="GranuleCell">
+
+    <include href="KConductance.channel.nml"/>
+
+    <include href="NaConductance.channel.nml"/>
+
+    <include href="PassiveCond.channel.nml"/>
+
+    <cell id="GranuleCell">
+
+        <notes>A very simplified cerebellar Granule like Cell for testing purposes only</notes>
+
+        <morphology id="morphology_GranuleCell">
+
+            <segment id="0" name="Soma">
+                <proximal x="0.0" y="0.0" z="0.0" diameter="8.0"/>
+                <distal x="0.0" y="0.0" z="0.0" diameter="8.0"/>
+            </segment>
+
+            <segment id="1" name="mainAxon">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="1.2"/>
+                <distal x="0.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="2" name="Axon_1">
+                <parent segment="1"/>
+                <proximal x="0.0" y="140.0" z="0.0" diameter="1.2"/>
+                <distal x="10.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="3" name="Axon_2">
+                <parent segment="1"/>
+                <proximal x="0.0" y="140.0" z="0.0" diameter="1.2"/>
+                <distal x="-10.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="4" name="Axon_3">
+                <parent segment="2"/>
+                <distal x="20.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="5" name="Axon_4">
+                <parent segment="3"/>
+                <distal x="-20.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="6" name="Axon_5">
+                <parent segment="4"/>
+                <distal x="30.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="7" name="Axon_6">
+                <parent segment="5"/>
+                <distal x="-30.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="8" name="Axon_7">
+                <parent segment="6"/>
+                <distal x="40.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="9" name="Axon_8">
+                <parent segment="7"/>
+                <distal x="-40.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="10" name="Axon_9">
+                <parent segment="8"/>
+                <distal x="50.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="11" name="Axon_10">
+                <parent segment="9"/>
+                <distal x="-50.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="12" name="Axon_11">
+                <parent segment="10"/>
+                <distal x="60.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="13" name="Axon_12">
+                <parent segment="11"/>
+                <distal x="-60.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="14" name="Axon_13">
+                <parent segment="12"/>
+                <distal x="70.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="15" name="Axon_14">
+                <parent segment="13"/>
+                <distal x="-70.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="16" name="Axon_15">
+                <parent segment="14"/>
+                <distal x="80.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="17" name="Axon_16">
+                <parent segment="15"/>
+                <distal x="-80.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="18" name="Axon_17">
+                <parent segment="16"/>
+                <distal x="90.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="19" name="Axon_18">
+                <parent segment="17"/>
+                <distal x="-90.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="20" name="Axon_19">
+                <parent segment="18"/>
+                <distal x="100.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="21" name="Axon_20">
+                <parent segment="19"/>
+                <distal x="-100.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="22" name="Axon_21">
+                <parent segment="20"/>
+                <distal x="110.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="23" name="Axon_22">
+                <parent segment="21"/>
+                <distal x="-110.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="24" name="Axon_23">
+                <parent segment="22"/>
+                <distal x="120.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segment id="25" name="Axon_24">
+                <parent segment="23"/>
+                <distal x="-120.0" y="140.0" z="0.0" diameter="1.2"/>
+            </segment>
+
+            <segmentGroup id="Soma">
+                <member segment="0"/>
+            </segmentGroup>
+
+            <segmentGroup id="mainAxonSection">
+                <member segment="1"/>
+            </segmentGroup>
+
+            <segmentGroup id="parallelFiberPos">
+                <member segment="2"/>
+            
+                <member segment="4"/>
+            
+                <member segment="6"/>
+            
+                <member segment="8"/>
+            
+                <member segment="10"/>
+            
+                <member segment="12"/>
+            
+                <member segment="14"/>
+            
+                <member segment="16"/>
+            
+                <member segment="18"/>
+            
+                <member segment="20"/>
+            
+                <member segment="22"/>
+            
+                <member segment="24"/>
+            </segmentGroup>
+
+            <segmentGroup id="parallelFiberNeg">
+                <member segment="3"/>
+            
+                <member segment="5"/>
+            
+                <member segment="7"/>
+            
+                <member segment="9"/>
+            
+                <member segment="11"/>
+            
+                <member segment="13"/>
+            
+                <member segment="15"/>
+            
+                <member segment="17"/>
+            
+                <member segment="19"/>
+            
+                <member segment="21"/>
+            
+                <member segment="23"/>
+            
+                <member segment="25"/>
+            </segmentGroup>
+
+            <segmentGroup id="all">
+                <include segmentGroup="Soma"/>
+                <include segmentGroup="mainAxonSection"/>
+                <include segmentGroup="parallelFiberPos"/>
+                <include segmentGroup="parallelFiberNeg"/>
+            </segmentGroup>
+
+            <segmentGroup id="soma_group">
+                <include segmentGroup="Soma"/>
+            </segmentGroup>
+
+            <segmentGroup id="axon_group">
+                <include segmentGroup="mainAxonSection"/>
+                <include segmentGroup="parallelFiberPos"/>
+                <include segmentGroup="parallelFiberNeg"/>
+            </segmentGroup>
+
+            <segmentGroup id="ascending_segment">
+                <include segmentGroup="mainAxonSection"/>
+            </segmentGroup>
+
+            <segmentGroup id="parallel_fibers">
+                <include segmentGroup="parallelFiberPos"/>
+                <include segmentGroup="parallelFiberNeg"/>
+            </segmentGroup>
+
+            
+        </morphology>
+
+            <!--Adding the biophysical parameters-->
+
+        <biophysicalProperties id="biophys">
+
+            <membraneProperties>
+
+                <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_all" ionChannel="KConductance" ion="k" erev="-77.0 mV"/>
+
+                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_axon_group" ionChannel="NaConductance" segmentGroup="axon_group" ion="na" erev="50.0 mV"/>
+
+                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_soma_group" ionChannel="NaConductance" segmentGroup="soma_group" ion="na" erev="50.0 mV"/>
+
+                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_axon_group" ionChannel="PassiveCond" segmentGroup="axon_group" ion="non_specific" erev="-54.3 mV"/>
+
+                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_soma_group" ionChannel="PassiveCond" segmentGroup="soma_group" ion="non_specific" erev="-54.3 mV"/>
+
+                <spikeThresh value="0 mV"/>
+
+                <specificCapacitance value="1.0 uF_per_cm2"/>
+
+                <initMembPotential value="-65.0 mV"/>
+
+            </membraneProperties>
+
+            <intracellularProperties>
+
+                <resistivity value="0.02 kohm_cm"/>
+
+            </intracellularProperties>
+
+        </biophysicalProperties>
+
+    </cell>
+    
+</neuroml>

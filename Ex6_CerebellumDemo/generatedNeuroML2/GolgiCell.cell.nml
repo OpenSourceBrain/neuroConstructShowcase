@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta1.xsd" id="GolgiCell">
+
+    <include href="KConductance.channel.nml"/>
+
+    <include href="NaConductance.channel.nml"/>
+
+    <include href="PassiveCond.channel.nml"/>
+
+    <cell id="GolgiCell">
+
+        <notes>A very simplified cerebellar Golgi like Cell for testing purposes only</notes>
+
+        <morphology id="morphology_GolgiCell">
+
+            <segment id="0" name="Soma">
+                <proximal x="0.0" y="0.0" z="0.0" diameter="30.0"/>
+                <distal x="0.0" y="0.0" z="0.0" diameter="30.0"/>
+            </segment>
+
+            <segment id="1" name="root">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="1.0"/>
+                <distal x="0.0" y="-15.0" z="0.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="2" name="Axon_1">
+                <parent segment="1"/>
+                <proximal x="0.0" y="-15.0" z="0.0" diameter="1.0"/>
+                <distal x="-30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="3" name="Axon_2">
+                <parent segment="1"/>
+                <proximal x="0.0" y="-15.0" z="0.0" diameter="1.0"/>
+                <distal x="-30.0" y="-35.0" z="30.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="4" name="Axon_3">
+                <parent segment="1"/>
+                <proximal x="0.0" y="-15.0" z="0.0" diameter="1.0"/>
+                <distal x="30.0" y="-35.0" z="30.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="5" name="Axon_4">
+                <parent segment="1"/>
+                <proximal x="0.0" y="-15.0" z="0.0" diameter="1.0"/>
+                <distal x="30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="6" name="Axon_5">
+                <parent segment="2"/>
+                <proximal x="-30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+                <distal x="-36.0" y="-39.0" z="-36.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="7" name="Axon_6">
+                <parent segment="2"/>
+                <proximal x="-30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+                <distal x="-24.0" y="-39.0" z="-36.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="8" name="Axon_7">
+                <parent segment="2"/>
+                <proximal x="-30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+                <distal x="-36.0" y="-39.0" z="-24.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="9" name="Axon_8">
+                <parent segment="2"/>
+                <proximal x="-30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+                <distal x="-24.0" y="-39.0" z="-24.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="10" name="Axon_9">
+                <parent segment="3"/>
+                <proximal x="-30.0" y="-35.0" z="30.0" diameter="1.0"/>
+                <distal x="-36.0" y="-39.0" z="24.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="11" name="Axon_10">
+                <parent segment="3"/>
+                <proximal x="-30.0" y="-35.0" z="30.0" diameter="1.0"/>
+                <distal x="-24.0" y="-39.0" z="24.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="12" name="Axon_11">
+                <parent segment="3"/>
+                <proximal x="-30.0" y="-35.0" z="30.0" diameter="1.0"/>
+                <distal x="-36.0" y="-39.0" z="36.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="13" name="Axon_12">
+                <parent segment="3"/>
+                <proximal x="-30.0" y="-35.0" z="30.0" diameter="1.0"/>
+                <distal x="-24.0" y="-39.0" z="36.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="14" name="Axon_13">
+                <parent segment="4"/>
+                <proximal x="30.0" y="-35.0" z="30.0" diameter="1.0"/>
+                <distal x="24.0" y="-39.0" z="24.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="15" name="Axon_14">
+                <parent segment="4"/>
+                <proximal x="30.0" y="-35.0" z="30.0" diameter="1.0"/>
+                <distal x="36.0" y="-39.0" z="24.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="16" name="Axon_15">
+                <parent segment="4"/>
+                <proximal x="30.0" y="-35.0" z="30.0" diameter="1.0"/>
+                <distal x="24.0" y="-39.0" z="36.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="17" name="Axon_16">
+                <parent segment="4"/>
+                <proximal x="30.0" y="-35.0" z="30.0" diameter="1.0"/>
+                <distal x="36.0" y="-39.0" z="36.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="18" name="Axon_17">
+                <parent segment="5"/>
+                <proximal x="30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+                <distal x="24.0" y="-39.0" z="-36.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="19" name="Axon_18">
+                <parent segment="5"/>
+                <proximal x="30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+                <distal x="36.0" y="-39.0" z="-36.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="20" name="Axon_19">
+                <parent segment="5"/>
+                <proximal x="30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+                <distal x="24.0" y="-39.0" z="-24.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="21" name="Axon_20">
+                <parent segment="5"/>
+                <proximal x="30.0" y="-35.0" z="-30.0" diameter="1.0"/>
+                <distal x="36.0" y="-39.0" z="-24.0" diameter="1.0"/>
+            </segment>
+
+            <segment id="22" name="radialDend_0">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="4.0"/>
+                <distal x="0.0" y="60.0" z="60.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="23" name="Dend_1">
+                <parent segment="22"/>
+                <proximal x="0.0" y="60.0" z="60.0" diameter="4.0"/>
+                <distal x="0.0" y="100.0" z="90.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="24" name="Dend_2">
+                <parent segment="23"/>
+                <proximal x="0.0" y="100.0" z="90.0" diameter="2.4"/>
+                <distal x="0.0" y="130.0" z="90.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="25" name="Dend_3">
+                <parent segment="22"/>
+                <proximal x="0.0" y="60.0" z="60.0" diameter="4.0"/>
+                <distal x="0.0" y="90.0" z="50.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="26" name="Dend_4">
+                <parent segment="25"/>
+                <proximal x="0.0" y="90.0" z="50.0" diameter="2.4"/>
+                <distal x="0.0" y="115.0" z="50.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="27" name="radialDend_1">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="4.0"/>
+                <distal x="51.961525" y="60.0" z="30.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="28" name="Dend_6">
+                <parent segment="27"/>
+                <proximal x="51.961525" y="60.0" z="30.0" diameter="4.0"/>
+                <distal x="77.94229" y="100.0" z="45.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="29" name="Dend_7">
+                <parent segment="28"/>
+                <proximal x="77.94229" y="100.0" z="45.0" diameter="2.4"/>
+                <distal x="77.94229" y="130.0" z="45.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="30" name="Dend_8">
+                <parent segment="27"/>
+                <proximal x="51.961525" y="60.0" z="30.0" diameter="4.0"/>
+                <distal x="43.30127" y="90.0" z="25.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="31" name="Dend_9">
+                <parent segment="30"/>
+                <proximal x="43.30127" y="90.0" z="25.0" diameter="2.4"/>
+                <distal x="43.30127" y="115.0" z="25.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="32" name="radialDend_2">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="4.0"/>
+                <distal x="51.961525" y="60.0" z="-30.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="33" name="Dend_11">
+                <parent segment="32"/>
+                <proximal x="51.961525" y="60.0" z="-30.0" diameter="4.0"/>
+                <distal x="77.94229" y="100.0" z="-45.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="34" name="Dend_12">
+                <parent segment="33"/>
+                <proximal x="77.94229" y="100.0" z="-45.0" diameter="2.4"/>
+                <distal x="77.94229" y="130.0" z="-45.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="35" name="Dend_13">
+                <parent segment="32"/>
+                <proximal x="51.961525" y="60.0" z="-30.0" diameter="4.0"/>
+                <distal x="43.30127" y="90.0" z="-25.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="36" name="Dend_14">
+                <parent segment="35"/>
+                <proximal x="43.30127" y="90.0" z="-25.0" diameter="2.4"/>
+                <distal x="43.30127" y="115.0" z="-25.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="37" name="radialDend_3">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="4.0"/>
+                <distal x="7.347881E-15" y="60.0" z="-60.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="38" name="Dend_16">
+                <parent segment="37"/>
+                <proximal x="7.347881E-15" y="60.0" z="-60.0" diameter="4.0"/>
+                <distal x="1.1021821E-14" y="100.0" z="-90.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="39" name="Dend_17">
+                <parent segment="38"/>
+                <proximal x="1.1021821E-14" y="100.0" z="-90.0" diameter="2.4"/>
+                <distal x="1.1021821E-14" y="130.0" z="-90.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="40" name="Dend_18">
+                <parent segment="37"/>
+                <proximal x="7.347881E-15" y="60.0" z="-60.0" diameter="4.0"/>
+                <distal x="6.123234E-15" y="90.0" z="-50.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="41" name="Dend_19">
+                <parent segment="40"/>
+                <proximal x="6.123234E-15" y="90.0" z="-50.0" diameter="2.4"/>
+                <distal x="6.123234E-15" y="115.0" z="-50.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="42" name="radialDend_4">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="4.0"/>
+                <distal x="-51.961525" y="60.0" z="-30.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="43" name="Dend_21">
+                <parent segment="42"/>
+                <proximal x="-51.961525" y="60.0" z="-30.0" diameter="4.0"/>
+                <distal x="-77.94229" y="100.0" z="-45.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="44" name="Dend_22">
+                <parent segment="43"/>
+                <proximal x="-77.94229" y="100.0" z="-45.0" diameter="2.4"/>
+                <distal x="-77.94229" y="130.0" z="-45.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="45" name="Dend_23">
+                <parent segment="42"/>
+                <proximal x="-51.961525" y="60.0" z="-30.0" diameter="4.0"/>
+                <distal x="-43.30127" y="90.0" z="-25.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="46" name="Dend_24">
+                <parent segment="45"/>
+                <proximal x="-43.30127" y="90.0" z="-25.0" diameter="2.4"/>
+                <distal x="-43.30127" y="115.0" z="-25.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="47" name="radialDend_5">
+                <parent segment="0" fractionAlong="0.5"/>
+                <proximal x="0.0" y="0.0" z="0.0" diameter="4.0"/>
+                <distal x="-51.961525" y="60.0" z="30.0" diameter="4.0"/>
+            </segment>
+
+            <segment id="48" name="Dend_26">
+                <parent segment="47"/>
+                <proximal x="-51.961525" y="60.0" z="30.0" diameter="4.0"/>
+                <distal x="-77.94229" y="100.0" z="45.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="49" name="Dend_27">
+                <parent segment="48"/>
+                <proximal x="-77.94229" y="100.0" z="45.0" diameter="2.4"/>
+                <distal x="-77.94229" y="130.0" z="45.0" diameter="1.44"/>
+            </segment>
+
+            <segment id="50" name="Dend_28">
+                <parent segment="47"/>
+                <proximal x="-51.961525" y="60.0" z="30.0" diameter="4.0"/>
+                <distal x="-43.30127" y="90.0" z="25.0" diameter="2.4"/>
+            </segment>
+
+            <segment id="51" name="Dend_29">
+                <parent segment="50"/>
+                <proximal x="-43.30127" y="90.0" z="25.0" diameter="2.4"/>
+                <distal x="-43.30127" y="115.0" z="25.0" diameter="1.44"/>
+            </segment>
+
+            <segmentGroup id="Soma">
+                <member segment="0"/>
+            </segmentGroup>
+
+            <segmentGroup id="axonRootSec">
+                <member segment="1"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_1_Sec">
+                <member segment="2"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_2_Sec">
+                <member segment="3"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_3_Sec">
+                <member segment="4"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_4_Sec">
+                <member segment="5"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_5_Sec">
+                <member segment="6"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_6_Sec">
+                <member segment="7"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_7_Sec">
+                <member segment="8"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_8_Sec">
+                <member segment="9"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_9_Sec">
+                <member segment="10"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_10_Sec">
+                <member segment="11"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_11_Sec">
+                <member segment="12"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_12_Sec">
+                <member segment="13"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_13_Sec">
+                <member segment="14"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_14_Sec">
+                <member segment="15"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_15_Sec">
+                <member segment="16"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_16_Sec">
+                <member segment="17"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_17_Sec">
+                <member segment="18"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_18_Sec">
+                <member segment="19"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_19_Sec">
+                <member segment="20"/>
+            </segmentGroup>
+
+            <segmentGroup id="Axon_20_Sec">
+                <member segment="21"/>
+            </segmentGroup>
+
+            <segmentGroup id="radialDend_0_Sec">
+                <member segment="22"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_1_Sec">
+                <member segment="23"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_2_Sec">
+                <member segment="24"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_3_Sec">
+                <member segment="25"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_4_Sec">
+                <member segment="26"/>
+            </segmentGroup>
+
+            <segmentGroup id="radialDend_1_Sec">
+                <member segment="27"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_6_Sec">
+                <member segment="28"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_7_Sec">
+                <member segment="29"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_8_Sec">
+                <member segment="30"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_9_Sec">
+                <member segment="31"/>
+            </segmentGroup>
+
+            <segmentGroup id="radialDend_2_Sec">
+                <member segment="32"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_11_Sec">
+                <member segment="33"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_12_Sec">
+                <member segment="34"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_13_Sec">
+                <member segment="35"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_14_Sec">
+                <member segment="36"/>
+            </segmentGroup>
+
+            <segmentGroup id="radialDend_3_Sec">
+                <member segment="37"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_16_Sec">
+                <member segment="38"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_17_Sec">
+                <member segment="39"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_18_Sec">
+                <member segment="40"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_19_Sec">
+                <member segment="41"/>
+            </segmentGroup>
+
+            <segmentGroup id="radialDend_4_Sec">
+                <member segment="42"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_21_Sec">
+                <member segment="43"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_22_Sec">
+                <member segment="44"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_23_Sec">
+                <member segment="45"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_24_Sec">
+                <member segment="46"/>
+            </segmentGroup>
+
+            <segmentGroup id="radialDend_5_Sec">
+                <member segment="47"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_26_Sec">
+                <member segment="48"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_27_Sec">
+                <member segment="49"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_28_Sec">
+                <member segment="50"/>
+            </segmentGroup>
+
+            <segmentGroup id="Dend_29_Sec">
+                <member segment="51"/>
+            </segmentGroup>
+
+            <segmentGroup id="all">
+                <include segmentGroup="Soma"/>
+                <include segmentGroup="axonRootSec"/>
+                <include segmentGroup="Axon_1_Sec"/>
+                <include segmentGroup="Axon_2_Sec"/>
+                <include segmentGroup="Axon_3_Sec"/>
+                <include segmentGroup="Axon_4_Sec"/>
+                <include segmentGroup="Axon_5_Sec"/>
+                <include segmentGroup="Axon_6_Sec"/>
+                <include segmentGroup="Axon_7_Sec"/>
+                <include segmentGroup="Axon_8_Sec"/>
+                <include segmentGroup="Axon_9_Sec"/>
+                <include segmentGroup="Axon_10_Sec"/>
+                <include segmentGroup="Axon_11_Sec"/>
+                <include segmentGroup="Axon_12_Sec"/>
+                <include segmentGroup="Axon_13_Sec"/>
+                <include segmentGroup="Axon_14_Sec"/>
+                <include segmentGroup="Axon_15_Sec"/>
+                <include segmentGroup="Axon_16_Sec"/>
+                <include segmentGroup="Axon_17_Sec"/>
+                <include segmentGroup="Axon_18_Sec"/>
+                <include segmentGroup="Axon_19_Sec"/>
+                <include segmentGroup="Axon_20_Sec"/>
+                <include segmentGroup="radialDend_0_Sec"/>
+                <include segmentGroup="Dend_1_Sec"/>
+                <include segmentGroup="Dend_2_Sec"/>
+                <include segmentGroup="Dend_3_Sec"/>
+                <include segmentGroup="Dend_4_Sec"/>
+                <include segmentGroup="radialDend_1_Sec"/>
+                <include segmentGroup="Dend_6_Sec"/>
+                <include segmentGroup="Dend_7_Sec"/>
+                <include segmentGroup="Dend_8_Sec"/>
+                <include segmentGroup="Dend_9_Sec"/>
+                <include segmentGroup="radialDend_2_Sec"/>
+                <include segmentGroup="Dend_11_Sec"/>
+                <include segmentGroup="Dend_12_Sec"/>
+                <include segmentGroup="Dend_13_Sec"/>
+                <include segmentGroup="Dend_14_Sec"/>
+                <include segmentGroup="radialDend_3_Sec"/>
+                <include segmentGroup="Dend_16_Sec"/>
+                <include segmentGroup="Dend_17_Sec"/>
+                <include segmentGroup="Dend_18_Sec"/>
+                <include segmentGroup="Dend_19_Sec"/>
+                <include segmentGroup="radialDend_4_Sec"/>
+                <include segmentGroup="Dend_21_Sec"/>
+                <include segmentGroup="Dend_22_Sec"/>
+                <include segmentGroup="Dend_23_Sec"/>
+                <include segmentGroup="Dend_24_Sec"/>
+                <include segmentGroup="radialDend_5_Sec"/>
+                <include segmentGroup="Dend_26_Sec"/>
+                <include segmentGroup="Dend_27_Sec"/>
+                <include segmentGroup="Dend_28_Sec"/>
+                <include segmentGroup="Dend_29_Sec"/>
+            </segmentGroup>
+
+            <segmentGroup id="soma_group">
+                <include segmentGroup="Soma"/>
+            </segmentGroup>
+
+            <segmentGroup id="axon_group">
+                <include segmentGroup="axonRootSec"/>
+                <include segmentGroup="Axon_1_Sec"/>
+                <include segmentGroup="Axon_2_Sec"/>
+                <include segmentGroup="Axon_3_Sec"/>
+                <include segmentGroup="Axon_4_Sec"/>
+                <include segmentGroup="Axon_5_Sec"/>
+                <include segmentGroup="Axon_6_Sec"/>
+                <include segmentGroup="Axon_7_Sec"/>
+                <include segmentGroup="Axon_8_Sec"/>
+                <include segmentGroup="Axon_9_Sec"/>
+                <include segmentGroup="Axon_10_Sec"/>
+                <include segmentGroup="Axon_11_Sec"/>
+                <include segmentGroup="Axon_12_Sec"/>
+                <include segmentGroup="Axon_13_Sec"/>
+                <include segmentGroup="Axon_14_Sec"/>
+                <include segmentGroup="Axon_15_Sec"/>
+                <include segmentGroup="Axon_16_Sec"/>
+                <include segmentGroup="Axon_17_Sec"/>
+                <include segmentGroup="Axon_18_Sec"/>
+                <include segmentGroup="Axon_19_Sec"/>
+                <include segmentGroup="Axon_20_Sec"/>
+            </segmentGroup>
+
+            <segmentGroup id="axon_synapses">
+                <include segmentGroup="Axon_5_Sec"/>
+                <include segmentGroup="Axon_6_Sec"/>
+                <include segmentGroup="Axon_7_Sec"/>
+                <include segmentGroup="Axon_8_Sec"/>
+                <include segmentGroup="Axon_9_Sec"/>
+                <include segmentGroup="Axon_10_Sec"/>
+                <include segmentGroup="Axon_11_Sec"/>
+                <include segmentGroup="Axon_12_Sec"/>
+                <include segmentGroup="Axon_13_Sec"/>
+                <include segmentGroup="Axon_14_Sec"/>
+                <include segmentGroup="Axon_15_Sec"/>
+                <include segmentGroup="Axon_16_Sec"/>
+                <include segmentGroup="Axon_17_Sec"/>
+                <include segmentGroup="Axon_18_Sec"/>
+                <include segmentGroup="Axon_19_Sec"/>
+                <include segmentGroup="Axon_20_Sec"/>
+            </segmentGroup>
+
+            <segmentGroup id="dendrite_group">
+                <include segmentGroup="radialDend_0_Sec"/>
+                <include segmentGroup="Dend_1_Sec"/>
+                <include segmentGroup="Dend_2_Sec"/>
+                <include segmentGroup="Dend_3_Sec"/>
+                <include segmentGroup="Dend_4_Sec"/>
+                <include segmentGroup="radialDend_1_Sec"/>
+                <include segmentGroup="Dend_6_Sec"/>
+                <include segmentGroup="Dend_7_Sec"/>
+                <include segmentGroup="Dend_8_Sec"/>
+                <include segmentGroup="Dend_9_Sec"/>
+                <include segmentGroup="radialDend_2_Sec"/>
+                <include segmentGroup="Dend_11_Sec"/>
+                <include segmentGroup="Dend_12_Sec"/>
+                <include segmentGroup="Dend_13_Sec"/>
+                <include segmentGroup="Dend_14_Sec"/>
+                <include segmentGroup="radialDend_3_Sec"/>
+                <include segmentGroup="Dend_16_Sec"/>
+                <include segmentGroup="Dend_17_Sec"/>
+                <include segmentGroup="Dend_18_Sec"/>
+                <include segmentGroup="Dend_19_Sec"/>
+                <include segmentGroup="radialDend_4_Sec"/>
+                <include segmentGroup="Dend_21_Sec"/>
+                <include segmentGroup="Dend_22_Sec"/>
+                <include segmentGroup="Dend_23_Sec"/>
+                <include segmentGroup="Dend_24_Sec"/>
+                <include segmentGroup="radialDend_5_Sec"/>
+                <include segmentGroup="Dend_26_Sec"/>
+                <include segmentGroup="Dend_27_Sec"/>
+                <include segmentGroup="Dend_28_Sec"/>
+                <include segmentGroup="Dend_29_Sec"/>
+            </segmentGroup>
+
+            <segmentGroup id="dend_synapses">
+                <include segmentGroup="Dend_1_Sec"/>
+                <include segmentGroup="Dend_2_Sec"/>
+                <include segmentGroup="Dend_3_Sec"/>
+                <include segmentGroup="Dend_4_Sec"/>
+                <include segmentGroup="Dend_6_Sec"/>
+                <include segmentGroup="Dend_7_Sec"/>
+                <include segmentGroup="Dend_8_Sec"/>
+                <include segmentGroup="Dend_9_Sec"/>
+                <include segmentGroup="Dend_11_Sec"/>
+                <include segmentGroup="Dend_12_Sec"/>
+                <include segmentGroup="Dend_13_Sec"/>
+                <include segmentGroup="Dend_14_Sec"/>
+                <include segmentGroup="Dend_16_Sec"/>
+                <include segmentGroup="Dend_17_Sec"/>
+                <include segmentGroup="Dend_18_Sec"/>
+                <include segmentGroup="Dend_19_Sec"/>
+                <include segmentGroup="Dend_21_Sec"/>
+                <include segmentGroup="Dend_22_Sec"/>
+                <include segmentGroup="Dend_23_Sec"/>
+                <include segmentGroup="Dend_24_Sec"/>
+                <include segmentGroup="Dend_26_Sec"/>
+                <include segmentGroup="Dend_27_Sec"/>
+                <include segmentGroup="Dend_28_Sec"/>
+                <include segmentGroup="Dend_29_Sec"/>
+            </segmentGroup>
+
+            
+        </morphology>
+
+            <!--Adding the biophysical parameters-->
+
+        <biophysicalProperties id="biophys">
+
+            <membraneProperties>
+
+                <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_all" ionChannel="KConductance" ion="k" erev="-77.0 mV"/>
+
+                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_all" ionChannel="NaConductance" ion="na" erev="50.0 mV"/>
+
+                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_all" ionChannel="PassiveCond" ion="non_specific" erev="-54.3 mV"/>
+
+                <spikeThresh value="0 mV"/>
+
+                <specificCapacitance value="1.0 uF_per_cm2"/>
+
+                <initMembPotential value="-65.0 mV"/>
+
+            </membraneProperties>
+
+            <intracellularProperties>
+
+                <resistivity value="0.03 kohm_cm"/>
+
+            </intracellularProperties>
+
+        </biophysicalProperties>
+
+    </cell>
+    
+</neuroml>
