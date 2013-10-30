@@ -3,7 +3,7 @@
 
     <notes>
 
-Network structure (NeuroML 2beta1) for project: Ex4_HHcell saved with neuroConstruct v1.7.0 on: 10:36:45, 30-Oct-13
+Network structure (NeuroML 2beta1) for project: Ex4_HHcell saved with neuroConstruct v1.7.0 on: 10:45:29, 30-Oct-13
 
 Cell Group: CG1 contains 1 cells
 Cell Group: CG2 contains 1 cells
@@ -14,11 +14,11 @@ Network connection: NetConn_1 contains 1 individual synaptic connections
     </notes>
 
 
-    <Include file="TestCell_ChannelML.cell.nml"/>
-    <Include file="NaConductance.channel.nml"/>
-    <Include file="LeakConductance.channel.nml"/>
-    <Include file="KConductance.channel.nml"/>
-    <Include file="DoubExpSyn.synapse.nml"/>
+    <include href="TestCell_ChannelML.cell.nml"/>
+    <include href="LeakConductance.channel.nml"/>
+    <include href="NaConductance.channel.nml"/>
+    <include href="KConductance.channel.nml"/>
+    <include href="DoubExpSyn.synapse.nml"/>
 
     <pulseGenerator id="Input_0" delay="0.02s" duration="0.06s" amplitude="2.0E-10A"/>
 
