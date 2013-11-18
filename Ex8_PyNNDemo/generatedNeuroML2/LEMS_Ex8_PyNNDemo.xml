@@ -1,0 +1,53 @@
+<Lems xmlns="http://www.neuroml.org/lems/0.7.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/lems/0.7.2  https://raw.github.com/LEMS/LEMS/development/Schemas/LEMS/LEMS_v0.7.2.xsd">
+
+    <Target component="sim1" reportFile="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex8_PyNNDemo/pythonScripts/../simulations/TestPyNN_NML2__L/simulator.props" timesFile="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex8_PyNNDemo/pythonScripts/../simulations/TestPyNN_NML2__L/time.dat"/>
+
+        <!--Include standard NeuroML 2 ComponentType definitions-->
+
+    <Include file="Cells.xml"/>
+    <Include file="Networks.xml"/>
+    <Include file="Simulation.xml"/>
+
+    <Include file="PyNN.xml"/>
+
+    
+
+        <!--Include the generated NeuroML 2 files-->
+
+
+        <!--   Channel/synapse files-->
+    <!--   Cell files-->
+    <Include file="PyNN_EIFe.cell.nml"/>
+    <Include file="PyNN_HH.cell.nml"/>
+    <Include file="PyNN_IFa.cell.nml"/>
+        <!--   Network file-->
+    <Include file="Ex8_PyNNDemo.net.nml"/>
+    
+
+        <!--Note: this could be: Simulation id="sim1" ... , but Component type="Simulation" ... 
+        is used to allow validation of this file according to the LEMS schema specified above...-->
+    <Component type="Simulation" id="sim1" length="500.0ms" step="0.001ms" target="network_Ex8_PyNNDemo">
+        
+        <Display id="CG_PyNN_EIFe_v" title="Ex8_PyNNDemo: TestPyNN_NML2, CG_PyNN_EIFe, VOLTAGE, VOLTAGE, VOLTAGE" xmin="-0.05" xmax="0.55" ymin="-0.104" ymax="0.064" timeScale="1s">
+            <Line id="VOLTAGE-CG_PyNN_EIFe_0" timeScale="1s" quantity="CG_PyNN_EIFe/0/PyNN_EIFe/v" scale="1 V" color="#000000"/>
+        
+            <Line id="VOLTAGE-CG_PyNN_HH_0" timeScale="1s" quantity="CG_PyNN_HH/0/PyNN_HH/v" scale="1 V" color="#ff0000"/>
+        
+            <Line id="VOLTAGE-CG_PyNN_IFa_0" timeScale="1s" quantity="CG_PyNN_IFa/0/PyNN_IFa/v" scale="1 V" color="#0000ff"/>
+        </Display>
+    
+        <OutputFile id="CG_PyNN_EIFe_v_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex8_PyNNDemo/pythonScripts/../simulations/TestPyNN_NML2__L/CG_PyNN_EIFe_0.dat">
+            <OutputColumn id="v" quantity="CG_PyNN_EIFe/0/PyNN_EIFe/v"/>
+        </OutputFile>
+    
+        <OutputFile id="CG_PyNN_HH_v_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex8_PyNNDemo/pythonScripts/../simulations/TestPyNN_NML2__L/CG_PyNN_HH_0.dat">
+            <OutputColumn id="v" quantity="CG_PyNN_HH/0/PyNN_HH/v"/>
+        </OutputFile>
+    
+        <OutputFile id="CG_PyNN_IFa_v_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex8_PyNNDemo/pythonScripts/../simulations/TestPyNN_NML2__L/CG_PyNN_IFa_0.dat">
+            <OutputColumn id="v" quantity="CG_PyNN_IFa/0/PyNN_IFa/v"/>
+        </OutputFile>
+    </Component>
+
+
+</Lems>
