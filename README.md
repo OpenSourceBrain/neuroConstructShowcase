@@ -1,4 +1,5 @@
 neuroConstructShowcase
 ======================
 
-Example models for neuroConstruct
+Example models for neuroConstruct.
+
