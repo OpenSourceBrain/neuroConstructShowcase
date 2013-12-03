@@ -3,7 +3,7 @@
 
     <notes>
 
-Network structure (NeuroML 2beta1) for project: Ex4_HHcell saved with neuroConstruct v1.7.0 on: 10:45:29, 30-Oct-13
+Network structure (NeuroML 2beta1) for project: Ex4_HHcell saved with neuroConstruct v1.7.0 on: 14:32:59, 03-Dec-13
 
 Cell Group: CG1 contains 1 cells
 Cell Group: CG2 contains 1 cells
@@ -14,28 +14,28 @@ Network connection: NetConn_1 contains 1 individual synaptic connections
     </notes>
 
 
-    <include href="TestCell_ChannelML.cell.nml"/>
+    <include href="DoubExpSyn.synapse.nml"/>
+    <include href="KConductance.channel.nml"/>
     <include href="LeakConductance.channel.nml"/>
     <include href="NaConductance.channel.nml"/>
-    <include href="KConductance.channel.nml"/>
-    <include href="DoubExpSyn.synapse.nml"/>
+    <include href="TestCell_ChannelML.cell.nml"/>
 
-    <pulseGenerator id="Input_0" delay="0.02s" duration="0.06s" amplitude="2.0E-10A"/>
+    <pulseGenerator id="Input_0" delay="20.0ms" duration="60.0ms" amplitude="2.0E-4uA"/>
 
     
     <network id="network_Ex4_HHcell" type="networkWithTemperature" temperature="6.3 degC">
 
         
 
-        <population id="CG1" component="TestCell_ChannelML" type="populationList">
+        <population id="CG1" component="TestCell_ChannelML" type="populationList" size="1">
             <instance id="0">
-                <location x="36.18885" y="12.664655" z="68.89554"/>
+                <location x="54.987995" y="27.486061" z="40.31429"/>
             </instance>
         </population>
 
-        <population id="CG2" component="TestCell_ChannelML" type="populationList">
+        <population id="CG2" component="TestCell_ChannelML" type="populationList" size="1">
             <instance id="0">
-                <location x="73.056046" y="62.944077" z="96.70434"/>
+                <location x="41.628883" y="72.79404" z="74.07768"/>
             </instance>
         </population>
 
@@ -46,8 +46,8 @@ Network connection: NetConn_1 contains 1 individual synaptic connections
         </projection>
 
         <inputList id="Input_0" component="Input_0" population="CG1">
-                <input id="0" target="../CG1/0/TestCell_ChannelML" destination="synapses"/>
-            </inputList>
+            <input id="0" target="../CG1/0/TestCell_ChannelML" destination="synapses"/>
+        </inputList>
 
 
 

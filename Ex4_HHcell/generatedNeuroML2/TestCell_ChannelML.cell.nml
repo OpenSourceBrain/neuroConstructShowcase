@@ -41,8 +41,7 @@
 
                 <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_all" ionChannel="KConductance" ion="k" erev="-77.0 mV"/>
 
-                <channelDensity condDensity="0.3 mS_per_cm2" id="LeakConductance_all" ionChannel="LeakConductance" erev="-54.3 mV" ion="non_specific">    <!--Note: Units of extra parameters are not known, except if it's e or erev!!-->
-</channelDensity>
+                <channelDensity condDensity="0.3 mS_per_cm2" id="LeakConductance_all" ionChannel="LeakConductance" erev="-54.3 mV" ion="non_specific"/>
 
                 <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_all" ionChannel="NaConductance" ion="na" erev="50.0 mV"/>
 
