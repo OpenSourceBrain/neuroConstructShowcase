@@ -1,5 +1,5 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema" id="TestDoc">
-    <network neuroLexId="Net" id="0">
+    <network neuroLexId="Net" id="net0"  type="networkWithTemperature" temperature="32.0 degC">
         <population type="populationList" id="Pop_RB" component="Cell_RB" size="126">
             <instance id="0">
                 <location y="0.000000" x="549.500000" z="0.000000"/>
