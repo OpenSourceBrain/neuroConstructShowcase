@@ -1,6 +1,6 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema" id="TestDoc">
     <network neuroLexId="Net" id="0">
-        <population id="Pop_RB" component="Cell_RB" size="126">
+        <population type="populationList" id="Pop_RB" component="Cell_RB" size="126">
             <instance id="0">
                 <location y="0.000000" x="549.500000" z="0.000000"/>
             </instance>
@@ -380,7 +380,7 @@
                 <location y="0.000000" x="1973.000000" z="0.000000"/>
             </instance>
         </population>
-        <population id="Pop_dlc" component="Cell_dlc" size="104">
+        <population type="populationList" id="Pop_dlc" component="Cell_dlc" size="104">
             <instance id="0">
                 <location y="137.000000" x="623.000000" z="102.927600"/>
             </instance>
@@ -694,7 +694,7 @@
                 <location y="137.000000" x="1974.500000" z="118.339140"/>
             </instance>
         </population>
-        <population id="Pop_aIN" component="Cell_aIN" size="136">
+        <population type="populationList" id="Pop_aIN" component="Cell_aIN" size="136">
             <instance id="0">
                 <location y="86.074965" x="704.000000" z="32.261117"/>
             </instance>
@@ -1104,7 +1104,7 @@
                 <location y="85.289564" x="1968.500000" z="31.826714"/>
             </instance>
         </population>
-        <population id="Pop_cIN" component="Cell_cIN" size="384">
+        <population type="populationList" id="Pop_cIN" component="Cell_cIN" size="384">
             <instance id="0">
                 <location y="82.592804" x="504.500000" z="30.974129"/>
             </instance>
@@ -2258,7 +2258,7 @@
                 <location y="92.444826" x="1980.500000" z="35.487221"/>
             </instance>
         </population>
-        <population id="Pop_dIN" component="Cell_dIN" size="236">
+        <population type="populationList" id="Pop_dIN" component="Cell_dIN" size="236">
             <instance id="0">
                 <location y="112.814100" x="506.000000" z="57.048485"/>
             </instance>
@@ -2968,7 +2968,7 @@
                 <location y="58.825875" x="1977.500000" z="35.118018"/>
             </instance>
         </population>
-        <population id="Pop_MN" component="Cell_MN" size="338">
+        <population type="populationList" id="Pop_MN" component="Cell_MN" size="338">
             <instance id="0">
                 <location y="72.385026" x="507.500000" z="48.504725"/>
             </instance>
@@ -3984,7 +3984,7 @@
                 <location y="82.717108" x="1982.000000" z="46.830720"/>
             </instance>
         </population>
-        <population id="Pop_dla" component="Cell_dla" size="58">
+        <population type="populationList" id="Pop_dla" component="Cell_dla" size="58">
             <instance id="0">
                 <location y="137.000000" x="1110.500000" z="128.636300"/>
             </instance>
