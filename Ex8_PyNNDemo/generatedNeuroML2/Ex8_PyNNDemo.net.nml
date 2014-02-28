@@ -3,7 +3,7 @@
 
     <notes>
 
-Network structure (NeuroML 2beta1) for project: Ex8_PyNNDemo saved with neuroConstruct v1.7.0 on: 13:57:34, 18-Nov-13
+Network structure (NeuroML 2beta1) for project: Ex8_PyNNDemo saved with neuroConstruct v1.7.0 on: 15:50:11, 04-Feb-14
 
 Cell Group: CG_PyNN_HH contains 1 cells
 Cell Group: CG_PyNN_EIFe contains 1 cells
@@ -21,19 +21,19 @@ Cell Group: CG_PyNN_IFa contains 1 cells
 
         
 
-        <population id="CG_PyNN_HH" component="PyNN_HH" type="populationList">
+        <population id="CG_PyNN_HH" component="PyNN_HH" type="populationList" size="1">
             <instance id="0">
                 <location x="130.5903" y="12.466812" z="94.2095"/>
             </instance>
         </population>
 
-        <population id="CG_PyNN_EIFe" component="PyNN_EIFe" type="populationList">
+        <population id="CG_PyNN_EIFe" component="PyNN_EIFe" type="populationList" size="1">
             <instance id="0">
                 <location x="144.72122" y="51.320953" z="373.1974"/>
             </instance>
         </population>
 
-        <population id="CG_PyNN_IFa" component="PyNN_IFa" type="populationList">
+        <population id="CG_PyNN_IFa" component="PyNN_IFa" type="populationList" size="1">
             <instance id="0">
                 <location x="366.84586" y="83.309135" z="15.069175"/>
             </instance>
