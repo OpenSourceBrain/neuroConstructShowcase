@@ -39,7 +39,7 @@ simConfigs = []
 
 simConfigs.append("AbstractCells")
 
-simDt =                 0.0001
+simDt =                 0.001
 
 #simulators =            ["NEURON"]
 simulators =            ["NEURON", "LEMS"]
