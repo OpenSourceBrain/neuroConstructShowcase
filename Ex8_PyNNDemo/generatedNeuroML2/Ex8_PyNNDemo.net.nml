@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta1.xsd" id="network_Ex8_PyNNDemo">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta3.xsd" id="network_Ex8_PyNNDemo">
 
     <notes>
 
-Network structure (NeuroML 2beta1) for project: Ex8_PyNNDemo saved with neuroConstruct v1.7.0 on: 15:50:11, 04-Feb-14
+Network structure (NeuroML 2beta3) for project: Ex8_PyNNDemo saved with neuroConstruct v1.7.1 on: 15:54:35, 11-Sep-14
 
 Cell Group: CG_PyNN_HH contains 1 cells
 Cell Group: CG_PyNN_EIFe contains 1 cells
@@ -22,20 +22,29 @@ Cell Group: CG_PyNN_IFa contains 1 cells
         
 
         <population id="CG_PyNN_HH" component="PyNN_HH" type="populationList" size="1">
+           <annotation>
+                <property tag="color" value="0.65625 0.62109375 0.22265625"/>
+            </annotation>
             <instance id="0">
-                <location x="130.5903" y="12.466812" z="94.2095"/>
+                <location x="183.29332" y="54.972122" z="134.38097"/>
             </instance>
         </population>
 
         <population id="CG_PyNN_EIFe" component="PyNN_EIFe" type="populationList" size="1">
+           <annotation>
+                <property tag="color" value="0.421875 0.8046875 0.0234375"/>
+            </annotation>
             <instance id="0">
-                <location x="144.72122" y="51.320953" z="373.1974"/>
+                <location x="258.63284" y="25.978989" z="380.54306"/>
             </instance>
         </population>
 
         <population id="CG_PyNN_IFa" component="PyNN_IFa" type="populationList" size="1">
+           <annotation>
+                <property tag="color" value="0.546875 0.41796875 0.19921875"/>
+            </annotation>
             <instance id="0">
-                <location x="366.84586" y="83.309135" z="15.069175"/>
+                <location x="94.9763" y="85.75884" z="126.8585"/>
             </instance>
         </population>
 
