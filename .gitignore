@@ -1,7 +1,7 @@
+/Ex8_PyNNDemo/generatedNeuroML2/runsim.sh
 *~
 generatedNEURON
 generatedNeuroML
-generatedNeuroML2
 generatedGENESIS
 generatedMOOSE
 generatedPSICS
@@ -10,6 +10,11 @@ simulations
 *$py.class
 *.pyc
 *.bak
+umac
+x86_64
+i386
 
 Ex8_PyNNDemo/pythonScripts/Results
 /Ex10_NeuroML2/generatedNeuroMLA
+Ex10_NeuroML2/generatedNeuroML2/
+

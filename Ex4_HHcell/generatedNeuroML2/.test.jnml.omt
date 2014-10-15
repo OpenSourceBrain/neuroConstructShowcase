@@ -1,0 +1,29 @@
+# Framework for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation
+# Still in development, subject to change without notice!!
+
+target: LEMS_Ex4_HHcell.xml
+engine: jNeuroML
+mep: .test.mep
+experiments:
+  Spiking pre:
+    observables:
+      spike times:
+        file: 
+          path: CG1_0.0.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: 0
+        tolerance: 0.00271
+  Spiking post:
+    observables:
+      spike times:
+        file: 
+          path: CG2_0.0.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: 0
+        tolerance: 0.00273

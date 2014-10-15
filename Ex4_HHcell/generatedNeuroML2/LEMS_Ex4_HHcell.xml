@@ -26,7 +26,7 @@
 
         <!--Note: this could be: Simulation id="sim1" ... , but Component type="Simulation" ... 
         is used to allow validation of this file according to the LEMS schema specified above...-->
-    <Component type="Simulation" id="sim1" length="100.0ms" step="0.01ms" target="network_Ex4_HHcell">
+    <Component type="Simulation" id="sim1" length="100.0ms" step="0.005ms" target="network_Ex4_HHcell">
         
         <Display id="GraphWin_0" title="Ex4_HHcell: Default Simulation Configuration, CG1, VOLTAGE, VOLTAGE" xmin="-10.0" xmax="110.0" ymin="-104.0" ymax="64.0" timeScale="1ms">
             <Line id="CG1_0 v" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/v" scale="1 mV" color="#000000"/>

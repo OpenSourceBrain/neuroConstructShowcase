@@ -1,0 +1,6 @@
+*.props
+*.mod
+*.hoc
+*nrn.py
+*.dat
+*.log
