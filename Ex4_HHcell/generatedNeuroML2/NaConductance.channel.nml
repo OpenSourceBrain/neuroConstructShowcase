@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta2.xsd" id="NaConductance">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="NaConductance">
 
     <notes>ChannelML file containing a single Channel description</notes>
 
@@ -31,15 +31,15 @@
             </rdf:RDF>
         </annotation>
 
-        <gate id="m" type="gateHHrates" instances="3">
+        <gateHHrates id="m" instances="3">
             <forwardRate type="HHExpLinearRate" rate="1per_ms" scale="10mV" midpoint="-40mV"/>
             <reverseRate type="HHExpRate" rate="4per_ms" scale="-18mV" midpoint="-65mV"/>
-        </gate>
+        </gateHHrates>
 
-        <gate id="h" type="gateHHrates" instances="1">
+        <gateHHrates id="h" instances="1">
             <forwardRate type="HHExpRate" rate="0.07per_ms" scale="-20mV" midpoint="-65mV"/>
             <reverseRate type="HHSigmoidRate" rate="1per_ms" scale="10mV" midpoint="-35mV"/>
-        </gate>
+        </gateHHrates>
                             
     </ionChannel>
 

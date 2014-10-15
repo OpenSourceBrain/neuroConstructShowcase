@@ -1,6 +1,6 @@
-<Lems xmlns="http://www.neuroml.org/lems/0.7.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/lems/0.7.2  https://raw.github.com/LEMS/LEMS/development/Schemas/LEMS/LEMS_v0.7.2.xsd">
+<Lems xmlns="http://www.neuroml.org/lems/0.7.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/lems/0.7.2  https://raw.githubusercontent.com/LEMS/LEMS/development/Schemas/LEMS/LEMS_v0.7.2.xsd">
 
-    <Target component="sim1" reportFile="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/simulator.props" timesFile="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/time.dat"/>
+    <Target component="sim1" reportFile="simulator.props" timesFile="time.dat"/>
 
         <!--Include standard NeuroML 2 ComponentType definitions-->
 
@@ -29,50 +29,50 @@
     <Component type="Simulation" id="sim1" length="100.0ms" step="0.01ms" target="network_Ex4_HHcell">
         
         <Display id="GraphWin_0" title="Ex4_HHcell: Default Simulation Configuration, CG1, VOLTAGE, VOLTAGE" xmin="-10.0" xmax="110.0" ymin="-104.0" ymax="64.0" timeScale="1ms">
-            <Line id="VOLTAGE-CG1_0" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/v" scale="1 mV" color="#000000"/>
+            <Line id="CG1_0 v" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/v" scale="1 mV" color="#000000"/>
         
-            <Line id="VOLTAGE-CG2_0" timeScale="1ms" quantity="CG2/0/TestCell_ChannelML/v" scale="1 mV" color="#ff0000"/>
+            <Line id="CG2_0 v" timeScale="1ms" quantity="CG2/0/TestCell_ChannelML/v" scale="1 mV" color="#ff0000"/>
         </Display>
     
         <Display id="GraphWin_2" title="Ex4_HHcell: Default Simulation Configuration, CG1, KConductance:n, NaConductance:m, NaConductance:h" xmin="-10.0" xmax="110.0" ymin="-0.1" ymax="1.1" timeScale="1ms">
-            <Line id="KConductance_n-CG1_0" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/KConductance_all/KConductance/n/q" scale="1" color="#000000"/>
+            <Line id="CG1_0 KConductance_n" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/KConductance_all/KConductance/n/q" scale="1" color="#000000"/>
         
-            <Line id="NaConductance_m-CG1_0" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/NaConductance/m/q" scale="1" color="#ff0000"/>
+            <Line id="CG1_0 NaConductance_m" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/NaConductance/m/q" scale="1" color="#ff0000"/>
         
-            <Line id="NaConductance_h-CG1_0" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/NaConductance/h/q" scale="1" color="#0000ff"/>
+            <Line id="CG1_0 NaConductance_h" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/NaConductance/h/q" scale="1" color="#0000ff"/>
         </Display>
     
         <Display id="GraphWin_1" title="Ex4_HHcell: Default Simulation Configuration, CG1, NaConductance:COND_DENS:na, KConductance:COND_DENS:k" xmin="-10.0" xmax="110.0" ymin="-4.0" ymax="44.0" timeScale="1ms">
-            <Line id="NaConductance_COND_DENS_na-CG1_0" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/gDensity" scale="1 mS_per_cm2" color="#000000"/>
+            <Line id="CG1_0 NaConductance_COND_DENS_na" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/gDensity" scale="1 mS_per_cm2" color="#000000"/>
         
-            <Line id="KConductance_COND_DENS_k-CG1_0" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/KConductance_all/gDensity" scale="1 mS_per_cm2" color="#ff0000"/>
+            <Line id="CG1_0 KConductance_COND_DENS_k" timeScale="1ms" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/KConductance_all/gDensity" scale="1 mS_per_cm2" color="#ff0000"/>
         </Display>
     
-        <OutputFile id="Plot_0_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/CG1_0.dat">
+        <OutputFile id="Plot_0_0_0_OF" fileName="CG1_0.0.dat">
             <OutputColumn id="v" quantity="CG1/0/TestCell_ChannelML/v"/>
         </OutputFile>
     
-        <OutputFile id="Plot_1_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/CG2_0.dat">
+        <OutputFile id="Plot_1_0_0_OF" fileName="CG2_0.0.dat">
             <OutputColumn id="v" quantity="CG2/0/TestCell_ChannelML/v"/>
         </OutputFile>
     
-        <OutputFile id="Plot_2_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/CG1_0.KConductance_n.dat">
+        <OutputFile id="Plot_2_0_0_OF" fileName="CG1_0.0.KConductance_n.dat">
             <OutputColumn id="q" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/KConductance_all/KConductance/n/q"/>
         </OutputFile>
     
-        <OutputFile id="Plot_3_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/CG1_0.NaConductance_m.dat">
+        <OutputFile id="Plot_3_0_0_OF" fileName="CG1_0.0.NaConductance_m.dat">
             <OutputColumn id="q" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/NaConductance/m/q"/>
         </OutputFile>
     
-        <OutputFile id="Plot_4_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/CG1_0.NaConductance_h.dat">
+        <OutputFile id="Plot_4_0_0_OF" fileName="CG1_0.0.NaConductance_h.dat">
             <OutputColumn id="q" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/NaConductance/h/q"/>
         </OutputFile>
     
-        <OutputFile id="Var_0_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/CG1_0.NaConductance_COND_DENS_na.dat">
+        <OutputFile id="Var_0_0_0_OF" fileName="CG1_0.0.NaConductance_COND_DENS_na.dat">
             <OutputColumn id="gDensity" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/NaConductance_all/gDensity"/>
         </OutputFile>
     
-        <OutputFile id="Var_1_OF" fileName="/home/padraig/neuroConstruct/osb/showcase/neuroConstructShowcase/Ex4_HHcell/pythonScripts/../simulations/Sim_41/CG1_0.KConductance_COND_DENS_k.dat">
+        <OutputFile id="Var_1_0_0_OF" fileName="CG1_0.0.KConductance_COND_DENS_k.dat">
             <OutputColumn id="gDensity" quantity="CG1/0/TestCell_ChannelML/biophys/membraneProperties/KConductance_all/gDensity"/>
         </OutputFile>
     </Component>
