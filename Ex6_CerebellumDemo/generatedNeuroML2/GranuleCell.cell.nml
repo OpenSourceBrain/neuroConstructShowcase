@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta1.xsd" id="GranuleCell">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="GranuleCell">
 
     <include href="KConductance.channel.nml"/>
 
@@ -146,15 +146,39 @@
                 <distal x="-120.0" y="140.0" z="0.0" diameter="1.2"/>
             </segment>
 
-            <segmentGroup id="Soma">
+            <segmentGroup id="Soma" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="0"/>
             </segmentGroup>
 
-            <segmentGroup id="mainAxonSection">
+            <segmentGroup id="mainAxonSection" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="1"/>
             </segmentGroup>
 
-            <segmentGroup id="parallelFiberPos">
+            <segmentGroup id="parallelFiberPos" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="2"/>
             
                 <member segment="4"/>
@@ -180,7 +204,17 @@
                 <member segment="24"/>
             </segmentGroup>
 
-            <segmentGroup id="parallelFiberNeg">
+            <segmentGroup id="parallelFiberNeg" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 2-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="2"/>
+                </annotation>
+            
                 <member segment="3"/>
             
                 <member segment="5"/>
@@ -213,11 +247,13 @@
                 <include segmentGroup="parallelFiberNeg"/>
             </segmentGroup>
 
-            <segmentGroup id="soma_group">
+            <segmentGroup id="soma_group" neuroLexId="GO:0043025">    <!--Soma group-->
+
                 <include segmentGroup="Soma"/>
             </segmentGroup>
 
-            <segmentGroup id="axon_group">
+            <segmentGroup id="axon_group" neuroLexId="GO:0030424">    <!--Axon group-->
+
                 <include segmentGroup="mainAxonSection"/>
                 <include segmentGroup="parallelFiberPos"/>
                 <include segmentGroup="parallelFiberNeg"/>
@@ -240,16 +276,17 @@
         <biophysicalProperties id="biophys">
 
             <membraneProperties>
-
+                
                 <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_all" ionChannel="KConductance" ion="k" erev="-77.0 mV"/>
-
-                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_axon_group" ionChannel="NaConductance" segmentGroup="axon_group" ion="na" erev="50.0 mV"/>
-
+                
                 <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_soma_group" ionChannel="NaConductance" segmentGroup="soma_group" ion="na" erev="50.0 mV"/>
-
-                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_axon_group" ionChannel="PassiveCond" segmentGroup="axon_group" ion="non_specific" erev="-54.3 mV"/>
-
+                
+                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_axon_group" ionChannel="NaConductance" segmentGroup="axon_group" ion="na" erev="50.0 mV"/>
+                
                 <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_soma_group" ionChannel="PassiveCond" segmentGroup="soma_group" ion="non_specific" erev="-54.3 mV"/>
+                
+                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_axon_group" ionChannel="PassiveCond" segmentGroup="axon_group" ion="non_specific" erev="-54.3 mV"/>
+                
 
                 <spikeThresh value="0 mV"/>
 

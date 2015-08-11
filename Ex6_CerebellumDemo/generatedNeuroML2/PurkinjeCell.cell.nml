@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta1.xsd" id="PurkinjeCell">
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.githubusercontent.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="PurkinjeCell">
 
     <include href="KConductance.channel.nml"/>
 
@@ -264,171 +264,345 @@
                 <distal x="-5.0" y="125.0" z="54.0" diameter="1.08"/>
             </segment>
 
-            <segmentGroup id="Soma">
+            <segmentGroup id="Soma" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="0"/>
             </segmentGroup>
 
-            <segmentGroup id="AxonSec">
+            <segmentGroup id="AxonSec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
+                <!--This 'Section' has number of internal divisions (nseg) = 3-->
+
+                <annotation>
+                    <property tag="numberInternalDivisions" value="3"/>
+                </annotation>
+            
                 <member segment="1"/>
             </segmentGroup>
 
-            <segmentGroup id="DendRootSec">
+            <segmentGroup id="DendRootSec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="4"/>
             </segmentGroup>
 
-            <segmentGroup id="DendSec1">
+            <segmentGroup id="DendSec1" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="5"/>
             </segmentGroup>
 
-            <segmentGroup id="DendSec2">
+            <segmentGroup id="DendSec2" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="6"/>
             </segmentGroup>
 
-            <segmentGroup id="DendSec3">
+            <segmentGroup id="DendSec3" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="7"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_4_Sec">
+            <segmentGroup id="Dend_4_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="8"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_5_Sec">
+            <segmentGroup id="Dend_5_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="9"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_6_Sec">
+            <segmentGroup id="Dend_6_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="10"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_7_Sec">
+            <segmentGroup id="Dend_7_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="11"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_8_Sec">
+            <segmentGroup id="Dend_8_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="12"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_9_Sec">
+            <segmentGroup id="Dend_9_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="13"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_10_Sec">
+            <segmentGroup id="Dend_10_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="14"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_11_Sec">
+            <segmentGroup id="Dend_11_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="15"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_12_Sec">
+            <segmentGroup id="Dend_12_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="16"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_13_Sec">
+            <segmentGroup id="Dend_13_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="17"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_14_Sec">
+            <segmentGroup id="Dend_14_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="18"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_15_Sec">
+            <segmentGroup id="Dend_15_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="19"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_16_Sec">
+            <segmentGroup id="Dend_16_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="20"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_17_Sec">
+            <segmentGroup id="Dend_17_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="21"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_18_Sec">
+            <segmentGroup id="Dend_18_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="22"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_19_Sec">
+            <segmentGroup id="Dend_19_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="23"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_20_Sec">
+            <segmentGroup id="Dend_20_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="24"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_21_Sec">
+            <segmentGroup id="Dend_21_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="25"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_22_Sec">
+            <segmentGroup id="Dend_22_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="26"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_23_Sec">
+            <segmentGroup id="Dend_23_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="27"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_24_Sec">
+            <segmentGroup id="Dend_24_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="28"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_25_Sec">
+            <segmentGroup id="Dend_25_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="29"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_26_Sec">
+            <segmentGroup id="Dend_26_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="30"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_27_Sec">
+            <segmentGroup id="Dend_27_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="31"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_28_Sec">
+            <segmentGroup id="Dend_28_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="32"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_29_Sec">
+            <segmentGroup id="Dend_29_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="33"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_30_Sec">
+            <segmentGroup id="Dend_30_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="34"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_31_Sec">
+            <segmentGroup id="Dend_31_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="35"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_32_Sec">
+            <segmentGroup id="Dend_32_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="36"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_33_Sec">
+            <segmentGroup id="Dend_33_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="37"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_34_Sec">
+            <segmentGroup id="Dend_34_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="38"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_35_Sec">
+            <segmentGroup id="Dend_35_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="39"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_36_Sec">
+            <segmentGroup id="Dend_36_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="40"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_37_Sec">
+            <segmentGroup id="Dend_37_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="41"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_38_Sec">
+            <segmentGroup id="Dend_38_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="42"/>
             </segmentGroup>
 
-            <segmentGroup id="Dend_39_Sec">
+            <segmentGroup id="Dend_39_Sec" neuroLexId="sao864921383">    <!--
+                This group contains an unbranched set of segments, and all of the segmentGroups marked with
+                neuroLexId = sao864921383 form a non-overlapping set of all of the segments. 
+                These segmentGroups correspond to the 'cables' of NeuroML v1.8.1. -->
+
                 <member segment="43"/>
             </segmentGroup>
 
@@ -477,15 +651,18 @@
                 <include segmentGroup="Dend_39_Sec"/>
             </segmentGroup>
 
-            <segmentGroup id="soma_group">
+            <segmentGroup id="soma_group" neuroLexId="GO:0043025">    <!--Soma group-->
+
                 <include segmentGroup="Soma"/>
             </segmentGroup>
 
-            <segmentGroup id="axon_group">
+            <segmentGroup id="axon_group" neuroLexId="GO:0030424">    <!--Axon group-->
+
                 <include segmentGroup="AxonSec"/>
             </segmentGroup>
 
-            <segmentGroup id="dendrite_group">
+            <segmentGroup id="dendrite_group" neuroLexId="GO:0030425">    <!--Dendrite group-->
+
                 <include segmentGroup="DendRootSec"/>
                 <include segmentGroup="DendSec1"/>
                 <include segmentGroup="DendSec2"/>
@@ -566,24 +743,25 @@
         <biophysicalProperties id="biophys">
 
             <membraneProperties>
-
-                <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_axon_group" ionChannel="KConductance" segmentGroup="axon_group" ion="k" erev="-77.0 mV"/>
-
-                <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_dendrite_group" ionChannel="KConductance" segmentGroup="dendrite_group" ion="k" erev="-77.0 mV"/>
-
+                
                 <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_soma_group" ionChannel="KConductance" segmentGroup="soma_group" ion="k" erev="-77.0 mV"/>
-
-                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_axon_group" ionChannel="NaConductance" segmentGroup="axon_group" ion="na" erev="50.0 mV"/>
-
-                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_dendrite_group" ionChannel="NaConductance" segmentGroup="dendrite_group" ion="na" erev="50.0 mV"/>
-
+                
+                <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_dendrite_group" ionChannel="KConductance" segmentGroup="dendrite_group" ion="k" erev="-77.0 mV"/>
+                
+                <channelDensity condDensity="36.0 mS_per_cm2" id="KConductance_axon_group" ionChannel="KConductance" segmentGroup="axon_group" ion="k" erev="-77.0 mV"/>
+                
                 <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_soma_group" ionChannel="NaConductance" segmentGroup="soma_group" ion="na" erev="50.0 mV"/>
-
-                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_axon_group" ionChannel="PassiveCond" segmentGroup="axon_group" ion="non_specific" erev="-54.3 mV"/>
-
-                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_dendrite_group" ionChannel="PassiveCond" segmentGroup="dendrite_group" ion="non_specific" erev="-54.3 mV"/>
-
+                
+                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_dendrite_group" ionChannel="NaConductance" segmentGroup="dendrite_group" ion="na" erev="50.0 mV"/>
+                
+                <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_axon_group" ionChannel="NaConductance" segmentGroup="axon_group" ion="na" erev="50.0 mV"/>
+                
                 <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_soma_group" ionChannel="PassiveCond" segmentGroup="soma_group" ion="non_specific" erev="-54.3 mV"/>
+                
+                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_dendrite_group" ionChannel="PassiveCond" segmentGroup="dendrite_group" ion="non_specific" erev="-54.3 mV"/>
+                
+                <channelDensity condDensity="0.3 mS_per_cm2" id="PassiveCond_axon_group" ionChannel="PassiveCond" segmentGroup="axon_group" ion="non_specific" erev="-54.3 mV"/>
+                
 
                 <spikeThresh value="0 mV"/>
 
