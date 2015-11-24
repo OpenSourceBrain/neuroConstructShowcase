@@ -19,7 +19,9 @@ umac
 x86_64
 i386
 
-Ex8_PyNNDemo/pythonScripts/Results
+/Ex8_PyNNDemo/pythonScripts/Results/*.h5
+/Ex8_PyNNDemo/pythonScripts/Results/*.v
+
 /Ex10_NeuroML2/generatedNeuroMLA
 Ex10_NeuroML2/generatedNeuroML2/
 
