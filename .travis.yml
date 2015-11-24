@@ -8,6 +8,9 @@ env:
     - OMV_ENGINE=jNeuroML
     - OMV_ENGINE=jNeuroML_NEURON
     - OMV_ENGINE=PyLEMS_NeuroML2
+    - OMV_ENGINE=PyNN_NEURON
+    - OMV_ENGINE=PyNN_Nest
+    - OMV_ENGINE=PyNN_Brian1
     - OMV_ENGINE=jNeuroML_validate
 
 

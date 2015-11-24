@@ -3,7 +3,7 @@ system: Testing a single compartment cell
 experiments:
   Spiking pre:
     expected:
-      spike times: [21.14, 32.5, 43.335, 54.135, 64.925, 75.715]
+      spike times: [21.145, 32.505, 43.34, 54.14, 64.93, 75.72]
   Spiking post:
     expected:
-      spike times: [22.165, 33.695, 44.565, 55.365, 66.155, 76.945]
+      spike times: [22.17, 33.7, 44.57, 55.37, 66.16, 76.95]
