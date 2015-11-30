@@ -19,7 +19,7 @@ env:
 before_install:
 
     # Requirements for Brian & NEST
-    - sudo apt-get install -qq python-numpy python-scipy python-matplotlib python-sympy python-tables
+    - sudo apt-get install -qq python-numpy python-scipy python-matplotlib python-sympy python-tables libreadline6-dev libncurses5-dev libgsl0-dev
 
 install: 
     - pip install git+https://github.com/OpenSourceBrain/osb-model-validation
