@@ -10,6 +10,10 @@ addons:
     - python-scipy 
     - python-matplotlib 
     - python-sympy
+    - python-tables 
+    - libreadline6-dev 
+    - libncurses5-dev 
+    - libgsl0-dev
     
 language: python
 
