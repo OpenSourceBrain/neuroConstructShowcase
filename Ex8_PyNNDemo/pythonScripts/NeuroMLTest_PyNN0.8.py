@@ -80,7 +80,7 @@ pop_post2.write_data(io)
 
 sim.end()
 
-if not '-nogui' in sys.argv:
+if '-gui' in sys.argv:
     if simulator_name in ['neuron', 'nest', 'brian']:
         import matplotlib.pyplot as plt
         
@@ -99,7 +99,7 @@ if not '-nogui' in sys.argv:
             data = pop.get_data()
             vm = data.segments[0].analogsignalarrays[0]
             plt.plot(vm, '-', label=pop.label)
-            
+
         plt.legend()
 
         plt.figure(3)
