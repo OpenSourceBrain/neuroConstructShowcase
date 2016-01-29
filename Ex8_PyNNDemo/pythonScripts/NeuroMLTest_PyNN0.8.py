@@ -49,15 +49,17 @@ pop_HH_cond_exp = sim.Population(1, sim.HH_cond_exp(**cell_params6), label="pop_
 pop_HH_cond_exp.record('v')
 
 # Post synaptic cells
-cell_params_post1 = {'tau_refrac':10,'v_thresh':-52.0, 'v_reset':-62.0, 'i_offset': 0}
+cell_params_post1 = {'tau_refrac':10,'v_thresh':-52.0, 'v_reset':-62.0, 'i_offset': 0, 'tau_syn_E'  : 5.0}
 pop_post1 = sim.Population(1, sim.IF_cond_exp(**cell_params_post1), label="pop_post1")
 pop_post1.record('v')
-cell_params_post2 = {'tau_refrac':10,'v_thresh':-52.0, 'v_reset':-62.0, 'i_offset': 0}
-pop_post2 = sim.Population(1, sim.IF_cond_exp(**cell_params_post2), label="pop_post2")
+pop_post1.record('gsyn_exc')
+cell_params_post2 = {'tau_refrac':10,'v_thresh':-52.0, 'v_reset':-62.0, 'i_offset': 0, 'tau_syn_E'  : 5.0}
+pop_post2 = sim.Population(1, sim.IF_cond_alpha(**cell_params_post2), label="pop_post2")
 pop_post2.record('v')
+pop_post2.record('gsyn_exc')
 
-connE = sim.connect(pop_EIF_cond_exp_isfa_ista, pop_post1, weight=0.006, receptor_type='excitatory',delay=5)
-connE = sim.connect(pop_EIF_cond_exp_isfa_ista, pop_post2, weight=0.003, receptor_type='excitatory',delay=10)
+connE = sim.connect(pop_EIF_cond_exp_isfa_ista, pop_post1, weight=0.01, receptor_type='excitatory',delay=10)
+connE = sim.connect(pop_EIF_cond_exp_isfa_ista, pop_post2, weight=0.005, receptor_type='excitatory',delay=20)
 
 sim.run(tstop)
 
@@ -107,6 +109,14 @@ if '-gui' in sys.argv:
             data = pop.get_data()
             vm = data.segments[0].analogsignalarrays[0]
             plt.plot(vm, '-', label=pop.label)
+            
+        plt.legend()
+
+        plt.figure(4)
+        for pop in [pop_post1, pop_post2]:
+            data = pop.get_data()
+            gsyn = data.segments[0].analogsignalarrays[1]
+            plt.plot(gsyn, '-', label='gsyn:%s'%pop.label)
             
         plt.legend()
 
