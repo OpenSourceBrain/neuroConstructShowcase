@@ -2,3 +2,16 @@
  
 target: NeuroMLTest_PyNN0.8.py 
 engine: PyNN_Nest
+mep: .test.mep
+experiments:
+  IF_curr_alpha:
+    observables:
+      spike times:
+        file: 
+          path: pop_IF_curr_alpha_v.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: -55
+        tolerance: 0.0003082
