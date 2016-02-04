@@ -1,4 +1,4 @@
-/Ex8_PyNNDemo/pythonScripts/PyNN_NeuroML2_Export.nml
+
 /Ex8_PyNNDemo/pythonScripts/pynn0.8.sh
 /Ex8_PyNNDemo/pythonScripts/pynn0.7pip.sh
 /Ex8_PyNNDemo/pythonScripts/pynn0.7.sh
@@ -27,5 +27,4 @@ i386
 /Ex10_NeuroML2/generatedNeuroMLA
 Ex10_NeuroML2/generatedNeuroML2/
 /Ex8_PyNNDemo/pythonScripts/pynnpg.sh
-/Ex8_PyNNDemo/pythonScripts/LEMS_Sim_PyNN_NeuroML2_Export.xml
 /Ex8_PyNNDemo/pythonScripts/*.dat

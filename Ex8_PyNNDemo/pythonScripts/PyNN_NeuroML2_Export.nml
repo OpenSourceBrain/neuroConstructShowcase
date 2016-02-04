@@ -1,0 +1,60 @@
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta4.xsd" id="PyNN_NeuroML2_Export">
+    <IF_curr_alpha id="IF_curr_alpha_pop_IF_curr_alpha" tau_syn_I="5.000000e+00" tau_syn_E="2.000000e+00" i_offset="9.000000e-01" cm="1.000000e+00" v_init="-6.500000e+01" tau_refrac="1.000000e+01" v_thresh="-5.200000e+01" tau_m="2.000000e+01" v_reset="-6.200000e+01" v_rest="-6.500000e+01"/>
+    <IF_curr_exp id="IF_curr_exp_pop_IF_curr_exp" tau_syn_I="5.000000e+00" tau_syn_E="2.000000e+00" i_offset="1.000000e+00" cm="1.000000e+00" v_init="-6.500000e+01" tau_refrac="8.000000e+00" v_thresh="-5.000000e+01" tau_m="2.000000e+01" v_reset="-7.000000e+01" v_rest="-6.500000e+01"/>
+    <IF_cond_alpha id="IF_cond_alpha_pop_IF_cond_alpha" tau_syn_I="5.000000e+00" tau_syn_E="2.000000e+00" i_offset="9.000000e-01" cm="1.000000e+00" v_init="-6.500000e+01" tau_refrac="5.000000e+00" v_thresh="-5.000000e+01" tau_m="2.000000e+01" v_reset="-6.500000e+01" v_rest="-6.500000e+01" e_rev_I="-7.000000e+01" e_rev_E="0.000000e+00"/>
+    <IF_cond_alpha id="IF_cond_alpha_pop_post2" tau_syn_I="5.000000e-01" tau_syn_E="5.000000e+00" i_offset="0.000000e+00" cm="1.000000e+00" v_init="-6.500000e+01" tau_refrac="1.000000e+01" v_thresh="-5.200000e+01" tau_m="2.000000e+01" v_reset="-6.200000e+01" v_rest="-6.500000e+01" e_rev_I="-7.000000e+01" e_rev_E="0.000000e+00"/>
+    <IF_cond_exp id="IF_cond_exp_pop_IF_cond_exp" tau_syn_I="5.000000e+00" tau_syn_E="2.000000e+00" i_offset="1.000000e+00" cm="1.000000e+00" v_init="-6.500000e+01" tau_refrac="5.000000e+00" v_thresh="-5.200000e+01" tau_m="2.000000e+01" v_reset="-6.800000e+01" v_rest="-6.500000e+01" e_rev_I="-7.000000e+01" e_rev_E="0.000000e+00"/>
+    <IF_cond_exp id="IF_cond_exp_pop_post1" tau_syn_I="5.000000e+00" tau_syn_E="5.000000e+00" i_offset="0.000000e+00" cm="1.000000e+00" v_init="-6.500000e+01" tau_refrac="1.000000e+01" v_thresh="-5.200000e+01" tau_m="2.000000e+01" v_reset="-6.200000e+01" v_rest="-6.500000e+01" e_rev_I="-7.000000e+01" e_rev_E="0.000000e+00"/>
+    <EIF_cond_exp_isfa_ista id="EIF_cond_exp_isfa_ista_pop_EIF_cond_exp_isfa_ista" tau_syn_I="5.000000e+00" tau_syn_E="5.000000e+00" i_offset="6.000000e-01" cm="2.810000e-01" v_init="-7.060000e+01" tau_refrac="0.000000e+00" v_thresh="-5.200000e+01" tau_m="9.366700e+00" v_reset="-6.800000e+01" v_rest="-7.060000e+01" e_rev_I="-8.000000e+01" e_rev_E="0.000000e+00" a="0.000000e+00" delta_T="2.000000e+00" b="8.050000e-02" v_spike="-4.000000e+01" tau_w="1.440000e+02"/>
+    <HH_cond_exp id="HH_cond_exp_pop_HH_cond_exp" tau_syn_I="2.000000e+00" tau_syn_E="2.000000e-01" i_offset="2.000000e-01" cm="2.000000e-01" v_init="-6.500000e+01" gbar_K="6.000000e+00" e_rev_E="0.000000e+00" g_leak="1.000000e-02" e_rev_Na="5.000000e+01" e_rev_I="-8.000000e+01" e_rev_K="-9.000000e+01" e_rev_leak="-6.500000e+01" v_offset="-6.300000e+01" gbar_Na="2.000000e+01"/>
+    <expCondSynapse id="syn__pop_EIF_cond_exp_isfa_ista__TO__pop_post1" tau_syn="5.000000e+00" e_rev="0.000000e+00"/>
+    <alphaCondSynapse id="syn__pop_EIF_cond_exp_isfa_ista__TO__pop_post2" tau_syn="5.000000e+00" e_rev="0.000000e+00"/>
+    <network id="network">
+        <population id="pop_IF_curr_alpha" type="populationList" component="IF_curr_alpha_pop_IF_curr_alpha" size="1">
+            <instance id="0">
+                <location y="0." x="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_IF_curr_exp" type="populationList" component="IF_curr_exp_pop_IF_curr_exp" size="1">
+            <instance id="0">
+                <location y="0." x="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_IF_cond_alpha" type="populationList" component="IF_cond_alpha_pop_IF_cond_alpha" size="1">
+            <instance id="0">
+                <location y="0." x="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_IF_cond_exp" type="populationList" component="IF_cond_exp_pop_IF_cond_exp" size="1">
+            <instance id="0">
+                <location y="0." x="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_EIF_cond_exp_isfa_ista" type="populationList" component="EIF_cond_exp_isfa_ista_pop_EIF_cond_exp_isfa_ista" size="1">
+            <instance id="0">
+                <location y="0." x="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_HH_cond_exp" type="populationList" component="HH_cond_exp_pop_HH_cond_exp" size="1">
+            <instance id="0">
+                <location y="0." x="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_post1" type="populationList" component="IF_cond_exp_pop_post1" size="1">
+            <instance id="0">
+                <location y="0." x="0." z="0."/>
+            </instance>
+        </population>
+        <population id="pop_post2" type="populationList" component="IF_cond_alpha_pop_post2" size="1">
+            <instance id="0">
+                <location y="0." x="0." z="0."/>
+            </instance>
+        </population>
+        <projection id="pop_EIF_cond_exp_isfa_ista__TO__pop_post1" postsynapticPopulation="pop_post1" presynapticPopulation="pop_EIF_cond_exp_isfa_ista" synapse="syn__pop_EIF_cond_exp_isfa_ista__TO__pop_post1">
+            <connectionWD id="0" preFractionAlong="0.5" preCellId="../pop_EIF_cond_exp_isfa_ista/0/EIF_cond_exp_isfa_ista_pop_EIF_cond_exp_isfa_ista" weight="0.01" postFractionAlong="0.5" postSegmentId="0" delay="10.0ms" postCellId="../pop_post1/0/IF_cond_exp_pop_post1" preSegmentId="0"/>
+        </projection>
+        <projection id="pop_EIF_cond_exp_isfa_ista__TO__pop_post2" postsynapticPopulation="pop_post2" presynapticPopulation="pop_EIF_cond_exp_isfa_ista" synapse="syn__pop_EIF_cond_exp_isfa_ista__TO__pop_post2">
+            <connectionWD id="0" preFractionAlong="0.5" preCellId="../pop_EIF_cond_exp_isfa_ista/0/EIF_cond_exp_isfa_ista_pop_EIF_cond_exp_isfa_ista" weight="0.005" postFractionAlong="0.5" postSegmentId="0" delay="20.0ms" postCellId="../pop_post2/0/IF_cond_alpha_pop_post2" preSegmentId="0"/>
+        </projection>
+    </network>
+</neuroml>
