@@ -8,6 +8,7 @@ logging.basicConfig(format='%(levelname)s - %(name)s: %(message)s', level=loggin
 import sys
 import os
 from importlib import import_module
+import numpy as np
 
 from pyNN.utility import get_script_args
 
@@ -15,8 +16,9 @@ simulator_name = get_script_args(1)[0]
 sim = import_module("pyNN.%s" % simulator_name)
 
 tstop = 500.0
+time_step = 0.005
 
-sim.setup(timestep=0.01, debug=True)
+sim.setup(timestep=time_step, debug=True)
     
 cell_params1 = {'tau_refrac':10,'v_thresh':-52.0, 'v_reset':-62.0, 'i_offset': 0.9, 'tau_syn_E'  : 2.0, 'tau_syn_I': 5.0}
 pop_IF_curr_alpha = sim.Population(1, sim.IF_curr_alpha(**cell_params1), label="pop_IF_curr_alpha")
@@ -63,21 +65,38 @@ connE = sim.connect(pop_EIF_cond_exp_isfa_ista, pop_post2, weight=0.005, recepto
 
 sim.run(tstop)
 
-from neo.io import NeoHdf5IO
-results_file = "Results/NeuroMLTest_%s.h5" % simulator_name
-if os.path.exists(results_file):
-    os.remove(results_file)
-io = NeoHdf5IO(results_file)
+use_hdf5 = False
 
+if use_hdf5:
+    from neo.io import NeoHdf5IO as NeoIO
+    suffix = 'h5'
 
-pop_IF_curr_alpha.write_data(io)
-pop_IF_curr_exp.write_data(io)
-pop_IF_cond_alpha.write_data(io)
-pop_IF_cond_exp.write_data(io)
-pop_EIF_cond_exp_isfa_ista.write_data(io)
-pop_HH_cond_exp.write_data(io)
-pop_post1.write_data(io)
-pop_post2.write_data(io)
+    results_file = "Results/NeuroMLTest_%s.%s" % (simulator_name, suffix)
+    if os.path.exists(results_file):
+        os.remove(results_file)
+    io = NeoIO(results_file)
+    pop_IF_curr_alpha.write_data(io)
+    pop_IF_curr_exp.write_data(io)
+    pop_IF_cond_alpha.write_data(io)
+    pop_IF_cond_exp.write_data(io)
+    pop_EIF_cond_exp_isfa_ista.write_data(io)
+    pop_HH_cond_exp.write_data(io)
+    pop_post1.write_data(io)
+    pop_post2.write_data(io)
+
+else:
+    #from neo.io import AsciiSignalIO as NeoIO
+    #suffix = 'txt'
+    #results_file = "Results/NeuroMLTest_%s.%s" % (simulator_name, suffix)
+
+    for pop in [pop_IF_curr_alpha, pop_IF_curr_exp, pop_IF_cond_exp, pop_IF_cond_alpha,pop_EIF_cond_exp_isfa_ista, pop_HH_cond_exp, pop_post1,pop_post2]:
+        data =  pop.get_data('v', gather=False)
+        filename = "%s_v.dat"%(pop.label)
+        print("Writing data for %s"%pop)
+        for segment in data.segments :
+            vm = segment.analogsignalarrays[0]
+            times_vm = np.array([[t*time_step/1000. for t in range(len(vm))], vm/1000.]).transpose()
+            np.savetxt(filename, times_vm , delimiter = '\t', fmt='%s')
 
 
 sim.end()
@@ -88,35 +107,35 @@ if '-gui' in sys.argv:
         
         print("Plotting results of simulation in %s"%simulator_name)
 
-        plt.figure(1)
+        plt.figure("Voltages for IaF cells")
         for pop in [pop_IF_curr_alpha, pop_IF_curr_exp, pop_IF_cond_exp, pop_IF_cond_alpha]:
             data = pop.get_data()
             vm = data.segments[0].analogsignalarrays[0]
-            plt.plot(vm, '-', label=pop.label)
+            plt.plot(vm, '-', label='%s: v'%pop.label)
             
         plt.legend()
         
-        plt.figure(2)
+        plt.figure("Voltages for EIF & HH cells")
         for pop in [pop_EIF_cond_exp_isfa_ista, pop_HH_cond_exp]:
             data = pop.get_data()
             vm = data.segments[0].analogsignalarrays[0]
-            plt.plot(vm, '-', label=pop.label)
+            plt.plot(vm, '-', label='%s: v'%pop.label)
 
         plt.legend()
 
-        plt.figure(3)
+        plt.figure("Voltages for postsynaptic cells")
         for pop in [pop_post1, pop_post2]:
             data = pop.get_data()
-            vm = data.segments[0].analogsignalarrays[0]
-            plt.plot(vm, '-', label=pop.label)
+            vm = data.segments[0].analogsignalarrays[1]
+            plt.plot(vm, '-', label='%s: v'%pop.label)
             
         plt.legend()
 
-        plt.figure(4)
+        plt.figure("Conductances for syns on postsynaptic cells")
         for pop in [pop_post1, pop_post2]:
             data = pop.get_data()
-            gsyn = data.segments[0].analogsignalarrays[1]
-            plt.plot(gsyn, '-', label='gsyn:%s'%pop.label)
+            gsyn = data.segments[0].analogsignalarrays[0]
+            plt.plot(gsyn, '-', label='%s: gsyn'%pop.label)
             
         plt.legend()
 
