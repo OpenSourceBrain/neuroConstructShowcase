@@ -94,8 +94,9 @@ else:
         filename = "%s_v.dat"%(pop.label)
         print("Writing data for %s"%pop)
         for segment in data.segments :
-            vm = segment.analogsignalarrays[0]
-            times_vm = np.array([[t*time_step/1000. for t in range(len(vm))], vm/1000.]).transpose()
+            vm = segment.analogsignalarrays[0].transpose()[0]
+            tt = np.array([t*time_step/1000. for t in range(len(vm))])
+            times_vm = np.array([tt, vm/1000.]).transpose()
             np.savetxt(filename, times_vm , delimiter = '\t', fmt='%s')
 
 
