@@ -28,3 +28,6 @@ i386
 Ex10_NeuroML2/generatedNeuroML2/
 /Ex8_PyNNDemo/pythonScripts/pynnpg.sh
 /Ex8_PyNNDemo/pythonScripts/*.dat
+Ex8_PyNNDemo/pythonScripts/*.mod
+Ex8_PyNNDemo/pythonScripts/*nrn.py
+Ex8_PyNNDemo/pythonScripts/*.hoc
