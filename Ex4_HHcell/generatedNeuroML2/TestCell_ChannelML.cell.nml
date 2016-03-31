@@ -51,7 +51,7 @@
                 <channelDensity condDensity="120.0 mS_per_cm2" id="NaConductance_all" ionChannel="NaConductance" ion="na" erev="50.0 mV"/>
                 
 
-                <spikeThresh value="0 mV"/>
+                <spikeThresh value="-20.0 mV"/>
 
                 <specificCapacitance value="1.0 uF_per_cm2"/>
 
