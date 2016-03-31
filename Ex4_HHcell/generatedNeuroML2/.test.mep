@@ -6,4 +6,4 @@ experiments:
       spike times: [21.145, 32.505, 43.34, 54.14, 64.93, 75.72]
   Spiking post:
     expected:
-      spike times: [22.17, 33.7, 44.57, 55.37, 66.16, 76.95]
+      spike times: [22.09, 33.575, 44.435, 55.235, 66.025, 76.815]
