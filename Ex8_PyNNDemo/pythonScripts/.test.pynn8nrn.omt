@@ -19,7 +19,7 @@ experiments:
     observables:
       spike times:
         file: 
-          path: pop_EIF_cond_exp_isfa_ista_v.dat
+          path: pop_EIF_v.dat
           columns: [0,1]
           scaling: [1000, 1000]
         spike detection: 

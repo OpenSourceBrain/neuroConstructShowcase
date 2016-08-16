@@ -31,3 +31,6 @@ Ex10_NeuroML2/generatedNeuroML2/
 Ex8_PyNNDemo/pythonScripts/*.mod
 Ex8_PyNNDemo/pythonScripts/*nrn.py
 Ex8_PyNNDemo/pythonScripts/*.hoc
+/Ex8_PyNNDemo/pythonScripts/LEMS_Sim_PyNN_NeuroML2_Export_netpyne.py
+/Ex8_PyNNDemo/pythonScripts/LEMS_Sim_PyNN_NeuroML2_Export_netpyne.py_main.json
+/Ex8_PyNNDemo/pythonScripts/NET_Sim_PyNN_NeuroML2_Export.net.nml

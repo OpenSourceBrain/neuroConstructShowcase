@@ -41,8 +41,8 @@ pop_IF_cond_exp.record('v')
 #pop_IF_cond_exp.initialize('v', -70)
 
 ##TODO: Test a>0!!
-cell_params5 = {'tau_refrac':0,'v_thresh':-52.0, 'v_reset':-68.0, 'i_offset': 0.6, 'v_spike': -40, 'a': 0.0, 'b':0.0805}
-pop_EIF_cond_exp_isfa_ista = sim.Population(1, sim.EIF_cond_exp_isfa_ista(**cell_params5), label="pop_EIF_cond_exp_isfa_ista")
+cell_params5 = {'tau_refrac':5,'v_thresh':-52.0, 'v_reset':-68.0, 'i_offset': 0.6, 'v_spike': -40, 'a': 0.0, 'b':0.0805}
+pop_EIF_cond_exp_isfa_ista = sim.Population(1, sim.EIF_cond_exp_isfa_ista(**cell_params5), label="pop_EIF")
 pop_EIF_cond_exp_isfa_ista.record('v')
 
 
