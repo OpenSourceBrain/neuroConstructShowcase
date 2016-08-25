@@ -16,7 +16,7 @@ simulator_name = get_script_args(1)[0]
 sim = import_module("pyNN.%s" % simulator_name)
 
 tstop = 500.0
-time_step = 0.005
+time_step = 0.001
 
 sim.setup(timestep=time_step, debug=True)
     
