@@ -2,7 +2,7 @@
  
 Example projects for [neuroConstruct](http://www.neuroConstruct.org).
 
-These projects have been tested with the latets version of neuroConstruct available [here](https://github.com/NeuralEnsemble/neuroConstruct/blob/master/INSTALL).
+These projects have been tested with the latest version of neuroConstruct available [here](https://github.com/NeuralEnsemble/neuroConstruct/blob/master/INSTALL).
 
-[![Build Status](https://travis-ci.org/OpenSourceBrain/neuroConstructShowcase.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/neuroConstructShowcase)
+[![Continuous build using OMV](https://github.com/OpenSourceBrain/neuroConstructShowcase/actions/workflows/omv-ci.yml/badge.svg)](https://github.com/OpenSourceBrain/neuroConstructShowcase/actions/workflows/omv-ci.yml)
 
