@@ -1,6 +1,6 @@
 ### neuroConstruct Showcase
  
-Example projects for [neuroConstruct](http://www.neuroConstruct.org).
+Example projects for use with [neuroConstruct](http://www.neuroConstruct.org).
 
 These projects have been tested with the latest version of neuroConstruct available [here](https://github.com/NeuralEnsemble/neuroConstruct/blob/master/INSTALL).
 
